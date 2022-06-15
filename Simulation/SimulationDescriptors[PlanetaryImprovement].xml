@@ -4,7 +4,7 @@
    <!-- STAR SYSTEM IMPROVEMENTS -->
 
     <!-- FOOD PLANETARY IMPROVEMENT -->
-   
+
     <SimulationDescriptor Name="PlanetImprovementFood1" Type="PlanetImprovement">
         <BinaryModifier TargetProperty="PlanetFood"    Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true"  Path="./ClassColonizedPlanet,PlanetGameplayTypeLush,PlanetGameplayTypeTeeming"      TooltipOverride="%PlanetImprovementFood1Override1"/>
         <BinaryModifier TargetProperty="PlanetFood"    Operation="Addition" Left="1" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true"  Path="./ClassColonizedPlanet"                                                       TooltipOverride="%PlanetImprovementFood1Override2"/>
@@ -23,7 +23,7 @@
         <BinaryModifier TargetProperty="PlanetFood"    Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true"  Path="./ClassColonizedPlanet,PlanetGameplayTypeLush,PlanetGameplayTypeMild"         TooltipOverride="%PlanetImprovementFood3Override3"/>
         <BinaryModifier TargetProperty="PlanetFood"    Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true"  Path="./ClassColonizedPlanet,PlanetGameplayTypeWater"                               TooltipOverride="%PlanetImprovementFood3Override4"/>
     </SimulationDescriptor>
-  
+
     <!-- INDUSTRY PLANETARY IMPROVEMENT -->
 
     <SimulationDescriptor Name="PlanetImprovementIndustry1" Type="PlanetImprovement">
@@ -107,19 +107,19 @@
         <BinaryModifier TargetProperty="PlanetPrestige" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true" Path="./ClassColonizedPlanet,PlanetGameplayTypeWater,PlanetGameplayTypeMild"         TooltipOverride="%PlanetImprovementInfluence3Override3"/>
         <BinaryModifier TargetProperty="PlanetPrestige" Operation="Addition" Left="2" BinaryOperation="Multiplication" Right="$(Population)" SearchValueFromPath="true" Path="./ClassColonizedPlanet,PlanetGameplayTypeLush"                                 TooltipOverride="%PlanetImprovementInfluence3Override4"/>
     </SimulationDescriptor>
-  
+
     <!-- RESOURCES PLANETARY IMPROVEMENT -->
 
     <SimulationDescriptor Name="PlanetImprovementResource1" Type="PlanetImprovement">
-      <Modifier TargetProperty="DepositValue"				Operation="Percent"		Value="0.5"			Path="./ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic" />
+      <Modifier TargetProperty="DepositValue" Operation="Percent" Value="0.50" Path="./ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="PlanetImprovementResource2" Type="PlanetImprovement">
-      <Modifier TargetProperty="DepositValue"				Operation="Percent"		Value="1"			Path="./ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic" />
+      <Modifier TargetProperty="DepositValue" Operation="Percent" Value="0.75" Path="./ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic" />
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="PlanetImprovementResource3" Type="PlanetImprovement">
-      <Modifier TargetProperty="DepositValue"				Operation="Percent"		Value="1.5"			Path="./ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic" />
+      <Modifier TargetProperty="DepositValue" Operation="Percent" Value="1.00" Path="./ClassColonizedPlanet/ClassResourceDeposit,ResourceTypeStrategic" />
     </SimulationDescriptor>
 
     <!-- HISSHOS -->
@@ -158,7 +158,7 @@
         <Modifier TargetProperty="PlanetIndustry" Operation="Multiplication" Value="0.5"  Path="./ClassColonizedPlanet"  TooltipHidden="false"/>
         <Modifier TargetProperty="PlanetScience" Operation="Multiplication" Value="0.5"  Path="./ClassColonizedPlanet"  TooltipHidden="false"/>
         <Modifier TargetProperty="PlanetDust" Operation="Multiplication" Value="0.5"  Path="./ClassColonizedPlanet"  TooltipHidden="false"/>
-       
+
         <Modifier TargetProperty="NumberOfTemples" Operation="Addition" Value="1"  Path="../ClassColonizedStarSystem"  TooltipHidden="false"/>
 
         <Modifier TargetProperty="TemplePopulationCount"  Operation="Addition"    Value="$(Population)" Path="./ClassColonizedPlanet" TooltipHidden="false"  SearchValueFromPath="true"/>

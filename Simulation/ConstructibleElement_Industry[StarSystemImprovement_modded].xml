@@ -4,7 +4,7 @@
   <!-- ########################### -->
   <!-- ### Obliterator shield   ## -->
   <!-- ########################### -->
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementObliteratorShield" SubCategory="SubCategoryDefense">
     <SupervisorGain Name="Military" />
     <Cost ResourceName="SystemProduction">3920</Cost>
@@ -70,7 +70,7 @@
   <!--#################################-->
   <!--####      CITADEL SPECIFIC  #####-->
   <!--#################################-->
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementCitadelSpaceBattle1" SubCategory="SubCategoryDefense">
     <SupervisorGain Name="Military" />
     <Cost ResourceName="SystemProduction">2240</Cost>
@@ -145,7 +145,7 @@
     <SimulationDescriptorReference Name="DefenseConstruction" />
 
   </StarSystemImprovementDefinition>
-  
+
   <!--#################################-->
   <!--####         METAPLOT       #####-->
   <!--#################################-->
@@ -192,7 +192,7 @@
   <!--#################################-->
   <!--CREATE MAJOR POP RIFTBORN/VODYANIS-->
   <!--#################################-->
-  
+
     <StarSystemPopulationTransformImprovementDefinition   Name="StarSystemImprovementCreateMajorPopulation" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt"
                                                       PopulationDestination="Major"  PopulationToTransformCount="1" CreateIfNotAvailable="true" ConsumeResourceSurplus="true">
         <AIGain RessourceName="PopulationGain" Inverted="false"></AIGain>
@@ -221,7 +221,7 @@
           <Tags>NoBuyout</Tags>
           <QueuedSimulationDescriptorReference Name="QueuedDescriptorIncreaseVirtualPopulation"/>
           <!--<CustomCost ResourceName="SystemProduction">(100 + 40 * SumProperty(Context, @'../ClassEmpire/ClassPopulationEmpireAffinityTimeLordsCount', PopulationCount) ) * Property(StockLocation, @../ClassEmpire, GameSpeedMultiplier, true) * 0.5</CustomCost>-->
-          <CustomCost ResourceName="SystemProduction">(Min(2500, 50 + Property(StockLocation,@ClassColonizedStarSystem,CreateMajorPopulationMemoryCounter) * 100)) * Property(StockLocation, @../ClassEmpire, GameSpeedMultiplier, true) * 0.5</CustomCost>          
+          <CustomCost ResourceName="SystemProduction">(Min(2500, 50 + Property(StockLocation,@ClassColonizedStarSystem,CreateMajorPopulationMemoryCounter) * 100)) * Property(StockLocation, @../ClassEmpire, GameSpeedMultiplier, true) * 0.5</CustomCost>
           <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard">ClassColonizedStarSystem</PathPrerequisite>
           <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard">../ClassEmpire/PopulationMajor,ClassPopulationEmpireAffinityTimeLords</PathPrerequisite>
           <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard">../ClassEmpire,EmpireImprovementQuestTimeLords05</PathPrerequisite>
@@ -230,7 +230,7 @@
           <SimulationDescriptorReference Name="StarSystemImprovementCreateMajorPopulation"/>
           <TemporaryEffect>CreateMajorPopulationMemoryCounter</TemporaryEffect>
         </StarSystemPopulationTransformImprovementDefinition>
-      
+
     </StarSystemPopulationTransformImprovementDefinition>
 
     <StarSystemPopulationTransformImprovementDefinition   Name="StarSystemImprovementQuestTimeLords07" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt"
@@ -267,7 +267,7 @@
       <SimulationDescriptorReference Name="StarSystemImprovementEnrollment"/>
       <TemporaryEffect>StarSystemImprovementEnrollmentTempEffect</TemporaryEffect>
    </StarSystemPopulationTransformImprovementDefinition>
-  
+
     <!-- ENROLLMENT Vodyanis-->
     <StarSystemPopulationTransformImprovementDefinition Name="StarSystemImprovementEnrollmentVampirilis" SubCategory="SubCategoryMilitary" ScoreProvider="StarSystemImprovementBuilt">
         <AIGain RessourceName="GrowthToManpowerGain"/>
@@ -308,7 +308,7 @@
       <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyCloneMajorPopulation</TechnologyPrerequisite>
       <SimulationDescriptorReference Name="StarSystemImprovementCloneMajorPopulation"/>
     </StarSystemPopulationTransformImprovementDefinition>
-  
+
   <!-- ############################################################################################################################################################################### -->
   <!-- ############################################################################################################################################################################### -->
   <!--                                                                                Improvements                                                                                     -->
@@ -333,7 +333,7 @@
       <SimulationDescriptorReference Name="DefenseConstruction" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionDefense1"/>
    </StarSystemImprovementDefinition>
-     
+
    <StarSystemImprovementDefinition Name="StarSystemImprovementDefense3" SubCategory="SubCategoryDefense" ScoreProvider="StarSystemImprovementBuilt">
       <SupervisorGain Name="Military" />
       <Cost ResourceName="SystemProduction">560</Cost>
@@ -409,7 +409,7 @@
       <SimulationDescriptorReference Name="DefenseConstruction" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionDefense1"/>
    </StarSystemImprovementDefinition>
-   
+
    <StarSystemImprovementDefinition Name="StarSystemImprovementDefense1" SubCategory="SubCategoryDefense" ScoreProvider="StarSystemImprovementBuilt">
       <SupervisorGain Name="Military" />
       <Cost ResourceName="SystemProduction">2240</Cost>
@@ -450,7 +450,7 @@
       <SimulationDescriptorReference Name="StarSystemImprovementDeeds01" />
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5High" />
    </StarSystemImprovementDefinition>
-   
+
    <StarSystemImprovementDefinition Name="StarSystemImprovementDefense4" SubCategory="SubCategoryDefense" ScoreProvider="StarSystemImprovementBuilt">
       <SupervisorGain Name="Military" />
       <Cost ResourceName="SystemProduction">4480</Cost>
@@ -694,7 +694,7 @@
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionFood1"/>
    </StarSystemImprovementDefinition>
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementFood4" SubCategory="SubCategoryFood" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Food"  />
     <Cost ResourceName="SystemProduction">2240</Cost>
@@ -790,7 +790,7 @@
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5Normal" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionFood1"/>
    </StarSystemImprovementDefinition>
-   
+
   <!--#################################-->
   <!--####          INDUSTRY      #####-->
   <!--#################################-->
@@ -883,7 +883,7 @@
       <SimulationDescriptorReference Name="IsIndustryBuilding" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
    </StarSystemImprovementDefinition>
-   
+
    <StarSystemImprovementDefinition Name="StarSystemImprovementIndustry7" SubCategory="SubCategoryIndustry" ScoreProvider="StarSystemImprovementBuilt">
       <SupervisorGain Name="Industry" />
       <Cost                   ResourceName="SystemProduction">1120</Cost>
@@ -1009,7 +1009,7 @@
       <SimulationDescriptorReference Name="IsIndustryBuilding" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
    </StarSystemImprovementDefinition>
-         
+
   <!--#################################-->
   <!--####          SCIENCE       #####-->
   <!--#################################-->
@@ -1268,11 +1268,11 @@
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5Normal" />
       <PopulationEvent Name="PopulationPoliticalEventScienceBuildingConstruction1"/>
    </StarSystemImprovementDefinition>
-  
+
   <!--#################################-->
   <!--####          DUST          #####-->
   <!--#################################-->
-  
+
 
   <StarSystemImprovementDefinition Name="StarSystemImprovementDust1" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Dust" />
@@ -1370,7 +1370,7 @@
     <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Weak" />
     <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionTrade1"/>
   </StarSystemImprovementDefinition>
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementDust2" SubCategory="SubCategoryDust" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Dust" />
     <Cost ResourceName="SystemProduction">2240</Cost>
@@ -1545,7 +1545,7 @@
       <SimulationDescriptorReference Name="DustBuilding"/>
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionTrade1"/>
    </StarSystemImprovementDefinition>
-   
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementTrade3" SubCategory="SubCategoryTradingCompanyStructure" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Dust"     />
     <Cost ResourceName="SystemProduction">4480</Cost>
@@ -1609,7 +1609,7 @@
     <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal" />
     <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionInfluence1"/>
   </StarSystemImprovementDefinition>
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementUniqueInfluence1"   Category="CategoryStarSystemImprovementUnique" SubCategory="SubCategoryInfluence" ScoreProvider="StarSystemImprovementUniqueBuilt">
     <SupervisorGain Name="Prestige" />
     <QueuedSimulationDescriptorReference Name="BuildingStarSystemImprovementUniqueInfluence1"/>
@@ -1714,7 +1714,7 @@
     <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionDenarqueUniversity"/>
     <UniqueTags>StarSystemImprovementUniqueStartingImprovement</UniqueTags>
   </StarSystemImprovementDefinition>
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementFIDSI1" SubCategory="SubCategoryFIDSI" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Food"       Weight="0.25"  />
     <SupervisorGain Name="Industry"   Weight="0.25"  />
@@ -1764,7 +1764,7 @@
     <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage1Normal" />
     <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionApproval1"/>
   </StarSystemImprovementDefinition>
-    
+
   <!-- Special hissho, gives influence -->
   <StarSystemImprovementDefinition Name="StarSystemImprovementInfluenceSpecialHisshos" SubCategory="SubCategoryInfluence" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Influence" />
@@ -1776,7 +1776,7 @@
     <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage1Normal" />
     <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionApproval1"/>
   </StarSystemImprovementDefinition>
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementApproval2" SubCategory="SubCategoryApproval" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Approval" />
     <Cost ResourceName="SystemProduction">560</Cost>
@@ -1849,7 +1849,7 @@
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage3Normal" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionApproval1"/>
    </StarSystemImprovementDefinition>
-   
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementApproval3" SubCategory="SubCategoryApproval" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Approval" />
     <Cost ResourceName="SystemProduction">1120</Cost>
@@ -1891,7 +1891,7 @@
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage4Normal" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionApproval1"/>
    </StarSystemImprovementDefinition>
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementApproval4" SubCategory="SubCategoryApproval" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Approval"     />
     <Cost ResourceName="SystemProduction">4480</Cost>
@@ -1953,11 +1953,11 @@
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5Weak" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionApproval1"/>
    </StarSystemImprovementDefinition>
-   
+
   <!--#################################-->
   <!--####   TRADING COMPANIES    #####-->
   <!--#################################-->
-  
+
   <TradeCompanyHeadquartersStarSystemImprovementDefinition Name="StarSystemImprovementTradingCompanyHeadquarters" SubCategory="SubCategoryTradingCompanyStructure" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Dust" />
     <Tags>ImmuneToBombardmentAndDecay,NonTransferable</Tags>
@@ -2008,7 +2008,7 @@
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassPlanet/ResourceTypeStrategic</PathPrerequisite>
     <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory1,!FastForwardedImprovement</PathPrerequisite>
-    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyIndToScience</TechnologyPrerequisite> 
+    <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyIndToScience</TechnologyPrerequisite>
      <SimulationDescriptorReference Name="StarSystemImprovementResourceFactory1" />
     <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Extreme" />
     <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
@@ -2166,7 +2166,7 @@
       <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyIndToScience2</TechnologyPrerequisite>
       <SimulationDescriptorReference Name="StarSystemImprovementIndustryToScience2UmbralChoir"/>
    </StarSystemImprovementDefinition>
-   
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementIndustryToDust2" SubCategory="SubCategoryInfiniteDust" >
 
     <AIGain RessourceName="ResourceConverter">
@@ -2248,7 +2248,7 @@
   <!--#################################-->
   <!--####     POPULATION IMPROV. #####-->
   <!--#################################-->
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementPopulation1" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Population"     />
     <Cost ResourceName="SystemProduction">2240</Cost>
@@ -2325,7 +2325,7 @@
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5High" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionPopulationSlot1"/>
    </StarSystemImprovementDefinition>
-   
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementPopulation3" SubCategory="SubCategoryPopulation" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Population"     />
     <Cost ResourceName="SystemProduction">4480</Cost>
@@ -2400,11 +2400,11 @@
       <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage5High" />
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionPopulationSlot1"/>
    </StarSystemImprovementDefinition>
-   
+
   <!--#################################-->
   <!--####     ACADEMY EMBASSY    #####-->
   <!--#################################-->
-  
+
   <StarSystemImprovementDefinition Name="StarSystemImprovementAcademyEmbassy" Category="CategoryStarSystemImprovementUnique" SubCategory="SubCategoryAcademy" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Food"     Weight="0.5"  />
     <SupervisorGain Name="Industry" Weight="0.5"  />
@@ -2715,7 +2715,7 @@
       <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionUniqueUmbralChoir"/>
       <UniqueTags>StarSystemImprovementUniqueUmbralChoir</UniqueTags>
    </StarSystemImprovementDefinition>
-   
+
    <StarSystemImprovementDefinition Name="StarSystemImprovementUniqueTemplars" SubCategory="SubCategoryInfluence" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Science"    Weight="3"  />
     <QueuedSimulationDescriptorReference Name="BuildingStarSystemImprovementUniqueTemplars"/>
@@ -2733,6 +2733,6 @@
     <UniqueTags>StarSystemImprovementUniqueTemplars</UniqueTags>
   </StarSystemImprovementDefinition>
 
- 
+
 
 </Datatable>
