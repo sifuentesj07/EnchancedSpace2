@@ -9,7 +9,7 @@
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeSwamp">
     <GameplayType>PlanetGameplayTier2</GameplayType>
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
-    <GameplayType>PlanetGameplayTypeMild</GameplayType>
+    <GameplayType>PlanetGameplayTypeTeeming</GameplayType>
     <GameplayType>PlanetGameplayTypeLush</GameplayType>
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
@@ -17,7 +17,7 @@
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeMonsoon">
     <GameplayType>PlanetGameplayTier2</GameplayType>
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
-    <GameplayType>PlanetGameplayTypeMild</GameplayType>
+    <GameplayType>PlanetGameplayTypeTeeming</GameplayType>
     <GameplayType>PlanetGameplayTypeLush</GameplayType>
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
@@ -43,7 +43,7 @@
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeTropical">
     <GameplayType>PlanetGameplayTier2</GameplayType>
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
-    <GameplayType>PlanetGameplayTypeMild</GameplayType>
+    <GameplayType>PlanetGameplayTypeTeeming</GameplayType>
     <GameplayType>PlanetGameplayTypeWater</GameplayType>
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
@@ -51,7 +51,7 @@
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeAtoll">
     <GameplayType>PlanetGameplayTier2</GameplayType>
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
-    <GameplayType>PlanetGameplayTypeMild</GameplayType>
+    <GameplayType>PlanetGameplayTypeTeeming</GameplayType>
     <GameplayType>PlanetGameplayTypeWater</GameplayType>
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
@@ -76,14 +76,14 @@
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeSnow">
     <GameplayType>PlanetGameplayTier2</GameplayType>
-    <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
+    <GameplayType>PlanetGameplayTypeCold</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeStable</GameplayType>
   </PlanetGameplayTypeDefinition>
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeArctic">
     <GameplayType>PlanetGameplayTier2</GameplayType>
-    <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
+    <GameplayType>PlanetGameplayTypeCold</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeStable</GameplayType>
   </PlanetGameplayTypeDefinition>
@@ -122,14 +122,14 @@
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeArid">
     <GameplayType>PlanetGameplayTier3</GameplayType>
-    <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
+    <GameplayType>PlanetGameplayTypeHot</GameplayType>
     <GameplayType>PlanetGameplayTypeMeager</GameplayType>
     <GameplayType>PlanetGameplayTypeDry</GameplayType>
   </PlanetGameplayTypeDefinition>
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeDesert">
     <GameplayType>PlanetGameplayTier3</GameplayType>
-    <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
+    <GameplayType>PlanetGameplayTypeHot</GameplayType>
     <GameplayType>PlanetGameplayTypeMeager</GameplayType>
     <GameplayType>PlanetGameplayTypeDry</GameplayType>
   </PlanetGameplayTypeDefinition>
@@ -184,14 +184,14 @@
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeGasTemperate">
     <GameplayType>PlanetGameplayTier3</GameplayType>
-    <GameplayType>PlanetGameplayTypeCold</GameplayType>
+    <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMeager</GameplayType>
     <GameplayType>PlanetGameplayTypeGas</GameplayType>
   </PlanetGameplayTypeDefinition>
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeGasWarm">
     <GameplayType>PlanetGameplayTier3</GameplayType>
-    <GameplayType>PlanetGameplayTypeHot</GameplayType>
+    <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMeager</GameplayType>
     <GameplayType>PlanetGameplayTypeGas</GameplayType>
   </PlanetGameplayTypeDefinition>
