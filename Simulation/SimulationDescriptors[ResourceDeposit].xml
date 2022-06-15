@@ -3,6 +3,15 @@
 
     <!-- Deposit Size -->
     <SimulationDescriptor Name="DepositSizePoor" Type="DepositSize">
+        <Modifier TargetProperty="DepositValue" Value="0.8" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic1" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="0.8" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic2" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="0.8" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic3" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="0.8" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic4" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="0.8" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic5" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="0.8" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic6" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="0.8" Operation="Addition" Path="ClassResourceDeposit,ResourceTypeLuxury" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="DepositSizeAverage" Type="DepositSize">
         <Modifier TargetProperty="DepositValue" Value="1.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic1" TooltipHidden="true"/>
         <Modifier TargetProperty="DepositValue" Value="1.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic2" TooltipHidden="true"/>
         <Modifier TargetProperty="DepositValue" Value="1.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic3" TooltipHidden="true"/>
@@ -11,23 +20,14 @@
         <Modifier TargetProperty="DepositValue" Value="1.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic6" TooltipHidden="true"/>
         <Modifier TargetProperty="DepositValue" Value="1.0" Operation="Addition" Path="ClassResourceDeposit,ResourceTypeLuxury" TooltipHidden="true"/>
     </SimulationDescriptor>
-    <SimulationDescriptor Name="DepositSizeAverage" Type="DepositSize">
-       <Modifier TargetProperty="DepositValue" Value="2.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic1" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="2.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic2" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="2.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic3" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="2.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic4" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="2.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic5" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="2.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic6" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="2.0" Operation="Addition" Path="ClassResourceDeposit,ResourceTypeLuxury" TooltipHidden="true"/>
-    </SimulationDescriptor>
     <SimulationDescriptor Name="DepositSizeAbundant" Type="DepositSize">
-       <Modifier TargetProperty="DepositValue" Value="3.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic1" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="3.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic2" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="3.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic3" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="3.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic4" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="3.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic5" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="3.0" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic6" TooltipHidden="true"/>
-       <Modifier TargetProperty="DepositValue" Value="3.0" Operation="Addition" Path="ClassResourceDeposit,ResourceTypeLuxury" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="1.5" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic1" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="1.5" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic2" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="1.5" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic3" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="1.5" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic4" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="1.5" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic5" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="1.5" Operation="Addition" Path="ClassResourceDeposit,ResourceStrategic6" TooltipHidden="true"/>
+        <Modifier TargetProperty="DepositValue" Value="1.5" Operation="Addition" Path="ClassResourceDeposit,ResourceTypeLuxury" TooltipHidden="true"/>
     </SimulationDescriptor>
 
 

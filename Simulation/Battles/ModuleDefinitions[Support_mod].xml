@@ -4,7 +4,7 @@
     <!-- ********************* -->
     <!-- ** ANTICARRIER MODULES ** -->
     <!-- ********************* -->
-   
+
     <SupportModule Name="ModuleSupportAntiCarrier1Strategic4" Family="AntiCarrierStrategic4" Level="1">
        <Cost ResourceName="SystemProduction">64</Cost>
        <Cost ResourceName="Strategic4" Instant="true">2</Cost>
@@ -39,7 +39,7 @@
        </CategorizedSimulationDescriptors>
        <BattleActionReference Name="BattleActionSupportInitialize"/>
     </SupportModule>-->
-   
+
     <SupportModule Name="ModuleSupportAntiCarrier2Strategic6" Family="AntiCarrierStrategic4" Level="2">
        <Cost ResourceName="SystemProduction">128</Cost>
        <!--<Cost ResourceName="Strategic6" Instant="true">2</Cost>-->
@@ -334,8 +334,8 @@
    <!-- ***************************** -->
    <!-- ** ENERGY ENHANCER MODULES ** -->
    <!-- ***************************** -->
-   
-   
+
+
    <SupportModule Name="ModuleSupportEnergyEnhancer1" Family="EnergyEnhancerBase" Level="1">
       <Cost ResourceName="SystemProduction">40</Cost>
       <TechnologyPrerequisite Flags="Edition">TechnologyDefenseModule1ProjectileEnhancer1</TechnologyPrerequisite>
@@ -417,7 +417,7 @@
          <SimulationDescriptorReference Name="ModuleSupportEngine"/>
       </CategorizedSimulationDescriptors>
    </SupportModule>
-   
+
    <!--Engine Level 2-->
    <SupportModule Name="ModuleSupportEngine2" Family="EngineBase" Level="2">
       <Cost ResourceName="SystemProduction">40</Cost>
@@ -795,7 +795,7 @@
    <!-- ********************* -->
    <!-- ** JAMMER MODULES  ** -->
    <!-- ********************* -->
-   
+
    <SupportModule Name="ModuleSupportJammer1Strategic3" Family="JammerStrategic3" Level="1">
       <Cost ResourceName="SystemProduction">64</Cost>
       <!--<Cost ResourceName="Strategic3" Instant="true">2</Cost>-->
@@ -970,7 +970,7 @@
    <!-- *************************** -->
    <!-- ** SHIELD RELOAD MODULES ** -->
    <!-- *************************** -->
-   
+
    <SupportModule Name="ModuleSupportShieldReload1Strategic2" Family="ShieldReloadStrategic4" Level="1">
       <Cost ResourceName="SystemProduction">32</Cost>
       <!--<Cost ResourceName="Strategic2" Instant="true">2</Cost>-->
@@ -987,7 +987,7 @@
       <!--Battle action used after a battle-->
       <!-- need a battle acton -->
    </SupportModule>
-   
+
    <SupportModule Name="ModuleSupportShieldReload1Strategic4" Family="ShieldReloadStrategic4" Level="2">
       <Cost ResourceName="SystemProduction">64</Cost>
       <!--<Cost ResourceName="Strategic4" Instant="true">2</Cost>-->
@@ -1164,7 +1164,7 @@
       <SimulationDescriptorReference Name="ModuleSupportFlakEnhancer"/>
       <SimulationDescriptorReference Name="ModuleSupportFlakEnhancer3"/>
    </SupportModule>
-   
+
     <!-- ********************* -->
     <!-- ** ANALYZER MODULES ** -->
     <!-- ********************* -->
@@ -1263,8 +1263,8 @@
             <SimulationDescriptorReference Name="ModuleSupportRecycling2Strategic3"/>
             <SimulationDescriptorReference Name="ModuleSupportRecycling"/>
         </CategorizedSimulationDescriptors>
-    </SupportModule>  
-      
+    </SupportModule>
+
 	<!-- ********************************** -->
 	<!-- *****  HISSHO ZONE ENHANCER   **** -->
 	<!-- ********************************** -->
@@ -1300,5 +1300,5 @@
             <!--Descriptors used for tooltip-->
         </CategorizedSimulationDescriptors>
     </SupportModule>
-    
+
 </Datatable>
