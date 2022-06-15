@@ -9,20 +9,20 @@
 
        <!-- ADDED FOR MOD : -->
        <Property Name="SystemEnrollmentRate"                           BaseValue="0" MinValue="0"/>
-       <Property Name="EnrollmentManpowerCreated"                      BaseValue="0" MinValue="0"/>       
+       <Property Name="EnrollmentManpowerCreated"                      BaseValue="0" MinValue="0"/>
 
        <Property Name="CreateMajorPopulationMemoryCounter"             BaseValue="1"/>
-       
+
        <Property Name="SystemObliteratorLingeringDefense"              BaseValue="0" IsSealed="true" MinValue="0" MaxValue="3"/>
        <Property Name="NetSystemObliteratorLingeringDefense"           BaseValue="-1" MinValue="-1" MaxValue="1"/>
        <Property Name="ClampedSystemObliteratorLingeringDefense"       BaseValue="0" MinValue="0" MaxValue="1"/>
        <Property Name="ShouldUseLingeringDefense"                      BaseValue="1" MinValue="0" MaxValue="1"/>
-       
+
        <Property Name="OrbitingJuggernautsFIDSFlatModules"             BaseValue="0" MinValue="0" MaxValue="5"/>
        <Property Name="OrbitingJuggernautsFIDSPercentModules"          BaseValue="0" MinValue="0" MaxValue="5"/>
        <Property Name="OrbitingJuggernautsDepositValue"                BaseValue="0" MinValue="0" MaxValue="0.25"/>
-       
-       
+
+
        <Property Name="SystemFIDSFlatFromJuggernauts"                  BaseValue="0" MinValue="0" />
        <Property Name="SystemFIDSPercentFromJuggernauts"               BaseValue="0" MinValue="0" />
        <Property Name="JuggernautMultiplier"                           BaseValue="1" MinValue="0" MaxValue="10"/>
@@ -47,8 +47,8 @@
        <Property Name="SystemFIDSIFromStarSystemImprovementFIDSI2"	  BaseValue="0" MinValue="0"/>
 
        <!--END OF ADDED FOR MOD : -->
-       
-       
+
+
        <!-- [FS] ESPROD-2437 -->
         <Property Name="OutpostCount" BaseValue="0"/>
         <Property Name="ColonizedMajorHomeSystemCount" BaseValue="0"/>
@@ -73,13 +73,13 @@
         <Property Name="OwnedHugePlanets"           BaseValue="0" Composition="Sum" />
         <Property Name="OwnedLargePlanets"          BaseValue="0" Composition="Sum" />
         <Property Name="OwnedFakePlanets"           BaseValue="0" Composition="Sum"/>
-      
+
         <Property Name="OwnedUniquePlanetAndGovernor"                 BaseValue="-1" MinValue="0" Composition="Sum" />
-      
+
         <Property Name="DepletedPlanetCount"                    BaseValue="0" Composition="Sum" />
         <Property Name="NumberOfImprovementsBuilt"              BaseValue="0" MinValue="0" Composition="Sum"/>
         <Property Name="NumberOfScienceImprovementsBuilt"              BaseValue="0" MinValue="0" Composition="Sum"/>
-        
+
         <Property Name="AssignedHero"              BaseValue="0" MinValue="0" Composition="Sum"/>
         <Property Name="AssignedHeroLevel"          BaseValue="0"/>
 
@@ -144,7 +144,7 @@
         <Property Name="OutpostProgressStock"       IsSealed="true" />
         <Property Name="SystemInfluenceForInvader" />
         <Property Name="SystemInfluenceForInvaderRatio" />
-        
+
         <Property Name="SystemInfluenceUpkeep"                          BaseValue="0"/>
         <Property Name="NetSystemInfluence"                             BaseValue="0" MinValue="Negative"/>
         <Property Name="SystemInfluenceRadius"                          BaseValue="10" />
@@ -153,9 +153,9 @@
         <Property Name="SystemNextInfluenceRadiusEstimation"            BaseValue="10"/>
 
         <Property Name="NeighbourRadius"  	                            BaseValue="5" />
-        
+
         <Property Name="HasPortal"                                      BaseValue="0"/>
-        
+
 
         <Property Name="MaximumSystemGrowthStock"       BaseValue="0" IsSealed="true" />
         <Property Name="MinimumSystemGrowthStock"       BaseValue="0" IsSealed="true" />
@@ -192,7 +192,7 @@
         <Property Name="HappinessPerWar"             				BaseValue="0" MinValue="Negative"    />
         <Property Name="HappinessPerMinorWar"             			BaseValue="0" MinValue="Negative"    />
         <Property Name="HappinessPerHomeSystem"             		BaseValue="0" MinValue="Negative"    />
-        
+
         <Property Name="HappinessMalusFromPoliticsSupport"  		BaseValue="0" MinValue="0" MaxValue="100" IsSealed="true" IsSerializable="true"/>
         <Property Name="AppliedHappinessMalusFromPoliticsSupport"   BaseValue="0" MinValue="Negative"   />
         <Property Name="ApplyHappinessFromPoliticsSupport"   		BaseValue="0" MaxValue="1"  />
@@ -220,10 +220,10 @@
         <Property Name="OwnerShipDecayRate"     BaseValue="-0.08"   MinValue="-1"   MaxValue="0"/>
         <Property Name="OwnerShipRecoveryRate"  BaseValue="0.08"    MinValue="0"    MaxValue="1"/>
         <Property Name="OwnerShipRecoveryRateBoostFromFleetPresence"            BaseValue="0" MinValue="0"    />
-        
+
 
         <Property Name="LostSystemDecayRate"    BaseValue="1"/>
-        
+
         <Property Name="HasNativeHomeSystemOwner" MaxValue="1" IsSealed="true" />
 
         <Property Name="HoldsMarketplace"       BaseValue="0"/>
@@ -243,10 +243,10 @@
         <Property Name="SystemManpowerRefillRate"           BaseValue="0" IsSealed="true" />
         <Property Name="MaximumSystemManpowerRefillRate"    BaseValue="0" />
         <Property Name="SystemManpowerStock100Threshold"    BaseValue="0" RoundingFunction="Floor"/>
-        
+
         <Property Name="NetSystemManpowerHisshos"				    BaseValue="0" MinValue="Negative"  />
         <!-- Specific Variable for faction pact Hisshos-Unfallen, needed for PropertyFiltering -->
-        <Property Name="NetSystemManpowerPercentHisshos"			BaseValue="1" MinValue="Negative"  />        
+        <Property Name="NetSystemManpowerPercentHisshos"			BaseValue="1" MinValue="Negative"  />
 
         <!-- Save compatibility -->
         <Property Name="LocalManpower" 			        IsSealed="true"/>
@@ -508,7 +508,7 @@
         <!-- Honor -->
         <!-- The boosts to Honor are set between 0 & 1 because they are directly added to the Empire-->
         <Property Name="NetEmpireHonor"                         BaseValue="0" MinValue="Negative" MaxValue="0"/>
-        <Property Name="NetEmpireHonorFromZoneEffect"           BaseValue="0" MinValue="0" MaxValue="1"/>       
+        <Property Name="NetEmpireHonorFromZoneEffect"           BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="BoostToHonorInShipBattle"               BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="BoostToHonorInGroundBattle"             BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="BoostToHonorInQuestAndDeeds"            BaseValue="0" MinValue="0" MaxValue="1"/>
@@ -536,14 +536,14 @@
 
 
         <Property Name="HomeSystemNetSystemGrowthForHisshoImprovement"          BaseValue="0" MinValue="0"/>
-        <Property Name="HomeSystemNetSystemProductionForHisshoImprovement"      BaseValue="0" MinValue="0"/>        
+        <Property Name="HomeSystemNetSystemProductionForHisshoImprovement"      BaseValue="0" MinValue="0"/>
 
         <Property Name="HackingOperationOutcomeDefenseLevel"            BaseValue="0"/>
         <Property Name="HackingSpeedMultiplierForSelf"                  BaseValue="1"/>
         <Property Name="HackingSpeedMultiplierForOthers"                BaseValue="1"/>
         <Property Name="TracingSpeedMultiplierForOthers"                BaseValue="1"/>
 
-        <Property Name="EmpireProcessingPowerAllocated"                 BaseValue="0"/>        
+        <Property Name="EmpireProcessingPowerAllocated"                 BaseValue="0"/>
 
         <Property Name="TraitorsCount"                                  BaseValue="0"/>
 
@@ -561,31 +561,31 @@
 
         <!-- For one of the librarian questions -->
         <Property Name="SanctuariesSystemResearch" BaseValue="0"/>
-        
+
         <!-- Relics -->
         <Property Name="HeroRelics" Composition="Sum"/>
-        
+
         <!-- Temples -->
         <Property Name="TotalNumberOfTemples" BaseValue="0"/>
         <Property Name="NumberOfTemples" BaseValue="0"/>
         <Property Name="TemplePopulationCount" Composition="Sum"/>
         <Property Name="NonTemplePopulation" BaseValue="0"/>
-        
+
         <Property Name="EcologistVoicesModifier" BaseValue="0"/>
-        
+
         <Property Name="PercentageOfVoicesPolitics01" 	BaseValue="0"	MinValue="0" IsSealed="true" />
         <Property Name="PercentageOfVoicesPolitics02" 	BaseValue="0"	MinValue="0" IsSealed="true" />
         <Property Name="PercentageOfVoicesPolitics03" 	BaseValue="0"	MinValue="0" IsSealed="true" />
         <Property Name="PercentageOfVoicesPolitics04" 	BaseValue="0"	MinValue="0" IsSealed="true" />
         <Property Name="PercentageOfVoicesPolitics05" 	BaseValue="0"	MinValue="0" IsSealed="true" />
         <Property Name="PercentageOfVoicesPolitics06" 	BaseValue="0"	MinValue="0" IsSealed="true" />
-        
+
         <Property Name="hasUniquePlanet" BaseValue="0"/>
 
         <!-- FactionTraitScienceReduction -->
         <Property Name="CanUseRawPlanetScience" BaseValue="1"/>
         <Property Name="CannotUseRawPlanetScience" BaseValue="0"/>
-        
+
         <!-- ########################################################## -->
         <!-- ######################## DEBUG ######################## -->
         <!-- ########################################################## -->
@@ -621,10 +621,10 @@
         <!-- ########################################################## -->
 
         <Modifier           TargetProperty="EmpireManpower"                         Operation="Addition" Value="$(EnrollmentManpowerCreated)" Path="./ClassEmpire" />
-       
-       
+
+
         <Modifier           TargetProperty="NetTraceOperationProgress"              Operation="Multiplication" Value="$(TracingSpeedMultiplierForOthers)" Path="./ClassEmpire" />
-       
+
         <Modifier           TargetProperty="SuperPopulationCount"                   Operation="Addition"       Value="$(SuperPopulationCount)" Path="./ClassEmpire" />
         <BinaryModifier     TargetProperty="SystemManpowerStock100Threshold"        Operation="Addition" Left="$(SystemManpowerStock)" BinaryOperation="Division" Right="100" />
 
@@ -726,18 +726,18 @@
         <BinaryModifier TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Addition" Left="$(GroundBattleAttackerOwnership)" BinaryOperation="Multiplication" Right="400" />
         <Modifier TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Addition" Value="$(GroundBattleAttackerManpowerLimitFromFleets)" Priority="1"/>
         <Modifier TargetProperty="GroundBattleAttackerManpowerLimit" Operation="Addition" Value="$(GroundBattleAttackerManpowerLimitFromGhosts)" Priority="1"/>
-        
-        
+
+
         <Modifier TargetProperty="GroundBattleDefenderManpowerLimit" Operation="Addition" Value="$(GroundBattleDefenderManpowerLimitFromGhosts)" Priority="1"/>
 
         <BinaryModifier TargetProperty="GroundBattleManpowerRecoveredAfterLoot" Operation="Addition" Left="$(MaximumSystemManpower)" BinaryOperation="Multiplication" Right="0.5"/>
 
 
         <!-- Influence -->
-       
+
         <!-- Temples Modifier Influence-->
         <BinaryModifier TargetProperty="NetSystemEmpirePoint"  Operation="Addition" Left="$(EcologistVoicesModifier)" BinaryOperation="Multiplication" Right="$(PercentageOfVoicesPolitics04)" TooltipHidden="false"/>
-       
+
         <BinaryModifier TargetProperty="NetSystemInfluence"     Operation="Addition"        Left="$(NetSystemEmpirePoint)" BinaryOperation="Subtraction" Right="$(SystemInfluenceUpkeep)" TooltipHidden="true" />
 
 
@@ -1038,7 +1038,7 @@
          <Modifier TargetProperty="PlanetRawDustFromLuxury3"                                 Operation="Addition"    Value="$(RecipeIngredientEffectTier1Luxury3)"             Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
          <Modifier TargetProperty="PlanetRawScienceFromLuxury4"                              Operation="Addition"    Value="$(RecipeIngredientEffectTier1Luxury4)"             Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
          <Modifier TargetProperty="PlanetRawPrestigeFromLuxury5"                             Operation="Addition"    Value="$(RecipeIngredientEffectTier1Luxury5)"             Path="ClassColonizedStarSystem/ClassColonizedPlanet"/>
-       
+
          <Modifier TargetProperty="Happiness"                                                Operation="Addition"    Value="$(RecipeIngredientEffectTier1Luxury6)"             Path="ClassColonizedStarSystem" SearchValueFromPath="true"/>
          <Modifier TargetProperty="SystemFIDSFlat"                                           Operation="Addition"    Value="$(RecipeIngredientEffectTier1Luxury6FIDSHisshos)"  Path="ClassColonizedStarSystem"/>
          <Modifier TargetProperty="MaximumSystemManpower"                                    Operation="Addition"    Value="$(RecipeIngredientEffectATier1Luxury7)"            Path="ClassColonizedStarSystem"/>
@@ -1079,8 +1079,8 @@
          <Modifier TargetProperty="SystemProduction"                                         Operation="Percent"     Value="$(RecipeIngredientEffectBTier3Strategic5)"         Path="ClassColonizedStarSystem"/>
          <Modifier TargetProperty="SystemMoney"                                              Operation="Percent"     Value="$(RecipeIngredientEffectCTier3Strategic5)"         Path="ClassColonizedStarSystem"/>
          <Modifier TargetProperty="SystemResearch"                                           Operation="Percent"     Value="$(RecipeIngredientEffectDTier3Strategic5)"         Path="ClassColonizedStarSystem"/>
-       
-       
+
+
         <!--
         <Modifier TargetProperty="MaximumSystemManpower"                                    Operation="Addition"    Value="$(RecipeIngredientEffectATier1Luxury7)"                  Path="ClassColonizedStarSystem"/>
         <Modifier TargetProperty="GrowthForManpower"                                        Operation="Addition"    Value="$(RecipeIngredientEffectBTier1Luxury7)"                  Path="ClassColonizedStarSystem"/>
@@ -1131,13 +1131,13 @@
         <Modifier TargetProperty="SystemPopulation"   Operation="Addition"    Value="$(Population)" Path="ClassColonizedStarSystem/ClassSpecialNodeEffect"/>
 
         <!--MODDED OBLITERATION -->
-       
+
         <BinaryModifier TargetProperty="PopulationLostOnObliteration" Operation="Addition" Left="$(Population)" BinaryOperation="Multiplication" Right="0.35"/>
 
         <Modifier TargetProperty="ClampedSystemObliteratorLingeringDefense" Operation="Force" Value="$(SystemObliteratorLingeringDefense)"/>
         <BinaryModifier TargetProperty ="HasObliteratorDefense" Operation="Addition" Left="$(ClampedSystemObliteratorLingeringDefense)" BinaryOperation="Multiplication" Right="$(ShouldUseLingeringDefense)" />
         <Modifier TargetProperty="HasObliteratorSuperDefense" Operation="Addition" Value="$(HasObliteratorDefense)"/>
-       
+
         <!--<BinaryModifier TargetProperty="PopulationLostOnObliteration" Operation="Addition" Left="$(Population)" BinaryOperation="Multiplication" Right="0.5"/>
         <Modifier TargetProperty="HasObliteratorSuperDefense" Operation="Addition" Value="$(HasObliteratorDefense)"/>-->
 
@@ -1150,8 +1150,8 @@
         <BinaryModifier TargetProperty="SystemFIDSPercent" Operation="Addition" Left="$(SystemFIDSPercentFromJuggernauts)" BinaryOperation="Multiplication" Right="$(JuggernautMultiplier)"  Priority="2" />
 
         <BinaryModifier TargetProperty="DepositValue"      Operation="Percent"  Left="$(OrbitingJuggernautsDepositValue)"  BinaryOperation="Multiplication" Right="$(JuggernautMultiplier)"  Priority="2" Path="ClassColonizedStarSystem/ClassPlanet/ClassResourceDeposit"/>
-       
-       
+
+
         <!-- MODDED system FIDSI effects for beeter feedback-->
 
 
@@ -1169,7 +1169,7 @@
         <Modifier TargetProperty="SystemProduction" Operation="Percent"  Value="$(SystemFIDSIFromStarSystemImprovementFIDSI2)"  Path="ClassColonizedStarSystem" />
         <Modifier TargetProperty="SystemMoney"      Operation="Percent"  Value="$(SystemFIDSIFromStarSystemImprovementFIDSI2)"  Path="ClassColonizedStarSystem" />
         <Modifier TargetProperty="SystemResearch"   Operation="Percent"  Value="$(SystemFIDSIFromStarSystemImprovementFIDSI2)"  Path="ClassColonizedStarSystem" />
-      
+
        <!-- PILLAGE -->
         <Modifier       TargetProperty="MaximumTurnsSinceLastPillage"           Operation="Division" Value="$(GameSpeedMultiplier)"/>
         <Modifier       TargetProperty="ResourceRatioStolenOnPillageIncrement"  Operation="Division" Value="$(GameSpeedMultiplier)"/>
@@ -1177,7 +1177,7 @@
 
         <BinaryModifier TargetProperty="FoodToTransferInfiniteHissho"       Operation="Addition" Left="$(SystemGrowth)"       BinaryOperation="Percent" Right="$(AmountToTransferInfiniteHissho)" />
         <BinaryModifier TargetProperty="IndustryToTransferInfiniteHissho"   Operation="Addition" Left="$(SystemProduction)"   BinaryOperation="Percent" Right="$(AmountToTransferInfiniteHissho)" />
-        
+
         <!-- Added temp for tooltip -->
         <Modifier TargetProperty="HomeSystemNetSystemGrowthForHisshoImprovement"       Operation="Addition" Value="$(FoodToTransferInfiniteHissho)"      Path="!BestSystem/../ClassEmpire/ClassColonizedStarSystem,BestSystem"/>
         <Modifier TargetProperty="HomeSystemNetSystemProductionForHisshoImprovement"   Operation="Addition" Value="$(IndustryToTransferInfiniteHissho)"  Path="!BestSystem/../ClassEmpire/ClassColonizedStarSystem,BestSystem"/>
@@ -1191,7 +1191,7 @@
 
         <!-- Temples -->
         <BinaryModifier     TargetProperty="NonTemplePopulation" Operation="Addition" Left="$(Population)" BinaryOperation="Subtraction" Right="$(TemplePopulationCount)" />
-       
+
     </SimulationDescriptor>
 
     <!-- Colonized Star System States -->
@@ -1314,12 +1314,12 @@
         <Modifier       TargetProperty="OverPopulationPenalties" Operation="Multiplication"       Value="$(ShouldApplyOverPopulationPenalties)" Priority="1"/>
         <Modifier       TargetProperty="OverPopulationFoodPenaltiesPower" Operation="Percent"          Value="$(OverPopulationPenaltiesReduction)" Priority="30"/>
         <Modifier       TargetProperty="OverPopulationFoodPenaltiesPower" Operation="Multiplication"   Value="$(ShouldApplyOverPopulationPenalties)" Priority="30"/>
-        <BinaryModifier TargetProperty="OverPopulationFoodPenalties" Operation="Addition" Left="0.93" BinaryOperation="Power"  Right="$(OverPopulationFoodPenaltiesPower)"  Priority="31"/> <!--mod-->
+        <BinaryModifier TargetProperty="OverPopulationFoodPenalties" Operation="Addition" Left="0.95" BinaryOperation="Power"  Right="$(OverPopulationFoodPenaltiesPower)"  Priority="31"/> <!--mod-->
         <Modifier       TargetProperty="SystemGrowth"            Operation="Multiplication"       Value="$(OverPopulationFoodPenalties)" ValueMustBePositive="true" Priority="32"/> <!--mod-->
 
-       
+
         <Modifier       TargetProperty="Happiness"               Operation="Addition"      Value="$(PopulationCountForHappinessSSI06)" />
-       
+
         <Modifier       TargetProperty="Happiness"               Operation="Addition"      Value="$(OverPopulationPenalties)" />
         <Modifier       TargetProperty="Happiness"               Operation="Addition"      Value="$(OverColonizationPenalties)"/>
 
@@ -1359,7 +1359,7 @@
     <SimulationDescriptor Name="LargeFoodAmount" Type="LargeFoodAmount">
         <Modifier TargetProperty="SystemGrowth" Operation="Addition" Value="20" Priority="20" Path="ClassColonizedStarSystem"/>
     </SimulationDescriptor>
-    
+
     <SimulationDescriptor Name="SystemChiark" Type="SystemChiark"/>
     <SimulationDescriptor Name="SystemMezan" Type="SystemMezan"/>
 
@@ -1450,7 +1450,7 @@
     <SimulationDescriptor Name="HappinessStatusStarSystem0" Type="HappinessStatusStarSystem" IsSerializable="false">
         <Modifier TargetProperty="SystemEmpirePoint"        Operation="Percent" Value="-0.50"    Path="ClassColonizedStarSystem"/>
         <Modifier TargetProperty="SystemGrowth"             Operation="Percent" Value="-0.50"    Path="ClassColonizedStarSystem"/>
-        <Modifier TargetProperty="SystemProduction"         Operation="Percent" Value="-0.50"    Path="ClassColonizedStarSystem"/>       
+        <Modifier TargetProperty="SystemProduction"         Operation="Percent" Value="-0.50"    Path="ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="HappinessStatusStarSystem1" Type="HappinessStatusStarSystem" IsSerializable="false">
@@ -1514,7 +1514,7 @@
     <SimulationDescriptor Name="HasObedience" Type="HasObedience" IsSerializable="false">
         <Modifier TargetProperty="HasObedience" Operation="Force" Value="1" Path="ClassColonizedStarSystem/ClassColonizedPlanet/ClassPopulation" TooltipHidden="true"/>
     </SimulationDescriptor>
-        
+
 
     <SimulationDescriptor Name="ClassExploitedStarSystem" Type="ClassExploitedStarSystem">
 
@@ -2117,7 +2117,7 @@
       <Modifier TargetProperty="SystemMoney" Operation="Addition" Value="50" Path="ClassColonizedStarSystem,ClassExploitedStarSystem"/>
       <Modifier TargetProperty="SystemMoney" Operation="Percent"  Value="0.10" Path="ClassColonizedStarSystem,ClassExploitedStarSystem"/>
    </SimulationDescriptor>
-    
+
    <!-- Industry -->
    <SimulationDescriptor Name="StarSystemEffectFromMothershipIndustry1" Type="StarSystemEffectFromMothership">
       <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="10" Path="ClassColonizedStarSystem,ClassExploitedStarSystem"/>
@@ -2137,7 +2137,7 @@
       <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="50" Path="ClassColonizedStarSystem,ClassExploitedStarSystem"/>
       <Modifier TargetProperty="SystemProduction" Operation="Percent" Value="0.15" Path="ClassColonizedStarSystem,ClassExploitedStarSystem"/>
    </SimulationDescriptor>
-   
+
    <!-- Influence -->
    <SimulationDescriptor Name="StarSystemEffectFromMothershipInfluence1" Type="StarSystemEffectFromMothership">
       <Modifier TargetProperty="SystemEmpirePoint" Operation="Addition" Value="10" Path="ClassColonizedStarSystem,ClassExploitedStarSystem"/>
@@ -2186,5 +2186,5 @@
       <Modifier TargetProperty="SystemResearch" Operation="Percent" Value="0.10" Path="ClassColonizedStarSystem,ClassExploitedStarSystem"/>
    </SimulationDescriptor>
 
-    
+
 </Datatable>
