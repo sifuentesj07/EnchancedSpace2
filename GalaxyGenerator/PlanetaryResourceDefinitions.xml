@@ -8,8 +8,6 @@
         <MaybeVisible>true</MaybeVisible>
         <TagWhenVisible>StrategicDeposit1</TagWhenVisible>
         <PlanetFilterNot>PlanetGameplayTier3</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeStable</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeLush</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
     </PlanetaryResourceDefinition>
 
@@ -20,8 +18,6 @@
         <MaybeVisible>true</MaybeVisible>
         <TagWhenVisible>StrategicDeposit2</TagWhenVisible>
         <PlanetFilterNot>PlanetGameplayTier3</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeCraggy</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeWater</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
     </PlanetaryResourceDefinition>
 
@@ -31,8 +27,6 @@
         <Tag>Curiosity_PlanetResource_Strategic03</Tag>
         <MaybeVisible>false</MaybeVisible>
         <PlanetFilterNot>PlanetGameplayTier1</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeStable</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeWater</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
     </PlanetaryResourceDefinition>
 
@@ -42,8 +36,6 @@
         <Tag>Curiosity_PlanetResource_Strategic04</Tag>
         <MaybeVisible>false</MaybeVisible>
         <PlanetFilterNot>PlanetGameplayTier1</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeCraggy</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeLush</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
     </PlanetaryResourceDefinition>
 
@@ -53,7 +45,7 @@
         <Tag>Curiosity_PlanetResource_Strategic05</Tag>
         <MaybeVisible>false</MaybeVisible>
         <PlanetFilterNot>PlanetGameplayTier1</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeHot</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTier2</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
     </PlanetaryResourceDefinition>
 
@@ -63,7 +55,7 @@
         <Tag>Curiosity_PlanetResource_Strategic06</Tag>
         <MaybeVisible>false</MaybeVisible>
         <PlanetFilterNot>PlanetGameplayTier1</PlanetFilterNot>
-        <PlanetFilterNot>PlanetGameplayTypeCold</PlanetFilterNot>
+        <PlanetFilterNot>PlanetGameplayTier2</PlanetFilterNot>
         <PlanetFilterNot>PlanetTypeDestroyed</PlanetFilterNot>
     </PlanetaryResourceDefinition>
 

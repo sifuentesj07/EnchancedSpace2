@@ -3,21 +3,21 @@
 
     <!-- RESOURCES ABUNDANCE -->
     <GalaxyGeneratorWeightTable Name="ResourceDeposit_Rare">
-        <Entry Tag="DepositSizePoor"            Weight="5"/>
-        <Entry Tag="DepositSizeAverage"         Weight="3"/>
-        <Entry Tag="DepositSizeAbundant"        Weight="1"/>
+        <Entry Tag="DepositSizePoor"     Weight="1"/>
+        <Entry Tag="DepositSizeAverage"  Weight="7"/>
+        <Entry Tag="DepositSizeAbundant" Weight="2"/>
     </GalaxyGeneratorWeightTable>
 
     <GalaxyGeneratorWeightTable Name="ResourceDeposit_Normal">
-        <Entry Tag="DepositSizePoor"            Weight="3"/>
-        <Entry Tag="DepositSizeAverage"         Weight="7"/>
-        <Entry Tag="DepositSizeAbundant"        Weight="5"/>
+        <Entry Tag="DepositSizePoor"     Weight="1"/>
+        <Entry Tag="DepositSizeAverage"  Weight="7"/>
+        <Entry Tag="DepositSizeAbundant" Weight="2"/>
     </GalaxyGeneratorWeightTable>
 
     <GalaxyGeneratorWeightTable Name="ResourceDeposit_Abundant">
-        <Entry Tag="DepositSizePoor"            Weight="1"/>
-        <Entry Tag="DepositSizeAverage"         Weight="5"/>
-        <Entry Tag="DepositSizeAbundant"        Weight="10"/>
+        <Entry Tag="DepositSizePoor"     Weight="1"/>
+        <Entry Tag="DepositSizeAverage"  Weight="7"/>
+        <Entry Tag="DepositSizeAbundant" Weight="2"/>
     </GalaxyGeneratorWeightTable>
 
     <!-- GALAXY AGE -->
