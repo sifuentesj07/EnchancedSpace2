@@ -3,7 +3,7 @@
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Generator.Definitions.PlanetGameplayTypeDefinition.xsd">
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeDestroyed"/>
-  
+
   <!-- FOOD BRANCH : -->
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeSwamp">
@@ -11,7 +11,6 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeLush</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -20,7 +19,6 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeLush</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -29,7 +27,6 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeTeeming</GameplayType>
     <GameplayType>PlanetGameplayTypeLush</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -38,7 +35,6 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeTeeming</GameplayType>
     <GameplayType>PlanetGameplayTypeLush</GameplayType>
-    
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -49,7 +45,6 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeWater</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -58,7 +53,6 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeWater</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -67,7 +61,6 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeTeeming</GameplayType>
     <GameplayType>PlanetGameplayTypeWater</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -76,7 +69,6 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeTeeming</GameplayType>
     <GameplayType>PlanetGameplayTypeWater</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -88,7 +80,7 @@
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeStable</GameplayType>
   </PlanetGameplayTypeDefinition>
-  
+
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeArctic">
     <GameplayType>PlanetGameplayTier2</GameplayType>
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
@@ -109,7 +101,7 @@
     <GameplayType>PlanetGameplayTypeMeager</GameplayType>
     <GameplayType>PlanetGameplayTypeStable</GameplayType>
   </PlanetGameplayTypeDefinition>
-  
+
   <!-- DUST BRANCH : -->
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeTundra">
@@ -117,16 +109,14 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeDry</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
-  <PlanetGameplayTypeDefinition PlanetType="PlanetTypeVeldt">    <!-- Savannah -->
+  <PlanetGameplayTypeDefinition PlanetType="PlanetTypeVeldt"><!-- Savannah -->
     <GameplayType>PlanetGameplayTier2</GameplayType>
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeDry</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -151,16 +141,14 @@
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeCraggy</GameplayType>
-
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
-  <PlanetGameplayTypeDefinition PlanetType="PlanetTypeBoreal"> <!-- Alpine -->
+  <PlanetGameplayTypeDefinition PlanetType="PlanetTypeBoreal"><!-- Alpine -->
     <GameplayType>PlanetGameplayTier2</GameplayType>
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
     <GameplayType>PlanetGameplayTypeCraggy</GameplayType>
-    
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
@@ -221,24 +209,24 @@
     <GameplayType>PlanetGameplayTypeMeager</GameplayType>
     <GameplayType>PlanetGameplayTypeGas</GameplayType>
   </PlanetGameplayTypeDefinition>
-   
-   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeFake">
-      <GameplayType>PlanetGameplayTypeStable</GameplayType>
-      <GameplayType>PlanetGameplayTypeCold</GameplayType>
-      <GameplayType>PlanetGameplayTypeMeager</GameplayType>
-      <GameplayType>PlanetGameplayTier3</GameplayType>
-      <GameplayType>CannotBeDestroyed</GameplayType>
-    </PlanetGameplayTypeDefinition>
+
+  <PlanetGameplayTypeDefinition PlanetType="PlanetTypeFake">
+    <GameplayType>PlanetGameplayTier3</GameplayType>
+    <GameplayType>PlanetGameplayTypeCold</GameplayType>
+    <GameplayType>PlanetGameplayTypeStable</GameplayType>
+    <GameplayType>PlanetGameplayTypeMeager</GameplayType>
+    <GameplayType>CannotBeDestroyed</GameplayType>
+  </PlanetGameplayTypeDefinition>
 
   <!-- Class 0  - Megastructures -->
 
   <!-- Custom planet type for modding purposes. Override this one, and create one for each type you want to use, up to 20. -->
-    <PlanetGameplayTypeDefinition PlanetType="PlanetTypeCustom01">
-      <GameplayType>PlanetGameplayTypeHot</GameplayType>
-      <GameplayType>PlanetGameplayTier0</GameplayType>
-    </PlanetGameplayTypeDefinition>
+  <PlanetGameplayTypeDefinition PlanetType="PlanetTypeCustom01">
+    <GameplayType>PlanetGameplayTypeHot</GameplayType>
+    <GameplayType>PlanetGameplayTier0</GameplayType>
+  </PlanetGameplayTypeDefinition>
 
-    <!--<PlanetGameplayTypeDefinition PlanetType="PlanetTypeCustom02">
+  <!--<PlanetGameplayTypeDefinition PlanetType="PlanetTypeCustom02">
       <GameplayType>PlanetGameplayTypeHot</GameplayType>
       <GameplayType>PlanetGameplayTier0</GameplayType>
     </PlanetGameplayTypeDefinition>
@@ -257,5 +245,4 @@
       <GameplayType>PlanetGameplayTypeHot</GameplayType>
       <GameplayType>PlanetGameplayTier1</GameplayType>
     </PlanetGameplayTypeDefinition>-->
-
 </Datatable>
