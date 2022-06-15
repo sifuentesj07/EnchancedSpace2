@@ -296,25 +296,24 @@
    <SimulationDescriptor Name="ModuleSupportExploration1" Type="ModuleSupportExploration">
       <Modifier TargetProperty="VisionRange"              Operation="Addition" Value="1"          Path="ModuleSupportExploration"/>
       <Modifier TargetProperty="MaximumShipProbeStock"    Operation="Addition" Value="1"          Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.20"       Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.33333333" Path="ModuleSupportExploration"/>
    </SimulationDescriptor>
 
    <SimulationDescriptor Name="ModuleSupportExploration2Strategic1" Type="ModuleSupportExploration">
       <Modifier TargetProperty="VisionRange"              Operation="Addition" Value="3"          Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="Evasion"                  Operation="Addition" Value="0.08"       Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="Evasion"                  Operation="Addition" Value="0.10"       Path="ModuleSupportExploration"/>
       <Modifier TargetProperty="MaximumMovement"          Operation="Addition" Value="3"          Path="ModuleSupportExploration"/>
 
       <Modifier TargetProperty="MaximumShipProbeStock"    Operation="Addition" Value="1"          Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.40"        Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.4"        Path="ModuleSupportExploration"/>
    </SimulationDescriptor>
-
    <SimulationDescriptor Name="ModuleSupportExploration2Strategic2" Type="ModuleSupportExploration">
       <Modifier TargetProperty="VisionRange"              Operation="Addition" Value="3"          Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="Evasion"                  Operation="Addition" Value="0.04"       Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="MaximumMovement"          Operation="Addition" Value="5"          Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="Evasion"                  Operation="Addition" Value="0.08"       Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="MaximumMovement"          Operation="Addition" Value="4"          Path="ModuleSupportExploration"/>
 
       <Modifier TargetProperty="MaximumShipProbeStock"    Operation="Addition" Value="1"          Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.40"        Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.4"        Path="ModuleSupportExploration"/>
    </SimulationDescriptor>
 
    <SimulationDescriptor Name="ModuleSupportExploration3Strategic3" Type="ModuleSupportExploration">
@@ -323,16 +322,15 @@
       <Modifier TargetProperty="MaximumMovement"          Operation="Addition" Value="4"          Path="ModuleSupportExploration"/>
 
       <Modifier TargetProperty="MaximumShipProbeStock"    Operation="Addition" Value="2"          Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.5"          Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.5"        Path="ModuleSupportExploration"/>
    </SimulationDescriptor>
-
    <SimulationDescriptor Name="ModuleSupportExploration3Strategic4" Type="ModuleSupportExploration">
       <Modifier TargetProperty="VisionRange"              Operation="Addition" Value="5"          Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="Evasion"                  Operation="Addition" Value="0.08"       Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="MaximumMovement"          Operation="Addition" Value="6"          Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="Evasion"                  Operation="Addition" Value="0.10"       Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="MaximumMovement"          Operation="Addition" Value="5"          Path="ModuleSupportExploration"/>
 
       <Modifier TargetProperty="MaximumShipProbeStock"    Operation="Addition" Value="2"          Path="ModuleSupportExploration"/>
-      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.5"          Path="ModuleSupportExploration"/>
+      <Modifier TargetProperty="NetShipProbe"             Operation="Addition" Value="0.5"        Path="ModuleSupportExploration"/>
    </SimulationDescriptor>
 
    <!-- ********************************** -->

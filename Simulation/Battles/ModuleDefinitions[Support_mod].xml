@@ -538,7 +538,7 @@
    <!-- ************************* -->
 
    <SupportModule Name="ModuleSupportExploration1" Family="ExplorationBase" Level="1">
-      <Cost ResourceName="SystemProduction">200</Cost>
+      <Cost ResourceName="SystemProduction">64</Cost>
       <TechnologyPrerequisite Flags="Edition">TechnologyStageScienceAndExploration1</TechnologyPrerequisite>
       <InterpreterPrerequisite Flags="Edition">Path(Context, @ShipRoleExploration) or Path(Context, @ShipRoleHero)</InterpreterPrerequisite>
       <SimulationDescriptorReference Name="ClassModuleSupport"/>
