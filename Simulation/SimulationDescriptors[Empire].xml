@@ -18,26 +18,26 @@
        <Property Name="NumberOfTradeCompaniesAtLeastLevel30"         BaseValue="0"/>
        <Property Name="AcademyEmbassyIsBuilt"                        BaseValue="0" MaxValue="1"/>
        <Property Name="RootingSpeedSystemOwnedMultiplier"            BaseValue="1" MinValue="0.15"/>
-       
+
        <Property Name="Level5Systems"                                BaseValue="0"/>
 
        <Property Name="ShipStrategicCostMultiplier"                   BaseValue="1" MinValue="0" />
        <Property Name="ShipManpowerCostMultiplier"                    BaseValue="1" MinValue="0" />
-       <Property Name="ShipEssenceCostMultiplier"                     BaseValue="1" MinValue="0" />    
+       <Property Name="ShipEssenceCostMultiplier"                     BaseValue="1" MinValue="0" />
 
        <!-- end of mod properties -->
 
         <Property Name="DifficultyLevel"  BaseValue="0" />
         <Property Name="CurrentTurn" BaseValue="1" IsSealed="true"/>
-        
+
         <!-- Score Properties -->
-        
+
         <Property Name="TechnologyTotalStageUnlocked" Composition="Sum"/>
-        <Property Name="ActiveLawsCount" Composition="Sum"/>        
+        <Property Name="ActiveLawsCount" Composition="Sum"/>
         <Property Name="MinorTraitsAssimilated"/>
 		<Property Name="PopulationsAssimilated" BaseValue="0"/>
-        <Property Name="AcademyOwned"/>            
-        <Property Name="VampirilisPopulation"/>     
+        <Property Name="AcademyOwned"/>
+        <Property Name="VampirilisPopulation"/>
         <Property Name="NonVampirilisPopulation"/>
         <Property Name="EmpireTechScore"/>
         <Property Name="SystemLevelSum"/>
@@ -60,7 +60,7 @@
         <Property Name="QuestsCompleted"                        IsSealed="true"/>
         <Property Name="WarsWon"                                IsSealed="true"/>
         <Property Name="ProductionSpentOnVictoryWonders"        IsSealed="true"/>
-        
+
         <Property Name="DiplomacyCostReduction"                 BaseValue="1" MinValue="0.05"/> <!--modded-->
         <Property Name="FreeWarDeclaration"                     BaseValue="1" MinValue="0"/>
         <Property Name="PeacefulTreatyCostReduction"            BaseValue="1" MinValue="0.05"/> <!--modded-->
@@ -72,16 +72,16 @@
         <Property Name="RetrofitCostMultiplier"                 BaseValue="1" MinValue="0.05"/>
         <Property Name="ObliteratorConstructionCostMultiplier"  BaseValue="1" MinValue="0.05"/>
         <Property Name="PirateDiplomacyCostMultiplier"          BaseValue="1" MinValue="0.05"/>
-        
+
         <!--Temporary Variable for Perf used in victory Tooltips-->
         <Property Name="EndlessTechCount"                        BaseValue="4" MinValue="0"/>
         <Property Name="VictoryWonderRequiredAmount"             BaseValue="0" MinValue="0"/>
         <Property Name="EconomicVictoryDustAmountRequired"       BaseValue="450000" MinValue="0"/>
         <Property Name="ConquestVictorySystemPercentageRequired" BaseValue="0.78" MinValue="0"/>
-        <Property Name="ConquestAllyVictoryModifier"             BaseValue="0" MinValue="0"/>        
+        <Property Name="ConquestAllyVictoryModifier"             BaseValue="0" MinValue="0"/>
         <Property Name="ConquestVictorySystemAmountRequired"     BaseValue="0" MinValue="0" RoundingFunction="Ceil"/>
         <Property Name="AllianceVictoryModifier"                 BaseValue="0" MinValue="0"/>
-      
+
         <Property Name="Stage5UnlockedCount" BaseValue="0" MinValue="0" />
         <Property Name="GovernorAssigned" BaseValue="0" MinValue="0" />
         <Property Name="AdmiralAssigned" BaseValue="0" MinValue="0" />
@@ -95,11 +95,11 @@
         <Property Name="NetAcademyEmpireDiplomacyMoney"            BaseValue="0"/>
         <Property Name="AcademyEmpireDiplomacyMoneyStock"          IsSealed="true"/>
         <Property Name="MinimumAcademyEmpireDiplomacyMoneyStock"   BaseValue="0"/>
-       
+
         <Property Name="NetAcademyEmpireImprovementMoney"            BaseValue="0"/>
         <Property Name="AcademyEmpireImprovementMoneyStock"          IsSealed="true"/>
         <Property Name="MinimumAcademyEmpireImprovementMoneyStock"   BaseValue="0"/>
-       
+
 
         <Property Name="BuyoutActivated" BaseValue="0" MaxValue="1" MinValue="0"/>
         <Property Name="EmpirePointBuyoutActivated" BaseValue="0" MaxValue="1" MinValue="0"/>
@@ -121,7 +121,7 @@
         <Property Name="Population"     BaseValue="0" />
         <Property Name="PopulationBoostCostMultiplier" BaseValue="1"/>
 
-        
+
 
         <!-- Empire's refined resources -->
         <Property Name="EmpireLifeforce"            MinValue="Negative"/>
@@ -136,7 +136,7 @@
         <Property Name="OutpostGrowthReduction"       BaseValue="0"/>
         <Property Name="OutpostGrowthLeech"           BaseValue="0"/>
         <Property Name="EmpireManpowerTotal"/>
-        
+
 
         <!-- Empire's upkeep resources -->
         <Property Name="EmpireLifeforceUpkeep"    Composition="Sum"/>
@@ -162,7 +162,7 @@
         <Property Name="BaseEmpireHonorLoss"            BaseValue="1" MinValue="0" />
         <Property Name="EmpireHonorDecay"               BaseValue="0" MinValue="0" />
         <Property Name="EmpireHonorDecayReduction"      BaseValue="0" MinValue="Negative"  />
-        <Property Name="HisshoMakeLoveNotWarEffect"      BaseValue="0" MinValue="Negative"  />        
+        <Property Name="HisshoMakeLoveNotWarEffect"      BaseValue="0" MinValue="Negative"  />
         <Property Name="HonorActionsUsageCount"         IsSealed="true"/>
         <Property Name="ResearchRelics"                 BaseValue="0" MinValue="0" />
         <Property Name="HeroRelics"                     BaseValue="0" MinValue="0" />
@@ -175,10 +175,10 @@
         <Property Name="EmpireMoneyFromConsume"                 BaseValue="0" MinValue="0" />
         <Property Name="EmpireLifeforceFromJuggernauts"         BaseValue="0" MinValue="0" />
         <Property Name="EmpireResearchFromJuggernautsDepletion" BaseValue="0" MinValue="0" />
-        
+
         <Property Name="EmpireMoneyGainedFromTraitors"          BaseValue="0" MinValue="0" />
         <Property Name="MoneyRatioLostFromTraitors"             BaseValue="0" MinValue="-1" />
-        
+
         <Property Name="NetEmpireOutpostSupply"/>
 
         <!-- Empire's stock resources -->
@@ -195,7 +195,7 @@
 
         <Property Name="EmpireLifeforceForManpower"   BaseValue="0" MinValue="0"/>
         <Property Name="PassiveLifeforceEnrollmentRate" BaseValue="0.1" MinValue="0"/>
-        
+
         <Property Name="EmpireOutpostSupplyStock"  IsSealed="true"/>
 
         <Property Name="MaximumEmpireResearchStock"         BaseValue="2"/>
@@ -229,7 +229,7 @@
         <Property Name="UnlockedProgramCount"                   BaseValue="0"/>
 
         <Property Name="TraitorResourceConversionMultiplier"    BaseValue="1"/>
-        
+
         <Property Name="HasEncounterFlatHonorGains"         BaseValue="0" MaxValue="1"/>
         <Property Name="EncounterFlatHonorGains"            BaseValue="0"/>
 
@@ -258,7 +258,7 @@
         <Property Name="AllowStrategicDeposit6" BaseValue="0" MaxValue="1" MinValue="0"/>
 
         <Property Name="MinimumStrategicStock" BaseValue="0"/>
-        <Property Name="MaximumStrategicStock" BaseValue="9999"/>  <!-- modded -->
+        <Property Name="MaximumStrategicStock" BaseValue="999"/>  <!-- modded -->
 
         <Property Name="Strategic1Stock"       IsSealed="true"/>
         <Property Name="Strategic2Stock"       IsSealed="true"/>
@@ -276,7 +276,7 @@
         <Property Name="AllNetStrategicSum"    BaseValue="0"/>
 
         <Property Name="MinimumLuxuryStock"    BaseValue="0"/>
-        <Property Name="MaximumLuxuryStock"    BaseValue="9999"/>  <!--modded-->
+        <Property Name="MaximumLuxuryStock"    BaseValue="999"/>  <!--modded-->
 
         <Property Name="Luxury1Stock"          IsSealed="true"/>
         <Property Name="Luxury2Stock"          IsSealed="true"/>
@@ -304,7 +304,7 @@
         <Property Name="Luxury24Stock"         IsSealed="true"/>
 
         <Property Name="AllLuxuriesStock"      BaseValue="0" MinValue="0" MaxValue="23976"/>
-        
+
         <Property Name="NetLuxury1"            Composition="Sum"/>
         <Property Name="NetLuxury2"            Composition="Sum"/>
         <Property Name="NetLuxury3"            Composition="Sum"/>
@@ -342,10 +342,10 @@
         <Property Name="EmpireGrowthAccumulator"            IsSealed="true"/>
         <Property Name="EmpireProductionAccumulator"        IsSealed="true"/>
         <Property Name="EmpireFIDSIAccumulator"/>
-        
+
         <Property Name="EmpireGrowthStock"                  IsSealed="true"/>
         <Property Name="EmpireProductionStock"              IsSealed="true"/>
-        
+
         <Property Name="CommandPoints"                      Composition="Sum"/>
         <Property Name="CommandPointsAccumulator"           IsSealed="true"/>
         <Property Name="CommandPointsStock"                 IsSealed="true"/>
@@ -373,7 +373,7 @@
         <Property Name="HeroCountSenatorPolitics04" BaseValue="0"/>
         <Property Name="HeroCountSenatorPolitics05" BaseValue="0"/>
         <Property Name="HeroCountSenatorPolitics06" BaseValue="0"/>
-        
+
         <Property Name="OutpostsSold"/>
         <Property Name="Politics03MoneyBasedElectionActions"/>
 
@@ -395,7 +395,7 @@
         <Property Name="HasHisshosFestivals"            BaseValue="0" MaxValue="1"/>
         <Property Name="IsPirateHater"                  BaseValue="0" MaxValue="1"/>
         <Property Name="SeesEnemyPathfinding"           BaseValue="0" MaxValue="1"/>
-        
+
         <!-- Game modifier stuff -->
         <Property Name="GalaxySize" MinValue="1" />
         <Property Name="NumberOfGalaxyNodes" BaseValue="0" MinValue="0" IsSealed="true" IsSerializable="true"/>
@@ -425,7 +425,7 @@
         <Property Name="CanUsePortals"          BaseValue="0"/>
         <Property Name="CannotUsePortals"       BaseValue="0"/>
         <Property Name="MovementBonusFromKalTikMasLaw" BaseValue="0" RoundingFunction="Floor"/>
-        
+
         <Property Name="KnownSystemCount"       BaseValue="0" IsSealed="1"/>
         <Property Name="DetectionLevel"         BaseValue="2"/>
         <Property Name="ExpeditionPower"        BaseValue="1"/>
@@ -436,7 +436,7 @@
 
 
         <Property Name="TechnologyCostModifierFromGalvransLaw" BaseValue="0" MinValue="-1" MaxValue="1"/>
-        
+
         <!-- Politics & Senate -->
         <!--<Property Name="CandidateCountPerPopulation"            BaseValue="1" IsSealed="true"/>-->
         <Property Name="SenateEfficiency"                       BaseValue="0" MinValue="-1" MaxValue="1"/>
@@ -456,7 +456,7 @@
         <Property Name="IsUnderColonizationThreshold"            BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="SystemsAboveOverColonizationCount"          BaseValue="0" MinValue="0"/>
         <Property Name="IsOverColonizationThreshold"            BaseValue="0" MinValue="0" MaxValue="1" RoundingFunction="Floor"/>
-        
+
 
         <Property Name="ExplorationRatio" BaseValue="0" MinValue="0"/>
         <Property Name="ExplorationScoreForOverColonizationThreshold" BaseValue="0" MinValue="0"/>
@@ -466,13 +466,13 @@
 
         <!-- Fleets -->
         <Property Name="MaximumCommandPoints"   BaseValue="4" RoundingFunction="Floor"/> <!-- Modded -->
-        <Property Name="GarrisonMoneyUpkeep"    Composition="Sum"/>      
-		
+        <Property Name="GarrisonMoneyUpkeep"    Composition="Sum"/>
+
 		<!-- Diplomatic Tributes -->
         <Property Name="DiplomaticTributeNetEmpireMoney"            BaseValue="0" MinValue="Negative" IsSealed="true"/>
         <Property Name="DiplomaticTributeNetEmpireEmpirePoint"      BaseValue="0" MinValue="Negative" IsSealed="true"/>
         <Property Name="DiplomaticTributeNetEmpireResearch"         BaseValue="0" MinValue="Negative" IsSealed="true"/>
-        
+
         <!-- Diplomatic Relationship -->
         <Property Name="UnknownCount"   BaseValue="0"/>
         <Property Name="WarCount"       BaseValue="0"/>
@@ -484,12 +484,12 @@
         <Property Name="PeaceCount"     BaseValue="0"/>
         <Property Name="AllianceCount"  BaseValue="0"/>
         <Property Name="TeamCount"      BaseValue="0"/>
-        
+
         <!-- Force Truce -->
         <Property Name="ForceTruceCooldown"                     BaseValue="5"/>
         <!-- 0.1 => -10% cost. -->
         <Property Name="ForceTruceRefusalCostReduction" BaseValue="0"/>
-        
+
         <Property Name="TradeAgreementCount"                    BaseValue="0" />
 
         <Property Name="ForcedTruceLowThreshold"   BaseValue="-50" MinValue="-100" MaxValue="100"/>
@@ -509,35 +509,35 @@
         <!-- Scrap -->
         <Property Name="ShipScrapValueModifier"             BaseValue="1" />
         <Property Name="ImprovementScrapValueModifier"      BaseValue="1" />
-        
+
         <!-- Population -->
         <Property Name="PopulationTypeCount" BaseValue="0" />
         <Property Name="BhagabaCount"        BaseValue="0" />
-        
+
         <!-- Scrap -->
         <Property Name="CanSellShips"           BaseValue="0" />
         <Property Name="CanSellImprovements"    BaseValue="1" />
-        
+
         <!-- Outpost buyout -->
         <Property Name="CanBuyoutOutposts"      BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="CanBuyoutAllOutposts"   BaseValue="0" MinValue="0" MaxValue="1"/>
-        
+
         <!-- GROUND BATTLE -->
         <!-- Man power infantry/tank/plane ratios -->
         <Property Name="InfantryManpowerWeight"	            BaseValue="0"/>
         <Property Name="TankManpowerWeight"		            BaseValue="0"/>
         <Property Name="PlaneManpowerWeight"	            BaseValue="0"/>
         <Property Name="TotalManpowerWeight"/>
-      
+
         <Property Name="InfantryManpowerUnlocked"       BaseValue="1" MinValue="0" MaxValue="1"/>
         <Property Name="TankManpowerUnlocked"           BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="PlaneManpowerUnlocked"          BaseValue="0" MinValue="0" MaxValue="1"/>
-      
+
         <!-- Manpower manual repartition -->
         <Property Name="InfantryManpowerCustomWeight"   BaseValue="10" IsSealed="true"/>
         <Property Name="TankManpowerCustomWeight"       BaseValue="0" IsSealed="true"/>
         <Property Name="PlaneManpowerCustomWeight"      BaseValue="0" IsSealed="true"/>
-      
+
 
        <!--modded Ground battle troops -->
        <Property Name="MaximumManpowerPerGroundBattleTurn" BaseValue="500"/>
@@ -584,7 +584,7 @@
         <Property Name="PlaneMinDamages"	BaseValue="95" />
         <Property Name="PlaneMaxDamages"	BaseValue="115" />
         <Property Name="PlaneDamagesBonus"/>-->
-       
+
         <Property Name="InfantryDamagesMultiplierAgainstInfantry"	BaseValue="1" />
         <Property Name="InfantryDamagesMultiplierAgainstTank"  		BaseValue="1" />
         <Property Name="InfantryDamagesMultiplierAgainstPlane"  	BaseValue="1" />
@@ -597,14 +597,14 @@
 
         <Property Name="ImprovementDestructionCountMultiplier"  	        BaseValue="6" />
         <Property Name="PopulationDestructionCountMultiplier"  	            BaseValue="6" />
-        
+
         <Property Name="InfantryImprovementDestructionCountBonus"  	        BaseValue="1" />
         <Property Name="TankImprovementDestructionCountBonus"  	            BaseValue="1" />
         <Property Name="PlaneImprovementDestructionCountBonus"  	        BaseValue="1" />
         <Property Name="InfantryPopulationDestructionCountBonus"            BaseValue="1" />
         <Property Name="TankPopulationDestructionCountBonus"  	            BaseValue="1" />
         <Property Name="PlanePopulationDestructionCountBonus"  	            BaseValue="1" />
-        
+
         <Property Name="InfantryImprovementDestructionProbabilityBonus"  	BaseValue="0" />
         <Property Name="TankImprovementDestructionProbabilityBonus"  	    BaseValue="0.01" />
         <Property Name="PlaneImprovementDestructionProbabilityBonus"  	    BaseValue="0.02" />
@@ -623,7 +623,7 @@
         <Property Name="MaximumSystemMoney"         Composition="Maximum"           />
         <Property Name="MaximumSystemResearch"      Composition="Maximum"           />
         <Property Name="MaximumSystemEmpirePoint"   Composition="Maximum"           />
-        
+
         <Property Name="RatioOfProductionSpentGainedAsMoney" BaseValue="0"/>
         <Property Name="RatioOfProductionSpentGainedAsEmpirePoint" BaseValue="0"/>
         <Property Name="BoostHappinessOnColonies" BaseValue="0"/>
@@ -635,13 +635,13 @@
         <!-- Exotic gameplay -->
         <Property Name="ProductionSpentGainedAsEmpirePointEnabled" BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="KillForeignPopulationOnInvade" BaseValue="0" MinValue="0" MaxValue="1"/>
-        
+
         <Property Name="PlayDeckSlotsCount" BaseValue="5"/>
         <Property Name="PlayDeckUnlockedSlotsCount" BaseValue="3"/>
 
         <!-- Vaulters colonization -->
         <Property Name="PortalCount" MinValue="0" BaseValue="0" />
-        
+
         <Property Name="TurnsSinceSuperColonization"                        BaseValue="3" IsSealed="true"/>
         <Property Name="NetTurnsSinceSuperColonization"                     BaseValue="1"/>
         <Property Name="BaseTurnsBeforeNextFreeSuperColonization"           BaseValue="16"/>
@@ -659,13 +659,13 @@
         <Property Name="SuperColonizationCostFromBase"                      BaseValue="300" MinValue="0"/>
         <Property Name="SuperColonizationCostFromTurns" />
         <Property Name="SuperColonizationCostFromSystems" />
-        
+
         <!-- Play deck modification cost -->
         <Property Name="PlayDeckChangeCostTurnsMax" BaseValue="10"/>
         <Property Name="PlayDeckChangeCostRemainingTurns" BaseValue="0" IsSealed="true"/>
         <Property Name="PlayDeckChangeCostRemainingTurnsFactor" BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="PlayDeckChangeCostCommandPointsFactor" BaseValue="3" MinValue="0"/>
-        
+
         <!-- Dust inflation -->
         <Property Name="DustInflation"              BaseValue="1"           MinValue="0.25"     MaxValue="99"/>
         <Property Name="DustGlobalProduction"       BaseValue="0"           MinValue="Negative"   IsSealed="true"/><!-- Sum of all net empire dust -->
@@ -676,7 +676,7 @@
 
         <Property Name="UpkeepInflationFactor"      BaseValue="0"           MinValue="0"     MaxValue="100"/>
         <Property Name="UpkeepWarFactor"            BaseValue="0.5"         MinValue="0.5"   MaxValue="1.5"/>
-       
+
         <!-- Quests -->
         <Property Name="RandomEventsProbability"            BaseValue="0"   MinValue="0"    MaxValue="1"    IsSealed="true"/>
         <Property Name="MetaplotProbability"                BaseValue="0"   MinValue="0"    MaxValue="1"    IsSealed="true"/>
@@ -723,7 +723,7 @@
         <Property Name="JuggernautExoticModulesCount"/>
 
         <Property Name="JuggernautModuleCostMultiplier" BaseValue="1"/>
-        
+
         <Property Name="MiningProbeDestructionGainsMultiplier" BaseValue="2" MinValue="0"/>
 
         <Property Name="EnemyShipHealthLostOnObliteration" BaseValue="0.5"/>
@@ -757,7 +757,7 @@
 
         <!-- TEMPLES -->
         <Property Name="CanUseTemples"    BaseValue="0"/>
-     
+
         <Property Name="NumberOfTemples" Composition="Sum"/>
         <Property Name="SystemsGivenToAcademy" BaseValue="0" MinValue="0"/>
         <Property Name="AcademySystemsTitheModifier" BaseValue="0" MinValue="0"/>
@@ -794,15 +794,15 @@
         <Property Name="AcademyNetLuxury22"           BaseValue="0" MinValue="0"/>
         <Property Name="AcademyNetLuxury23"           BaseValue="0" MinValue="0"/>
         <Property Name="AcademyNetLuxury24"           BaseValue="0" MinValue="0"/>
-        
-        
+
+
         <!-- FactionTraitScienceReduction -->
         <Property Name="CanUseRawPlanetScience" BaseValue="1"/>
         <Property Name="CannotUseRawPlanetScience" BaseValue="0"/>
 
        <!-- ACADEMY NEXT CONTRIBUTION MULTIPLIER -->
         <Property Name="AcademyNextContributionMultiplier"     BaseValue="1" MinValue="1" />
-     
+
         <!-- QUEST -->
         <Property Name="ConsecutiveTurnsLeadingAcademyRequest" BaseValue="0" IsSealed="true"/>
 
@@ -811,8 +811,8 @@
         <!-- ########################################################## -->
 
         <Modifier TargetProperty="PlanetInitialFIDSPenalty"       Operation="Addition"     Value="-0.75"    Path="ClassEmpire/ClassColonizedStarSystem/ClassColonizedPlanet"  TooltipHidden="true"/> <!--mod -->
-       
-       
+
+
         <Modifier     TargetProperty="ObliteratorShotCost"                      Operation="Multiplication" Value="$(ObliteratorShotCostMultiplier)"  Path="ClassEmpire/ClassGarrisonFleet/ClassShip,ShipRoleObliterator"/>
 
         <!-- HACKING -->
@@ -839,8 +839,8 @@
         <BinaryModifier TargetProperty="EmpireProcessingPowerAllocated" Operation="Addition" Left="$(MaximumEmpireProcessingPowerStock)" BinaryOperation="Subtraction" Right="$(EmpireProcessingPowerStock)" />
         <Modifier TargetProperty="EmpireProcessingPowerAllocated" Operation="Addition" Value="$(EmpireProcessingPowerAllocated)" Path="ClassEmpire/ClassColonizedStarSystem,HomeSystem" />
         <Modifier TargetProperty="EmpireProcessingPowerAllocated" Operation="Addition" Value="$(EmpireProcessingPowerAllocated)" Path="ClassEmpire/ClassPopulationEmpire" />
-        
-        <Modifier TargetProperty="BackdoorProcessingPowerMultiplier" Operation="Addition" Value="$(BackdoorProcessingPowerMultiplier)" Path="ClassEmpire/ClassHackingOperationBackdoor" />        
+
+        <Modifier TargetProperty="BackdoorProcessingPowerMultiplier" Operation="Addition" Value="$(BackdoorProcessingPowerMultiplier)" Path="ClassEmpire/ClassHackingOperationBackdoor" />
 
         <Modifier TargetProperty="MaxChargeTime"    Operation="Multiplication" Value="$(GameSpeedMultiplier)" Path="ClassEmpire/ClassHacking/ClassHackingBeacon"/>
 
@@ -848,12 +848,12 @@
         <Modifier TargetProperty="ColonizedMajorHomeSystemCount"               Operation="Addition"             Value="$(ColonizedMajorHomeSystemCount)"        Path="ClassEmpire/ClassColonizedStarSystem"/>
         <Modifier TargetProperty="PopulationsAssimilated"                      Operation="Addition"             Value="$(PopulationsAssimilated)"               Path="ClassEmpire/ClassColonizedStarSystem"/>
         <Modifier TargetProperty="ColonizedStarSystemStateGhostCountOnSystem"  Operation="Addition"             Value="$(ColonizedStarSystemStateGhostCount)"   Path="ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateColony"/>
-        
+
         <Modifier TargetProperty="OverColonizationPenaltiesReduction"           Operation="Addition"            Value="$(OverColonizationPenaltiesReductionHissho)" Priority="-1" Path="ClassEmpire,AffinityGameplayMajorHisshos"/>
         <Modifier TargetProperty="OverColonizationThreshold"                    Operation="Addition"            Value="$(OverColonizationThresholdHissho)"          Priority="-1" Path="ClassEmpire"/>
         <BinaryModifier TargetProperty="SystemsAboveOverColonizationCount"      Operation="Addition"            Left="$(OwnedSystems)"  BinaryOperation="Subtraction" Right="$(OverColonizationThreshold)"          Priority="-1" Path="ClassEmpire"/>
         <BinaryModifier TargetProperty="IsOverColonizationThreshold"            Operation="Addition"            Left="$(OverColonizationThreshold)"  BinaryOperation="Division" Right="$(OwnedSystems)"          Priority="0" Path="ClassEmpire"/>
-        
+
         <!--Depleted Planet counts-->
 		<Modifier TargetProperty="PopulationEmpireDepletedPlanetCount" Operation="Addition" Value="$(DepletedPlanetCount)" Path="ClassEmpire/ClassPopulationEmpire,PopulationCollectionBonusCravers3" TooltipHidden="true"/>
 
@@ -862,19 +862,19 @@
         <Modifier TargetProperty="ExplorationRatio" Operation="Division" Value="$(NumberOfGalaxyNodes)" Priority="2" Path="ClassEmpire"/>
         <Modifier TargetProperty="ExplorationScoreForOverColonizationThreshold" Operation="Addition" Value="$(ExplorationRatio)" Priority="3" Path="ClassEmpire"/>
         <BinaryModifier TargetProperty="ExplorationScoreForOverColonizationThreshold" Operation="Multiplication" Left="1" BinaryOperation="Division" Right="$(DesiredExplorationRatioForOverColonizationThreshold)" Priority="4" Path="ClassEmpire" />
-        
+
         <!--Update8 Laws-->
         <Modifier TargetProperty="MaximumMovement"          Operation="Addition"    Value="$(MovementBonusFromKalTikMasLaw)"            Path="ClassEmpire/ClassGarrison/ClassShip"/>
         <Modifier TargetProperty="TechnologyCostModifier"   Operation="Addition"    Value="$(TechnologyCostModifierFromGalvransLaw)"    Path="ClassEmpire/ClassResearch"/>
- 
+
         <!-- Hissho law -->
         <Modifier TargetProperty="SystemCountForHisshoLaw" Operation="Addition" Value="$(SystemCount)" Path="ClassEmpire" Priority="10"/>
-        
+
         <!-- Game Speed -->
 
         <BinaryModifier TargetProperty="GameSpeedTimeMultiplier" Operation="Force" Left="1" BinaryOperation="Division" Right="$(GameSpeedMultiplier)" TooltipHidden="true"/>
         <BinaryModifier TargetProperty="GameSpeedTimeMultiplier" Operation="Force" Left="1" BinaryOperation="Division" Right="$(GameSpeedMultiplier)" TooltipHidden="true" Path="ClassEmpire/ClassColonizedStarSystem"/>
-        
+
         <Modifier TargetProperty="TurnsBetweenElections"                  Operation="Multiplication"             Value="$(GameSpeedMultiplier)"         Priority="200"  Path="ClassEmpire/ClassSenate"/>
         <Modifier TargetProperty="TurnsBeforeSurvey"                      Operation="Multiplication"             Value="$(GameSpeedMultiplier)"         Priority="200"  Path="ClassEmpire/ClassSenate"/>
 
@@ -901,7 +901,7 @@
 
         <Modifier TargetProperty="NetDustOverTime"				    Operation="Multiplication"	Value="$(GameSpeedTimeMultiplier)"		Path="ClassEmpire/ClassColonizedStarSystem/StarSystemImprovementUniqueTimeLords"/>
         <Modifier TargetProperty="GameSpeedMultiplier"				Operation="Multiplication"	Value="$(GameSpeedMultiplier)"		    Path="ClassEmpire/ClassColonizedStarSystem"/>
-        <Modifier TargetProperty="NumberOfMajorEmpires"				Operation="Addition"    Value="$(NumberOfMajorEmpires)"             Path="ClassEmpire/ClassColonizedStarSystem" />              
+        <Modifier TargetProperty="NumberOfMajorEmpires"				Operation="Addition"    Value="$(NumberOfMajorEmpires)"             Path="ClassEmpire/ClassColonizedStarSystem" />
 
         <BinaryModifier TargetProperty="InfantryManpowerWeight"   Operation="Addition"    Left="$(InfantryManpowerUnlocked)"  BinaryOperation="Multiplication"  Right="$(InfantryManpowerCustomWeight)"  Path="ClassEmpire"/>
         <BinaryModifier TargetProperty="TankManpowerWeight"       Operation="Addition"    Left="$(TankManpowerUnlocked)"      BinaryOperation="Multiplication"  Right="$(TankManpowerCustomWeight)"      Path="ClassEmpire"/>
@@ -936,7 +936,7 @@
         <BinaryModifier TargetProperty="InfantryPopulationDestructionCountBonus"    Operation="Addition" Left="$(InfantryPopulationDestructionProbabilityBonus)"    BinaryOperation="Multiplication" Right="50"/>
         <BinaryModifier TargetProperty="TankPopulationDestructionCountBonus"        Operation="Addition" Left="$(TankPopulationDestructionProbabilityBonus)"        BinaryOperation="Multiplication" Right="50"/>
         <BinaryModifier TargetProperty="PlanePopulationDestructionCountBonus"       Operation="Addition" Left="$(PlanePopulationDestructionProbabilityBonus)"       BinaryOperation="Multiplication" Right="50"/>
-        
+
 
         <!-- Manpower management -->
         <BinaryModifier TargetProperty="ShouldTakeGrowthForManpower"             Operation="Addition" Left="$(MaximumEmpireManpowerStock)"       BinaryOperation="Subtraction" Right="$(EmpireManpowerStock)" Path="ClassEmpire/ClassColonizedStarSystem"/>
@@ -960,7 +960,7 @@
         <Modifier TargetProperty="PeaceCount"                   Operation="Addition" Value="$(PeaceCount)"                  Path="ClassEmpire/ClassColonizedStarSystem" />
         <Modifier TargetProperty="AllianceCount"                Operation="Addition" Value="$(AllianceCount)"               Path="ClassEmpire/ClassSenate" />
         <Modifier TargetProperty="AllianceCount"                Operation="Addition" Value="$(AllianceCount)"               Path="ClassEmpire/ClassColonizedStarSystem" />
-                
+
         <!-- Probes stats modifiers -->
         <Modifier TargetProperty="Speed"            Operation="Addition" Value="$(ProbeSpeed)"          Path="ClassEmpire/ClassProbe"/>
         <Modifier TargetProperty="VisionRange"      Operation="Addition" Value="$(ProbeVisionRange)"    Path="ClassEmpire/ClassProbe"/>
@@ -986,24 +986,24 @@
 
         <BinaryModifier TargetProperty="UpkeepInflationFactor"   Operation="Addition"       Left="$(DustInflation)"    BinaryOperation="Power"  Right="0.5"	Priority="7"/>
         <Modifier	      TargetProperty="UpkeepInflationFactor"	 Operation="Subtraction"		Value="1"	Priority="8"/>
-        
+
         <BinaryModifier	TargetProperty="UpkeepWarFactor"		Operation="Addition"		Left="$(MajorWarCount)"		BinaryOperation="Division"		Right="$(NumberOfMajorEmpires)"/>
-        
+
         <Modifier TargetProperty="UpkeepInflationFactor"    Operation="Multiplication"    Value="$(UpkeepWarFactor)"	Priority="9"/>
         <Modifier	TargetProperty="UpkeepInflationFactor"		Operation="Addition"    Value="1"	Priority="10"/>
-        
+
         <Modifier TargetProperty="EmpireMoneyUpkeep"        Operation="Multiplication"    Value="$(UpkeepInflationFactor)"		TooltipOverride="%DustInflation"/>
         <!--Fleet upkeep will be affect by root value of inflation-->
-        
+
         <!-- ######## -->
-       
+
         <BinaryModifier TargetProperty="NetEmpireLifeforce"   Operation="Addition"          Left="$(EmpireLifeforce)"    BinaryOperation="Subtraction"  Right="$(EmpireLifeforceUpkeep)"/>
         <BinaryModifier TargetProperty="NetEmpireGrowth"      Operation="Addition"          Left="$(EmpireGrowth)"       BinaryOperation="Subtraction"  Right="$(EmpireGrowthUpkeep)"/>
         <BinaryModifier TargetProperty="NetEmpireProduction"  Operation="Addition"          Left="$(EmpireProduction)"   BinaryOperation="Subtraction"  Right="$(EmpireProductionUpkeep)"/>
         <BinaryModifier TargetProperty="NetEmpireMoney"       Operation="Addition"          Left="$(EmpireMoney)"        BinaryOperation="Subtraction"  Right="$(EmpireMoneyUpkeep)" TooltipHidden="true"/>
         <BinaryModifier TargetProperty="NetEmpireResearch"    Operation="Addition"          Left="$(EmpireResearch)"     BinaryOperation="Subtraction"  Right="$(EmpireResearchUpkeep)"/>
-        <BinaryModifier TargetProperty="NetEmpireManpower"    Operation="Addition"          Left="$(EmpireManpower)"     BinaryOperation="Subtraction"  Right="$(EmpireManpowerUpkeep)"/>       
-        
+        <BinaryModifier TargetProperty="NetEmpireManpower"    Operation="Addition"          Left="$(EmpireManpower)"     BinaryOperation="Subtraction"  Right="$(EmpireManpowerUpkeep)"/>
+
         <BinaryModifier TargetProperty="NetEmpireEmpirePoint" Operation="Addition" Left="$(EmpireEmpirePoint)"  BinaryOperation="Subtraction" Right="$(EmpireEmpirePointUpkeep)"/>
 
         <Modifier TargetProperty="NetEmpireOutpostSupply"     Operation="Addition" Value="$(EmpireOutpostSupply)"/>
@@ -1016,16 +1016,16 @@
         <Modifier TargetProperty="EmpireEmpirePointStockNextTurn"   Operation="Addition" Value="$(EmpireEmpirePointStock)"/>
         <Modifier TargetProperty="EmpireEmpirePointStockNextTurn"   Operation="Addition" Value="$(NetEmpireEmpirePoint)"/>
 
-      
+
         <!-- Happiness -->
 
-        <Modifier       TargetProperty="OverColonizationConstant"     Operation="Addition"             Value="10"       />
+        <Modifier       TargetProperty="OverColonizationConstant"     Operation="Addition"             Value="10" />
         <BinaryModifier TargetProperty="OverColonizationMalus"        Operation="Addition"             Left="$(OverColonizationThreshold)" BinaryOperation="Subtraction"    Right="$(SystemsForOvercolonization)" />
         <Modifier       TargetProperty="OverColonizationMalus"        Operation="Percent"              Value="$(OverColonizationPenaltiesReduction)"       />
         <BinaryModifier TargetProperty="OverColonizationPenalties"    Operation="Addition"             Left="$(OverColonizationMalus)"     BinaryOperation="Multiplication" Right="$(OverColonizationConstant)" Path="ClassEmpire/ClassColonizedStarSystem" />
 
         <BinaryModifier TargetProperty="HonorOvercolonizationPenalty"    Operation="Addition"             Left="$(OverColonizationMalus)"     BinaryOperation="Multiplication" Right="$(OverColonizationConstant)"/>
-        
+
         <BinaryModifier TargetProperty="ColonizedStarSystemStateColonyCountWithOffset"  Operation="Addition"    Left="$(ColonizedStarSystemStateColonyCount)"  BinaryOperation="Subtraction"       Right="1" />
         <BinaryModifier TargetProperty="IsUnderColonizationThreshold"                   Operation="Addition"    Left="$(OverColonizationThreshold)"         BinaryOperation="Subtraction"       Right="$(ColonizedStarSystemStateColonyCountWithOffset)" />
         <BinaryModifier TargetProperty="ColonizationThresholdHappinessBonus"            Operation="Addition"    Left="10"                                   BinaryOperation="Multiplication"    Right="$(IsUnderColonizationThreshold)" Path="ClassEmpire/ClassColonizedStarSystem"/>
@@ -1035,7 +1035,7 @@
 
         <!-- Fleets -->
         <Modifier TargetProperty="MaximumCommandPoints" Operation="Force"    Value="$(MaximumCommandPoints)" Path="ClassEmpire/ClassGarrison,ClassGarrisonFleet" TooltipHidden="true"/>
-		
+
 		<!-- Diplomatic Tributes -->
         <Modifier TargetProperty="EmpireMoney"        Operation="Addition" Value="$(DiplomaticTributeNetEmpireMoney)"        Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireEmpirePoint"  Operation="Addition" Value="$(DiplomaticTributeNetEmpireEmpirePoint)"  Path="ClassEmpire"/>
@@ -1065,10 +1065,10 @@
 
         <Modifier TargetProperty="EmpireLifeforce"      Operation="Addition"    Value="$(EmpireLifeforceFromHuntingGrounds)"        Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireMoney"          Operation="Addition"    Value="$(EmpireMoneyFromHuntingGrounds)"            Path="ClassEmpire"/>
-        <Modifier TargetProperty="EmpireMoney"          Operation="Addition"    Value="$(EmpireMoneyFromConsume)"                   Path="ClassEmpire"/>        
+        <Modifier TargetProperty="EmpireMoney"          Operation="Addition"    Value="$(EmpireMoneyFromConsume)"                   Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireLifeforce"      Operation="Addition"    Value="$(EmpireLifeforceFromJuggernauts)"           Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireResearch"       Operation="Addition"    Value="$(EmpireResearchFromJuggernautsDepletion)"   Path="ClassEmpire"/>
-        
+
         <Modifier TargetProperty="NetEmpireMoney"       Operation="Percent"     Value="$(MoneyRatioLostFromTraitors)"               Path="ClassEmpire" Priority="1"/>
         <Modifier TargetProperty="NetEmpireMoney"       Operation="Addition"    Value="$(EmpireMoneyGainedFromTraitors)"            Path="ClassEmpire" Priority="2"/>
 
@@ -1078,21 +1078,21 @@
 
         <!-- Play deck modification cost -->
         <Modifier TargetProperty="PlayDeckChangeCostRemainingTurnsFactor" Operation="Force" Value="$(PlayDeckChangeCostRemainingTurns)" Path="ClassEmpire" TooltipHidden="true"/>
-        
+
         <!-- Dust inflation -->
         <Modifier TargetProperty="DustInflationFactor"  Operation="Division"           Value="$(NumberOfMajorEmpires)"      Path="ClassEmpire"/>
         <BinaryModifier TargetProperty="DustInflation"  Operation="Addition"           Left="$(DustGlobalProduction)"       BinaryOperation="Multiplication"    Right="$(DustInflationFactor)"  Path="ClassEmpire"/>
         <Modifier TargetProperty="DustInflation"  Operation="Multiplication"           Value="$(DustInflationModifier)"     Path="ClassEmpire"/>
-        
+
         <!--Depleted planet count-->
-        
-        
+
+
         <!--Temporary Variable for Perf used in victory Tooltips-->
-        <BinaryModifier TargetProperty="AllianceVictoryModifier"        Operation="Addition" Left="$(AllianceCount)" BinaryOperation="Division" Right="$(AllianceCount)"   Path="ClassEmpire"/>        
+        <BinaryModifier TargetProperty="AllianceVictoryModifier"        Operation="Addition" Left="$(AllianceCount)" BinaryOperation="Division" Right="$(AllianceCount)"   Path="ClassEmpire"/>
         <BinaryModifier TargetProperty="EndlessTechCount"                   Operation="Percent" Left="0.50" BinaryOperation="Multiplication" Right="$(AllianceCount)"  Path="ClassEmpire"/>
         <BinaryModifier TargetProperty="VictoryWonderRequiredAmount"        Operation="Percent" Left="0.50" BinaryOperation="Multiplication" Right="$(AllianceCount)"  Priority="1000" Path="ClassEmpire"/>
-        
-        
+
+
         <!--Speed based modification are in SimulationDescriptors[GameSpeed].xml-->
         <BinaryModifier TargetProperty="EconomicVictoryDustAmountRequired"  Operation="Percent" Left="0.80" BinaryOperation="Multiplication" Right="$(AllianceCount)"  Path="ClassEmpire"/>
 
@@ -1101,7 +1101,7 @@
         <Modifier TargetProperty="SuperColonizationSystemCount" Operation="Force" Value="$(SystemCount)" />
         <!-- Golden Age duration -->
         <Modifier TargetProperty="SuperColonizationGoldenAgeDurationMax"       Operation="Multiplication" Value="$(GameSpeedMultiplier)"/>
-        
+
         <Modifier TargetProperty="SuperColonizationGoldenAgeDurationIncrement" Operation="Addition"         Value="$(GalaxySize)"                       Priority="1" />
         <Modifier TargetProperty="SuperColonizationGoldenAgeDurationIncrement" Operation="Subtraction"      Value="1"                                   Priority="2" />
         <Modifier TargetProperty="SuperColonizationGoldenAgeDurationIncrement" Operation="Division"         Value="10"                                  Priority="3" />
@@ -1129,7 +1129,7 @@
         <Modifier       TargetProperty="SuperColonizationCost" Operation="Addition"           Value="$(SuperColonizationCostFromBase)"    />
         <Modifier       TargetProperty="SuperColonizationCost" Operation="Multiplication"     Value="$(SuperColonizationCostFromTurns)"   />
         <Modifier       TargetProperty="SuperColonizationCost" Operation="Multiplication"     Value="$(SuperColonizationCostFromSystems)" />
-        
+
         <!-- HISSHOS -->
         <!--<Modifier       TargetProperty="$(HonorOvercolonizationPenalty)" Operation="Multiplication"       Value="-1" Priority="1000000000"/>-->
         <Modifier       TargetProperty="HonorOvercolonizationPenalty"  Operation="Division"       Value="10"/>
@@ -1158,7 +1158,7 @@
         <BinaryModifier     TargetProperty="MaximumJuggernautsTechnologyIncrement"  Operation="Addition"    Left="$(MaximumJuggernautsTotal)" BinaryOperation="Division" Right="16" />
         <BinaryModifier     TargetProperty="MaximumJuggernautsFromTechnologies"     Operation="Addition"    Left="$(JuggernautTechnologiesResearched)" BinaryOperation="Multiplication" Right="$(MaximumJuggernautsTechnologyIncrement)" />
         <Modifier           TargetProperty="MaximumJuggernauts"                     Operation="Addition"    Value="$(MaximumJuggernautsFromTechnologies)"/>
-        
+
         <!-- Obliterator charge speed to fire -->
         <Modifier           TargetProperty="BaseTurnsBeforeFreeObliteratorShot"     Operation="Multiplication"  Value="$(GameSpeedMultiplier)" Path="ClassEmpire//ClassShip,ShipRoleObliterator" TooltipHidden="true"/>
         <Modifier           TargetProperty="BonusTurnsBeforeFreeObliteratorShot"    Operation="Multiplication"  Value="$(GameSpeedMultiplier)" Path="ClassEmpire//ClassShip,ShipRoleObliterator" TooltipHidden="true"/>
@@ -1194,19 +1194,19 @@
         <Modifier       TargetProperty="AllNetStrategicSum"     Operation="Addition"            Value="$(NetStrategic4)"   Path="../ClassEmpire"/>
         <Modifier       TargetProperty="AllNetStrategicSum"     Operation="Addition"            Value="$(NetStrategic5)"   Path="../ClassEmpire"/>
         <Modifier       TargetProperty="AllNetStrategicSum"     Operation="Addition"            Value="$(NetStrategic6)"   Path="../ClassEmpire"/>
-     
+
         <!--RELICS-->
         <Modifier TargetProperty="NetEmpireRelics"  Operation="Addition"    Value="$(ResearchRelics)"      Path="ClassEmpire" TooltipHidden="true"/>
         <Modifier TargetProperty="NetEmpireRelics"  Operation="Addition"    Value="$(HeroRelics)"          Path="ClassEmpire" TooltipHidden="true"/>
         <Modifier TargetProperty="EmpireResearch"   Operation="Addition"    Value="$(NetRelicsResearch)"   Path="ClassEmpire" Priority="20" />
-     
+
         <!--TEMPLES-->
         <Modifier TargetProperty="ColonizedStarSystemStateColonyCount" Operation="Addition" Value="$(SystemsGivenToAcademy)"/>
-     
+
         <!-- Overcolonization compensation from temples. -->
         <Modifier TargetProperty="SystemsForOvercolonization" Operation="Addition" Value="$(ColonizedStarSystemStateColonyCount)" Priority="-2"/>
         <Modifier TargetProperty="SystemsForOvercolonization" Operation="Subtraction" Value="$(SystemsGivenToAcademy)" Priority="-1"/>
-     
+
         <Modifier TargetProperty="EmpireMoney"           Operation="Addition"    Value="$(AcademySystemsDust)"          Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireResearch"        Operation="Addition"    Value="$(AcademySystemsScience)"    Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireEmpirePoint"     Operation="Addition"    Value="$(AcademySystemsEmpirePoints)"  Path="ClassEmpire"/>
@@ -1217,7 +1217,7 @@
         <Modifier TargetProperty="NetStrategic4"     Operation="Addition"    Value="$(AcademyNetStrategic4)"  Path="ClassEmpire"/>
         <Modifier TargetProperty="NetStrategic5"     Operation="Addition"    Value="$(AcademyNetStrategic5)"  Path="ClassEmpire"/>
         <Modifier TargetProperty="NetStrategic6"     Operation="Addition"    Value="$(AcademyNetStrategic6)"  Path="ClassEmpire"/>
-      
+
         <Modifier TargetProperty="NetLuxury1"     Operation="Addition"    Value="$(AcademyNetLuxury1)"  Path="ClassEmpire"/>
         <Modifier TargetProperty="NetLuxury2"     Operation="Addition"    Value="$(AcademyNetLuxury2)"  Path="ClassEmpire"/>
         <Modifier TargetProperty="NetLuxury3"     Operation="Addition"    Value="$(AcademyNetLuxury3)"  Path="ClassEmpire"/>
@@ -1246,7 +1246,7 @@
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="EmpireTypeMajor" Type="EmpireType">
-       
+
         <!--  ######################## -->
         <!--  ######  PROPERTY  ###### -->
         <!--  ######################## -->
@@ -1294,12 +1294,12 @@
 
         <!-- NOTE: This value does NOT define the duration of the game, it exists only for calculation purposes. See ClassVictoryManager for the actual value -->
         <Property Name="LastTurn" BaseValue="300" RoundingFunction="Ceil"/>
-        
+
         <!-- Happiness -->
         <Property Name="Happiness" BaseValue="0" MinValue="0" MaxValue="100"/>
         <Property Name="HappinessSum" BaseValue="0"/>
         <Property Name="GovernmentChangeHappinessMultiplier" BaseValue="1" MinValue="0"/>
-        
+
         <!-- Obedience -->
         <Property Name="Obedience" BaseValue="0" MinValue="0" MaxValue="100"/>
 
@@ -1308,10 +1308,10 @@
         <Property Name="HasAccessToMarketplace"     BaseValue="0"/>
         <Property Name="TaxRateBuyoutMultiplier"    BaseValue="1"/>
         <Property Name="TaxRateSelloutMultiplier"   BaseValue="1"/>
-        
+
         <Property Name="NumberOfTradingCompanies"   BaseValue="0"/>
         <Property Name="TotalTradingRoutesCount"    BaseValue="0"/>
-        
+
         <Property Name="AvailableNumberOfTradingCompanyHeadquarters" IsSealed="true"/>
         <Property Name="TradingCompanyLevelUpMultiplier"  BaseValue="1" MinValue="0"/>
         <Property Name="MaximumNumberOfTradingCompanyHeadquarters" BaseValue="0"/>
@@ -1320,7 +1320,7 @@
         <Property Name="MaximumNumberOfTradingCompanySubsidiaries" BaseValue="0"/>
         <Property Name="NumberOfTradingCompanySubsidiaries" IsSealed="true" IsSerializable="true"/>
 
-        <Property Name="TradingRoutesIncomeAccumulator"         IsSealed="true" IsSerializable="true"/>    
+        <Property Name="TradingRoutesIncomeAccumulator"         IsSealed="true" IsSerializable="true"/>
         <Property Name="TradingRoutesIncomeThreshold"           IsSealed="true" IsSerializable="true"/>
         <Property Name="TradingRoutesIncomePreviousThreshold"   IsSealed="true" IsSerializable="true"/>
         <Property Name="TradingRouteIncomeEmpireModifier" BaseValue="1"/>
@@ -1358,7 +1358,7 @@
 
         <Property Name="TradingRouteLeech_EmpireMoney"      Composition="None"/>
         <Property Name="TradingRouteLeech_EmpireResearch"   Composition="None"/>
-        
+
         <Property Name="TradingRouteLeech_Luxury1"          Composition="None"/>
         <Property Name="TradingRouteLeech_Luxury2"          Composition="None"/>
         <Property Name="TradingRouteLeech_Luxury3"          Composition="None"/>
@@ -1383,7 +1383,7 @@
         <Property Name="TradingRouteLeech_Luxury22"         Composition="None"/>
         <Property Name="TradingRouteLeech_Luxury23"         Composition="None"/>
         <Property Name="TradingRouteLeech_Luxury24"         Composition="None"/>
-        
+
         <Property Name="TutorialLevel" BaseValue="0"/>
         <Property Name="AdditionalMinimumTurnForQuests" BaseValue="0"/>
         <Property Name="CanRootSystems" BaseValue="0" MinValue="0" MaxValue="1"/>
@@ -1392,7 +1392,7 @@
         <Property Name="HasHiddenHomeSystem" BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="FleetsSpawnInvisible" BaseValue="0" MinValue="0" MaxValue="1"/>
         <Property Name="CanUseStrategicForRecipe" BaseValue="0" MinValue="0" MaxValue="1"/>
-        
+
         <!-- Military power -->
         <!--<Property Name="TotalOffensiveMilitaryPower"/>
         <Property Name="TotalDefensiveMilitaryPower"/>-->
@@ -1410,8 +1410,8 @@
         <Property Name="EmpireMilitaryScore"/>
 
         <Property Name="ResearchScienceAgreementBonus"       BaseValue="0" MinValue="Negative"/>
-        
-        
+
+
         <!-- research -->
         <Property Name="TechnologyQuadrantEmpireDevelopmentActualStageNumber" Composition="Sum"/>
 
@@ -1421,13 +1421,13 @@
 
         <Property Name="TechnologyQuadrantMilitaryActualStageNumber"  Composition="Sum"/>
 
-        
+
         <!-- collection bonus -->
         <Property Name="TotalPopulationCollectionBonus"     BaseValue="0" />
 
         <Property Name="LawUpkeep"/>
         <Property Name="LawUpkeepMultiplier" BaseValue="1"/>
-       
+
         <Property Name="TreatiesUpkeep" BaseValue="0" MinValue="0"/>
         <!-- For the UI -->
         <Property Name="ScienceAgreementUpkeep" BaseValue="0" MinValue="0"/>
@@ -1462,7 +1462,7 @@
 
         <!-- ### ACADEMY ###-->
         <Property Name="NoContributionSpree" 			          BaseValue="0" IsSealed="true"/>
-       
+
         <!--  ######################## -->
         <!--  #####  MODIFIERS  ###### -->
         <!--  ######################## -->
@@ -1473,9 +1473,9 @@
        <Modifier TargetProperty="GalaxySize" Operation="Force" Value="$(GalaxySize)" Path="ClassEmpire/ClassResearch"/>
 
        <Modifier TargetProperty="SystemGrowth" Operation="Percent" Value="-0.75" Path="ClassEmpire/ClassColonizedStarSystem,ColonizedStarSystemStateOutpost,AffinityGameplayVenetians"/>
-       
+
        <BinaryModifier TargetProperty="HeroUnlockThresholdModifier" Operation="Subtraction" Left="0.4" BinaryOperation="Multiplication" Right="$(AcademyEmbassyIsBuilt)"/>
-      
+
        <!-- end of mod modifiers-->
 
         <Modifier       TargetProperty="EmpireEmpirePointUpkeep"     Operation="Addition"            Value="$(LawUpkeep)"   />
@@ -1518,13 +1518,13 @@
         <Modifier TargetProperty="MilitaryVictoryScore" Operation="Addition"    Value="$(Lifetime)"                     Path="ClassEmpire"/>
         <Modifier TargetProperty="MilitaryVictoryScore" Operation="Addition"    Value="$(EmpireMilitaryScore)"          Path="ClassEmpire"/>
         <Modifier TargetProperty="MilitaryVictoryScore" Operation="Addition"    Value="$(SystemCount)"                  Path="ClassEmpire"/>
-        
+
         <Modifier TargetProperty="Happiness" Operation="Division" Value="$(HappinessSum)" Priority="1"/>
 
         <Modifier TargetProperty="MaximumNumberOfTradingCompanySubsidiaries" Operation="Addition" Value="$(NumberOfTradingCompanyHeadquarters)"/>
 
         <Modifier TargetProperty="BaseEmpireMoney" Operation="Multiplication" Value="$(TradingRouteIncomeEmpireModifier)" Path="ClassEmpire/DepartmentOfCommerce/ClassTradingCompany"/>
-        
+
         <Modifier TargetProperty="NetEmpireMoney" Operation="Addition" Value="$(TradingRouteIncome_EmpireMoney)" TooltipHidden="true"/>
         <Modifier TargetProperty="NetEmpireResearch" Operation="Addition" Value="$(TradingRouteIncome_EmpireResearch)"/>
 
@@ -1605,19 +1605,19 @@
         <Modifier TargetProperty="AllLuxuriesStock" Operation="Addition" Value="$(Luxury22Stock)"/>
         <Modifier TargetProperty="AllLuxuriesStock" Operation="Addition" Value="$(Luxury23Stock)"/>
         <Modifier TargetProperty="AllLuxuriesStock" Operation="Addition" Value="$(Luxury24Stock)"/>
-     
+
         <!-- Scores Modifier -->
         <Modifier TargetProperty="EmpirePopulationScore"       Operation="Addition"    Value="$(Population)"     Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpirePopulationScore"       Operation="Addition"    Value="$(PopulationTypeCount)"     Path="ClassEmpire"/>
 
         <Modifier TargetProperty="EmpireResearchScore"       Operation="Addition"    Value="$(EmpireResearch)"     Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireResearchScore"       Operation="Addition"    Value="$(TotalTechnology)"     Path="ClassEmpire"/>
-      
+
         <Modifier TargetProperty="EmpireTradeScore"       Operation="Addition"    Value="$(TradingRouteIncome_EmpireMoney)"     Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireTradeScore"       Operation="Addition"    Value="$(TradingRouteIncome_EmpireResearch)"     Path="ClassEmpire"/>
 
         <BinaryModifier TargetProperty="EmpireHappinessScore" Operation="Addition"  Left="$(Happiness)"  BinaryOperation="Multiplication"  Right="$(CannotUseHonor)"  Path="ClassEmpire"/>
-        
+
         <Modifier TargetProperty="EmpireHonorScore"       Operation="Addition"    Value="$(EmpireHonorStock)"     Path="ClassEmpire"/>
 
         <!-- TODO SystemPlanetCount does not exist... -->
@@ -1641,7 +1641,7 @@
         <Modifier TargetProperty="CurrentTurn" Operation="Addition"    Value="$(Lifetime)"      Path="ClassEmpire/ClassDiplomacy/DiplomaticAbilityEffectScienceAgreement"/>
 
         <Modifier       TargetProperty="TotalTradingRoutesCount"              Operation="Division"    Value="$(NumberOfTradingCompanies)"/>
-        
+
         <!-- Transfer empire properties to the children-->
         <Modifier TargetProperty="NumberOfTradingCompanies"     Operation="Addition" Value="$(NumberOfTradingCompanies)"    Path="ClassEmpire/ClassSenate" />
 		<Modifier TargetProperty="NumberOfTradingCompanies"     Operation="Addition" Value="$(NumberOfTradingCompanies)"    Path="ClassEmpire/ClassColonizedStarSystem" />
@@ -1652,17 +1652,17 @@
         <!-- Pirate marks -->
         <Modifier TargetProperty="TotalPirateMarks" Operation="Addition" Value="$(PirateMarksStock)"/>
         <Modifier TargetProperty="TotalPirateMarks" Operation="Addition" Value="$(ActivePirateMarks)"/>
-        
+
         <!-- Honor & Obedience -->
         <Modifier TargetProperty="Obedience" Operation="Addition" Value="$(EmpireHonorStock)"/>
 
         <Modifier TargetProperty="SystemObedience" Operation="Addition" Value="$(Obedience)" Path="ClassEmpire/ClassColonizedStarSystem"/>
-        
+
         <Modifier TargetProperty="AntivisionStrength" Operation="Addition" Value="$(ColonyBaseAntivisionStrength)" Path="ClassEmpire/ClassColonizedStarSystem"/>
 
     </SimulationDescriptor>
 
-    
+
     <SimulationDescriptor Name="EmpireTypeMinor" Type="EmpireType">
         <Property Name="Stress"                 BaseValue="0" IsSealed="true"/>
         <Property Name="NetMinorStress"         BaseValue="0" MinValue="Negative"/>
@@ -1678,7 +1678,7 @@
         <Property Name="MinimumMinorEmpireImprovementMoneyStock"   BaseValue="0"/>
 
         <Property Name="MinorFleetUpkeep"/>
-        
+
         <Property Name="MaximumFleetCount"                  BaseValue="1"/>
         <Property Name="NeighbouringMajorEmpiresCount"      BaseValue="0" MinValue="1"/>
         <Property Name="NeighbouringMinorEmpiresCount"      BaseValue="0" MinValue="1"/>
@@ -1686,7 +1686,7 @@
         <Property Name="BaseMinorFleetSpawnCooldown"        BaseValue="2"/>
         <Property Name="MinorFleetSpawnCooldownStock"       BaseValue="0"       IsSealed="true"/>
         <Property Name="NetMinorFleetSpawnCooldown"         BaseValue="-1"      MinValue="Negative"/>
-        
+
         <Modifier       TargetProperty="MaximumEmpireManpowerStock"     Operation="Addition"    Value="10000" />
         <Modifier       TargetProperty="EmpireManpower"                 Operation="Addition"    Value="$(EmpireManpower)" Path="EmpireTypeMinor/ClassMinorRelationWithMajor"    Priority="0"/>
 
@@ -1713,17 +1713,17 @@
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="1"    Path="MinorFactionDifficultyEasy"/>
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="2"      Path="MinorFactionDifficultyNormal"/>
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="3"      Path="MinorFactionDifficultyHard"  />
-        <Modifier       TargetProperty="NetMinorEmpireMoney"            Operation="Addition" Value="35"/>       
+        <Modifier       TargetProperty="NetMinorEmpireMoney"            Operation="Addition" Value="35"/>
     </SimulationDescriptor>
 
 
         <SimulationDescriptor Name="MinorResourceDistributionPassive" Type="MinorResourceDistribution">
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="1"    Path="MinorFactionDifficultyEasy"/>
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="2"      Path="MinorFactionDifficultyNormal"/>
-        <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="3"      Path="MinorFactionDifficultyHard"  /> 
+        <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="3"      Path="MinorFactionDifficultyHard"  />
         <Modifier       TargetProperty="NetMinorEmpireMoney"            Operation="Addition" Value="50"/>
-        <BinaryModifier TargetProperty="NetMinorEmpireShipMoney"        Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.8"/> 
-        <BinaryModifier TargetProperty="NetMinorEmpireImprovementMoney" Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.2"/> 
+        <BinaryModifier TargetProperty="NetMinorEmpireShipMoney"        Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.8"/>
+        <BinaryModifier TargetProperty="NetMinorEmpireImprovementMoney" Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.2"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="MinorResourceDistributionEarlyAggression" Type="MinorResourceDistribution">
@@ -1731,8 +1731,8 @@
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="2"      Path="MinorFactionDifficultyNormal"/>
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="4"      Path="MinorFactionDifficultyHard"  />
         <Modifier       TargetProperty="NetMinorEmpireMoney"            Operation="Addition" Value="50"/>
-        <BinaryModifier TargetProperty="NetMinorEmpireShipMoney"        Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.7"/> 
-        <BinaryModifier TargetProperty="NetMinorEmpireImprovementMoney" Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.3"/> 
+        <BinaryModifier TargetProperty="NetMinorEmpireShipMoney"        Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.7"/>
+        <BinaryModifier TargetProperty="NetMinorEmpireImprovementMoney" Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.3"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="MinorResourceDistributionEarlyPirating" Type="MinorResourceDistribution">
@@ -1749,8 +1749,8 @@
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="3"      Path="MinorFactionDifficultyNormal"/>
         <Modifier       TargetProperty="NetMinorStress"                 Operation="Addition" Value="4"      Path="MinorFactionDifficultyHard"  />
         <Modifier       TargetProperty="NetMinorEmpireMoney"            Operation="Addition" Value="70"/>
-        <BinaryModifier TargetProperty="NetMinorEmpireShipMoney"        Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.3"/> 
-        <BinaryModifier TargetProperty="NetMinorEmpireImprovementMoney" Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.7"/> 
+        <BinaryModifier TargetProperty="NetMinorEmpireShipMoney"        Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.3"/>
+        <BinaryModifier TargetProperty="NetMinorEmpireImprovementMoney" Operation="Force" Left="$(NetMinorEmpireMoney)" BinaryOperation="Multiplication" Right="0.7"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="MinorResourceDistributionMidGame" Type="MinorResourceDistribution">
@@ -1774,21 +1774,21 @@
     <SimulationDescriptor Name="EmpireTypeLesser" Type="EmpireType">
 
         <Modifier       TargetProperty="MaximumEmpireManpowerStock"      Operation="Addition"  Value="100000" />
-        
+
         <Modifier TargetProperty="FreeMovementSpeed"                    Operation="Addition"    Value="0.25"   Path="ClassEmpire/ClassGarrison/ClassShip"/>
         <Modifier TargetProperty="NetSystemInfluence"                   Operation="Force"       Value="0"      Path="ClassEmpire/ClassColonizedStarSystem"/>
         <Modifier TargetProperty="NetSystemGrowth"                      Operation="Force"       Value="0"      Path="ClassEmpire/ClassColonizedStarSystem"/>
 
         <Modifier TargetProperty="MaximumHackingOperationsCount" Operation="Force" Value="100"/>
     </SimulationDescriptor>
-	
+
 	<SimulationDescriptor Name="EmpireTypePirate" Type="EmpireType">
 
         <!-- Obsolete? -->
         <Property Name="AdditionalMaximumCommandPoints"     BaseValue="0"       IsSealed="true"/>
-        
+
         <Property Name="MaximumLairsByEmpire"               BaseValue="0"/>
-        
+
         <Property Name="PowerPointsStock"                   BaseValue="1"       IsSealed="true"/>
         <Property Name="NetPowerPoints"                     BaseValue="0"       MinValue="0"/>
         <Property Name="PowerPointBonusFromRaid"            BaseValue="5"/>
@@ -1796,10 +1796,10 @@
         <Property Name="TurnsBeforeFleetSpawn"              BaseValue="0"       IsSealed="true"/>
         <Property Name="NetTurnsBeforeFleetSpawn"           BaseValue="-1"      MinValue="Negative"/>
         <Property Name="BaseTurnsBeforeFleetSpawn"          BaseValue="12"/>
-        
+
         <Property Name="PirateReinforcementsStock"          BaseValue="0"       IsSealed="true"/>
         <Property Name="NetPirateReinforcements"            BaseValue="0"/>
-        
+
         <Property Name="MaximumPirateReinforcementsStock"   BaseValue="100"/>
         <Property Name="MinimumPirateReinforcementsStock"   BaseValue="0"/>
 
@@ -1827,8 +1827,8 @@
         <Modifier TargetProperty="MaximumHackingOperationsCount" Operation="Force" Value="100"/>
     </SimulationDescriptor>
     <!-- //MF -->
-    
-    
+
+
     <!-- Happiness -->
     <SimulationDescriptor Name="HappinessStatusEmpire0" Type="HappinessStatusEmpire" IsSerializable="false">
         <Modifier TargetProperty="EmpireResearch"     Operation="Percent" Value="-0.40"     Path="ClassEmpire"/>
@@ -1854,7 +1854,7 @@
         <Modifier TargetProperty="EmpireResearch"     Operation="Percent" Value="0.40"     Path="ClassEmpire"/>
         <Modifier TargetProperty="EmpireMoney"        Operation="Percent" Value="0.40"     Path="ClassEmpire" ValueMustBePositive="true"/>
     </SimulationDescriptor>
-	
+
 	<SimulationDescriptor Name="TemporaryEffectEmpireRebellion" Type="TemporaryEffect">
         <Modifier TargetProperty="Happiness" Operation="Addition" Value="25" Priority="3" Path="ClassEmpire/ClassColonizedStarSystem" />
     </SimulationDescriptor>
@@ -1891,7 +1891,7 @@
         <Modifier TargetProperty="ProductionSpentGainedAsEmpirePointEnabled" Operation="Force" Value="1" Path="ClassEmpire" TooltipHidden="true"/>
         <Modifier TargetProperty="RatioOfProductionSpentGainedAsEmpirePoint" Operation="Addition" Value="0.1" Path="ClassEmpire" TooltipOverride="%ProductionSpentGainedAsEmpirePointUnlockedTooltip"/>
     </SimulationDescriptor>
-    
+
     <!-- Galaxy info -->
     <SimulationDescriptor Name="GalaxySizeTiny" Type="GalaxySize">
         <Modifier TargetProperty="OverColonizationThreshold"        Operation="Addition" Value="4" Path="ClassEmpire,!AffinityGameplayMajorHisshos"/>
@@ -1902,7 +1902,7 @@
         <Modifier TargetProperty="VictoryWonderRequiredAmount"              Operation="Force" Value="2" Path="ClassEmpire"/>
         <Modifier TargetProperty="EconomicVictoryDustAmountRequired"        Operation="Multiplication" Value="0.75" Path="ClassEmpire"/>
     </SimulationDescriptor>
-    
+
     <SimulationDescriptor Name="GalaxySizeSmall" Type="GalaxySize">
         <Modifier TargetProperty="OverColonizationThreshold"        Operation="Addition" Value="4" Path="ClassEmpire,!AffinityGameplayMajorHisshos"/>
         <Modifier TargetProperty="OverColonizationThreshold"        Operation="Addition" Value="2" Path="ClassEmpire,AffinityGameplayMajorHisshos"/>
@@ -1965,13 +1965,13 @@
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="GalaxyIsUniqueConstellation" Type="GalaxyIsUniqueConstellation"/>
-    
+
     <SimulationDescriptor Name="WonderVictoryActivated" Type="WonderVictoryActivated"/>
-    
+
     <SimulationDescriptor Name="HasDiscoveredTheAcademy" Type="HasDiscoveredTheAcademy"/>
 
 
-    <!-- CHEAT -->    
+    <!-- CHEAT -->
     <SimulationDescriptor Name="CheatEmpirePointBonus10" Type="CheatEmpirePointBonus">
         <Modifier TargetProperty="EmpireEmpirePoint" Operation="Addition" Value="10"/>
     </SimulationDescriptor>
@@ -1997,7 +1997,7 @@
 
 
     <SimulationDescriptor Name="NoPirateLair" Type="NoPirateLair">
-        <Modifier TargetProperty="NetPowerPoints"     Operation="Multiplication" Value="0"     Path="ClassEmpire" Priority="100"/>       
+        <Modifier TargetProperty="NetPowerPoints"     Operation="Multiplication" Value="0"     Path="ClassEmpire" Priority="100"/>
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="QuestDescriptorRemnantAccepted" Type="QuestDescriptorRemnantAccepted"/>
@@ -2013,5 +2013,5 @@
     </SimulationDescriptor>
 
     <SimulationDescriptor Name="NoUnrevealSystem" Type="NoUnrevealSystem"/>
-    
+
 </Datatable>
