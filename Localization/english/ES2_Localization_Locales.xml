@@ -43,14 +43,14 @@
   <LocalizationPair Name="%PlanetColonizationSwampDescription">Colonization of Swamp-type planets relies on inventions that master the various systems needed for filtration and drainage, as deadly chemicals and radiation are often abundant in the atmosphere and soil. The environments are deadly and unforgiving if these processes are not executed perfectly.</LocalizationPair>
   <LocalizationPair Name="%PlanetTerraformationToSwampTitle">Terraform To Swamp</LocalizationPair>
 
-  <LocalizationPair Name="%FactionTraitHomePlanetPlanetTypeBorealTitle">Alpine</LocalizationPair>
-  <LocalizationPair Name="%PopulationPoliticalEventColonizationBorealTitle">Alpine Planet colonized</LocalizationPair>
-  <LocalizationPair Name="%PlanetTypeBorealTitle">Alpine</LocalizationPair>
-  <LocalizationPair Name="%PlanetTypeBorealDescription">Typified by dense magnetic cores of molten iron, Alpine planets allow scientists to explore a range of atmospheric, electromagnetic, and cosmic ray interactions in a chilly climate. Expect hardwoods and shaggy-haired mammals.</LocalizationPair>
-  <LocalizationPair Name="%PlanetColonizationBorealTitle">Colonize Alpine</LocalizationPair>
-  <LocalizationPair Name="%PlanetColonizationBorealDescription">Cold and moist, Alpine-type worlds provide challenges for settlers and industries that are often seduced by clever marketing brochures whose photos were taken in summer. Though potentially welcoming and productive, much of the year the environment is forbidding and must be treated with caution.</LocalizationPair>
-  <LocalizationPair Name="%PlanetTerraformationToBorealTitle">Terraform To Alpine</LocalizationPair>
-  <LocalizationPair Name="%PlanetTerraformationToBorealDescription">Teeming with animal life and vegetation in spite of its relative cold, terraformation into a Alpine-type planet requires introduction of a wide range of species and a soil sufficiently rich to serve as the base of the ecosystem.</LocalizationPair>
+  <LocalizationPair Name="%FactionTraitHomePlanetPlanetTypeBorealTitle">Boreal</LocalizationPair>
+  <LocalizationPair Name="%PopulationPoliticalEventColonizationBorealTitle">Boreal Planet colonized</LocalizationPair>
+  <LocalizationPair Name="%PlanetTypeBorealTitle">Boreal</LocalizationPair>
+  <LocalizationPair Name="%PlanetTypeBorealDescription">Typified by dense magnetic cores of molten iron, Boreal planets allow scientists to explore a range of atmospheric, electromagnetic, and cosmic ray interactions in a chilly climate. Expect hardwoods and shaggy-haired mammals.</LocalizationPair>
+  <LocalizationPair Name="%PlanetColonizationBorealTitle">Colonize Boreal</LocalizationPair>
+  <LocalizationPair Name="%PlanetColonizationBorealDescription">Cold and moist, Boreal-type worlds provide challenges for settlers and industries that are often seduced by clever marketing brochures whose photos were taken in summer. Though potentially welcoming and productive, much of the year the environment is forbidding and must be treated with caution.</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToBorealTitle">Terraform To Boreal</LocalizationPair>
+  <LocalizationPair Name="%PlanetTerraformationToBorealDescription">Teeming with animal life and vegetation in spite of its relative cold, terraformation into a Boreal-type planet requires introduction of a wide range of species and a soil sufficiently rich to serve as the base of the ecosystem.</LocalizationPair>
 
   <LocalizationPair Name="%PlanetGameplayTypeHotTitle">Burning</LocalizationPair>
   <LocalizationPair Name="%PlanetGameplayTypeHotDescription">Burning worlds, with their sweltering surfaces and furnace-like interiors, assist in the flow of heavier elements from the core to the crust. As a result industry thrives.</LocalizationPair>

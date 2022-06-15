@@ -144,7 +144,7 @@
     <GameplayType>PlanetGameplayTypeTree</GameplayType>
   </PlanetGameplayTypeDefinition>
 
-  <PlanetGameplayTypeDefinition PlanetType="PlanetTypeBoreal"><!-- Alpine -->
+  <PlanetGameplayTypeDefinition PlanetType="PlanetTypeBoreal">
     <GameplayType>PlanetGameplayTier2</GameplayType>
     <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
     <GameplayType>PlanetGameplayTypeMild</GameplayType>
