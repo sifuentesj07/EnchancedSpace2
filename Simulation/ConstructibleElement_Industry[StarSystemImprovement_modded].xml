@@ -2003,13 +2003,13 @@
   <StarSystemImprovementDefinition Name="StarSystemImprovementResourceFactory1" SubCategory="SubCategoryResourceExploitation" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Industry" />
     <Cost ResourceName="SystemProduction">1120</Cost>
-    <Cost ResourceName="Strategic1" Instant="true">40</Cost>
-    <Cost ResourceName="Strategic2" Instant="true">40</Cost>
+    <Cost ResourceName="Strategic1" Instant="true">20</Cost>
+    <Cost ResourceName="Strategic2" Instant="true">20</Cost>
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassPlanet/ResourceTypeStrategic</PathPrerequisite>
     <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory1,!FastForwardedImprovement</PathPrerequisite>
     <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyIndToScience</TechnologyPrerequisite>
-     <SimulationDescriptorReference Name="StarSystemImprovementResourceFactory1" />
+    <SimulationDescriptorReference Name="StarSystemImprovementResourceFactory1" />
     <SimulationDescriptorReference Name="StarSystemImprovementUpkeepStage2Extreme" />
     <PopulationEvent Name="PopulationPoliticalEventBuildingConstructionIndustry1"/>
   </StarSystemImprovementDefinition>
@@ -2017,8 +2017,8 @@
   <StarSystemImprovementDefinition Name="StarSystemImprovementResourceFactory2" SubCategory="SubCategoryResourceExploitation" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Science" />
     <Cost ResourceName="SystemProduction">2240</Cost>
-    <Cost ResourceName="Strategic3" Instant="true">35</Cost>
-    <Cost ResourceName="Strategic4" Instant="true">35</Cost>
+    <Cost ResourceName="Strategic3" Instant="true">20</Cost>
+    <Cost ResourceName="Strategic4" Instant="true">20</Cost>
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony/ClassPlanet/ResourceTypeStrategic</PathPrerequisite>
     <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory2,!FastForwardedImprovement</PathPrerequisite>
@@ -2031,8 +2031,8 @@
   <StarSystemImprovementDefinition Name="StarSystemImprovementResourceFactory3" SubCategory="SubCategoryResourceExploitation" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Science" />
     <Cost ResourceName="SystemProduction">4480</Cost>
-    <Cost ResourceName="Strategic5" Instant="true">30</Cost>
-    <Cost ResourceName="Strategic6" Instant="true">30</Cost>
+    <Cost ResourceName="Strategic5" Instant="true">20</Cost>
+    <Cost ResourceName="Strategic6" Instant="true">20</Cost>
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
     <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory3,!FastForwardedImprovement</PathPrerequisite>
     <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory3TimeLords,!FastForwardedImprovement</PathPrerequisite>
@@ -2049,8 +2049,8 @@
   <StarSystemImprovementDefinition Name="StarSystemImprovementResourceFactory3TimeLords" SubCategory="SubCategoryResourceExploitation" ScoreProvider="StarSystemImprovementBuilt">
     <SupervisorGain Name="Science" />
     <Cost ResourceName="SystemProduction">4480</Cost>
-    <Cost ResourceName="Strategic5" Instant="true">30</Cost>
-    <Cost ResourceName="Strategic6" Instant="true">30</Cost>
+    <Cost ResourceName="Strategic5" Instant="true">20</Cost>
+    <Cost ResourceName="Strategic6" Instant="true">20</Cost>
     <PathPrerequisite       Inverted="false"    Flags="Prerequisite,Discard">ColonizedStarSystemStateColony</PathPrerequisite>
     <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory3TimeLords,!FastForwardedImprovement</PathPrerequisite>
     <PathPrerequisite       Inverted="true"     Flags="Prerequisite,Discard">ClassColonizedStarSystem/StarSystemImprovementResourceFactory3,!FastForwardedImprovement</PathPrerequisite>
