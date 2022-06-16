@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/IndustryConstructibleElement.xsd">
-  
+
   <!-- ************* -->
   <!-- FOOD BRANCH : -->
   <!-- ************* -->
-  
+
   <!-- To Forest -->
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromJungleToForest" SubCategory="PlanetTerraformationDust">
     <AIGain RessourceName="FoodGain"/>
-    
+
     <SupervisorGain Name="Food"     Weight="1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">8000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic5" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic6" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-    
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeJungle,!IsUniquePlanet</PathPrerequisite>
@@ -39,11 +35,7 @@
     <SupervisorGain Name="Food"     Weight="1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic3" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic4" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeMonsoon,!IsUniquePlanet</PathPrerequisite>
@@ -63,9 +55,7 @@
     <SupervisorGain Name="Food"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeForest,!IsUniquePlanet</PathPrerequisite>
@@ -78,7 +68,7 @@
     <RemovedType>PlanetType</RemovedType>
     <RemovedType>PlanetGameplayType</RemovedType>
   </PlanetTerraformationDefinition>
-  
+
 
   <!-- To monsoon -->
 
@@ -88,11 +78,7 @@
     <SupervisorGain Name="Food"     Weight="1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">2000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSwamp,!IsUniquePlanet</PathPrerequisite>
@@ -112,9 +98,7 @@
     <SupervisorGain Name="Food"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeJungle,!IsUniquePlanet</PathPrerequisite>
@@ -136,9 +120,7 @@
     <SupervisorGain Name="Food"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeMonsoon,!IsUniquePlanet</PathPrerequisite>
@@ -155,7 +137,7 @@
   <!-- ****************** -->
   <!-- INFLUENCE BRANCH : -->
   <!-- ****************** -->
-  
+
   <!-- To Terran -->
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromOceanToTerran" SubCategory="PlanetTerraformationDust">
@@ -164,11 +146,7 @@
     <SupervisorGain Name="Influence"     Weight="1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">8000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic5" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic6" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeOcean,!IsUniquePlanet</PathPrerequisite>
@@ -190,11 +168,7 @@
     <SupervisorGain Name="Influence"     Weight="1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic3" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic4" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeAtoll,!IsUniquePlanet</PathPrerequisite>
@@ -214,9 +188,7 @@
     <SupervisorGain Name="Influence"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">2000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTerran,!IsUniquePlanet</PathPrerequisite>
@@ -238,11 +210,7 @@
     <SupervisorGain Name="Influence"     Weight="1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">2000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTropical,!IsUniquePlanet</PathPrerequisite>
@@ -262,9 +230,7 @@
     <SupervisorGain Name="Influence"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeOcean,!IsUniquePlanet</PathPrerequisite>
@@ -286,9 +252,7 @@
     <SupervisorGain Name="Food"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeAtoll,!IsUniquePlanet</PathPrerequisite>
@@ -314,11 +278,7 @@
     <SupervisorGain Name="Industry"     Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">8000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic5" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic6" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeAsh,!IsUniquePlanet</PathPrerequisite>
@@ -340,11 +300,7 @@
     <SupervisorGain Name="Industry"     Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic3" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic4" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeBoreal,!IsUniquePlanet</PathPrerequisite>
@@ -364,9 +320,7 @@
     <SupervisorGain Name="Industry"     Weight="-1"/>
     <SupervisorGain Name="Approval"     Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeLava,!IsUniquePlanet</PathPrerequisite>
@@ -389,11 +343,7 @@
     <SupervisorGain Name="Industry"     Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">2000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSteppes,!IsUniquePlanet</PathPrerequisite>
@@ -413,9 +363,7 @@
     <SupervisorGain Name="Industry"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeAsh,!IsUniquePlanet</PathPrerequisite>
@@ -437,9 +385,7 @@
     <SupervisorGain Name="Industry"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeBoreal,!IsUniquePlanet</PathPrerequisite>
@@ -465,11 +411,7 @@
     <SupervisorGain Name="Dust"         Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">8000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic5" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic6" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
@@ -491,11 +433,7 @@
     <SupervisorGain Name="Dust"     Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic3" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic4" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
@@ -515,9 +453,7 @@
     <SupervisorGain Name="Dust"     Weight="-1"/>
     <SupervisorGain Name="Approval"     Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
@@ -540,11 +476,7 @@
     <SupervisorGain Name="Dust"     Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">2000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTundra,!IsUniquePlanet</PathPrerequisite>
@@ -564,9 +496,7 @@
     <SupervisorGain Name="Dust"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
@@ -588,9 +518,7 @@
     <SupervisorGain Name="Dust"     Weight="-1"/>
     <SupervisorGain Name="Approval" Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
@@ -603,7 +531,7 @@
     <RemovedType>PlanetType</RemovedType>
     <RemovedType>PlanetGameplayType</RemovedType>
   </PlanetTerraformationDefinition>
-  
+
   <!-- **************** -->
   <!-- SCIENCE BRANCH : -->
   <!-- **************** -->
@@ -616,11 +544,7 @@
     <SupervisorGain Name="Science"      Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">8000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic5" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic6" Instant="true">30 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeIce,!IsUniquePlanet</PathPrerequisite>
@@ -642,11 +566,7 @@
     <SupervisorGain Name="Science"      Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic3" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic4" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
@@ -666,9 +586,7 @@
     <SupervisorGain Name="Science"      Weight="-1"/>
     <SupervisorGain Name="Approval"     Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeBarren,!IsUniquePlanet</PathPrerequisite>
@@ -691,11 +609,7 @@
     <SupervisorGain Name="Science"      Weight="1"/>
     <SupervisorGain Name="Approval"     Weight="-1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">2000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">20 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
@@ -715,9 +629,7 @@
     <SupervisorGain Name="Science"     Weight="-1"/>
     <SupervisorGain Name="Approval"    Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeIce,!IsUniquePlanet</PathPrerequisite>
@@ -739,9 +651,7 @@
     <SupervisorGain Name="Science"     Weight="-1"/>
     <SupervisorGain Name="Approval"    Weight="1"/>
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
@@ -763,12 +673,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasColdToGasFrozen" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasCold,!IsUniquePlanet</PathPrerequisite>
@@ -786,12 +691,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasFrozenToGasCold" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasFrozen,!IsUniquePlanet</PathPrerequisite>
@@ -807,12 +707,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasTemperateToGasCold" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasTemperate,!IsUniquePlanet</PathPrerequisite>
@@ -830,12 +725,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasColdToGasTemperate" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasCold,!IsUniquePlanet</PathPrerequisite>
@@ -851,12 +741,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasWarmToGasTemperate" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasWarm,!IsUniquePlanet</PathPrerequisite>
@@ -874,12 +759,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasTemperateToGasWarm" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasTemperate,!IsUniquePlanet</PathPrerequisite>
@@ -895,12 +775,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasHotToGasWarm" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasHot,!IsUniquePlanet</PathPrerequisite>
@@ -913,17 +788,12 @@
     <RemovedType>PlanetType</RemovedType>
     <RemovedType>PlanetGameplayType</RemovedType>
   </PlanetTerraformationDefinition>
-  
+
   <!-- To Gas Hot-->
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasWarmToGasHot" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasWarm,!IsUniquePlanet</PathPrerequisite>
@@ -939,12 +809,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasBurningToGasHot" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasBurning,!IsUniquePlanet</PathPrerequisite>
@@ -957,17 +822,12 @@
     <RemovedType>PlanetType</RemovedType>
     <RemovedType>PlanetGameplayType</RemovedType>
   </PlanetTerraformationDefinition>
-  
+
   <!-- To gas burning -->
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromGasHotToGasBurning" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeGasHot,!IsUniquePlanet</PathPrerequisite>
@@ -986,16 +846,12 @@
   <!-- ********************* -->
   <!-- SIDE WAY TERRAFORMING -->
   <!-- ********************* -->
-  
+
   <!-- Forest <> Terran -->
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromForestToTerran" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeForest,!IsUniquePlanet</PathPrerequisite>
@@ -1011,11 +867,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromTerranToForest" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTerran,!IsUniquePlanet</PathPrerequisite>
@@ -1033,11 +885,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromJungleToOcean" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeJungle,!IsUniquePlanet</PathPrerequisite>
@@ -1053,11 +901,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromOceanToJungle" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeOcean,!IsUniquePlanet</PathPrerequisite>
@@ -1075,11 +919,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromMonsoonToAtoll" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeMonsoon,!IsUniquePlanet</PathPrerequisite>
@@ -1095,11 +935,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromAtollToMonsoon" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeAtoll,!IsUniquePlanet</PathPrerequisite>
@@ -1117,11 +953,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromSwampToTropical" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSwamp,!IsUniquePlanet</PathPrerequisite>
@@ -1137,11 +969,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromTropicalToSwamp" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTropical,!IsUniquePlanet</PathPrerequisite>
@@ -1159,11 +987,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromSwampToSnow" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSwamp,!IsUniquePlanet</PathPrerequisite>
@@ -1179,11 +1003,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToSwamp" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
@@ -1201,11 +1021,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromSteppesToTropical" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSteppes,!IsUniquePlanet</PathPrerequisite>
@@ -1221,11 +1037,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromTropicalToSteppes" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTropical,!IsUniquePlanet</PathPrerequisite>
@@ -1243,11 +1055,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromSteppesToTundra" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSteppes,!IsUniquePlanet</PathPrerequisite>
@@ -1263,11 +1071,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromTundraToSteppes" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTundra,!IsUniquePlanet</PathPrerequisite>
@@ -1285,11 +1089,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToTundra" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
@@ -1305,11 +1105,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromTundraToSnow" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTundra,!IsUniquePlanet</PathPrerequisite>
@@ -1327,11 +1123,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromSnowToSwamp" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
@@ -1347,11 +1139,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromSwampToSnow" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSwamp,!IsUniquePlanet</PathPrerequisite>
@@ -1369,11 +1157,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromArcticToVeldt" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
@@ -1389,11 +1173,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromVeldtToArctic" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
@@ -1411,11 +1191,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromIceToArid" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeIce,!IsUniquePlanet</PathPrerequisite>
@@ -1431,11 +1207,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromAridToIce" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
@@ -1453,11 +1225,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromBarrenToDesert" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeBarren,!IsUniquePlanet</PathPrerequisite>
@@ -1473,11 +1241,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromDesertToBarren" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
@@ -1495,11 +1259,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromBorealToVeldt" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeBoreal,!IsUniquePlanet</PathPrerequisite>
@@ -1515,11 +1275,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromVeldtToBoreal" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation1</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeVeldt,!IsUniquePlanet</PathPrerequisite>
@@ -1537,11 +1293,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromAshToArid" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeAsh,!IsUniquePlanet</PathPrerequisite>
@@ -1557,11 +1309,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromAridToAsh" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArid,!IsUniquePlanet</PathPrerequisite>
@@ -1579,11 +1327,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromLavaToDesert" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeLava,!IsUniquePlanet</PathPrerequisite>
@@ -1599,11 +1343,7 @@
 
   <PlanetTerraformationDefinition Name="PlanetTerraformationFromDesertToLava" SubCategory="PlanetTerraformationDust">
 
-    <CustomCost ResourceName="EmpireMoney" Instant="true">1000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-    <CustomCost ResourceName="Strategic1" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="Strategic2" Instant="true">25 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-    <CustomCost ResourceName="SystemTurnBased">1</CustomCost>
-
+    <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
     <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard">TechnologyTerraformation2</TechnologyPrerequisite>
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
@@ -1629,10 +1369,7 @@
         <SupervisorGain Name="Science"  Weight="-2"/>
         <SupervisorGain Name="Approval" Weight="2"/>
 
-        <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-        <CustomCost ResourceName="Strategic5" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="Strategic6" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
+        <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
         <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard,CheckOnEmpire">../ClassEmpire,EmpireImprovementQuestUnfallen08</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeBarren,!IsUniquePlanet</PathPrerequisite>
@@ -1649,17 +1386,14 @@
     <PlanetTerraformationDefinition Name="PlanetTerraformationFromArcticToForest" SubCategory="PlanetTerraformationDust">
         <AIGain RessourceName="FoodGain"/>
         <AIGain RessourceName="ScienceGain"/>
-        
+
         <SupervisorGain Name="Food"     Weight="2"/>
         <SupervisorGain Name="Industry" Weight="2"/>
         <SupervisorGain Name="Dust"     Weight="-0.5"/>
         <SupervisorGain Name="Science"  Weight="-1"/>
         <SupervisorGain Name="Approval" Weight="1"/>
 
-        <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-        <CustomCost ResourceName="Strategic5" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="Strategic6" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
+        <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
         <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard,CheckOnEmpire">../ClassEmpire,EmpireImprovementQuestUnfallen08</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
@@ -1683,10 +1417,7 @@
         <SupervisorGain Name="Science"  Weight="-1"/>
         <SupervisorGain Name="Approval" Weight="1"/>
 
-        <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-        <CustomCost ResourceName="Strategic5" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="Strategic6" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
+        <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
         <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard,CheckOnEmpire">../ClassEmpire,EmpireImprovementQuestUnfallen08</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSnow,!IsUniquePlanet</PathPrerequisite>
@@ -1710,10 +1441,7 @@
         <SupervisorGain Name="Science"  Weight="2"/>
         <SupervisorGain Name="Approval" Weight="2"/>
 
-        <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-        <CustomCost ResourceName="Strategic5" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="Strategic6" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
+        <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
         <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard,CheckOnEmpire">../ClassEmpire,EmpireImprovementQuestUnfallen09</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeLava,!IsUniquePlanet</PathPrerequisite>
@@ -1730,17 +1458,14 @@
     <PlanetTerraformationDefinition Name="PlanetTerraformationFromAshToForest" SubCategory="PlanetTerraformationDust">
         <AIGain RessourceName="FoodGain"/>
         <AIGain RessourceName="ScienceGain"/>
-        
+
         <SupervisorGain Name="Food"     Weight="2"/>
         <SupervisorGain Name="Industry" Weight="-1.5"/>
         <SupervisorGain Name="Dust"     Weight="0"/>
         <SupervisorGain Name="Science"  Weight="2"/>
         <SupervisorGain Name="Approval" Weight="1.5"/>
 
-        <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-        <CustomCost ResourceName="Strategic5" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="Strategic6" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
+        <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
         <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard,CheckOnEmpire">../ClassEmpire,EmpireImprovementQuestUnfallen09</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeAsh,!IsUniquePlanet</PathPrerequisite>
@@ -1764,10 +1489,7 @@
         <SupervisorGain Name="Science"  Weight="2"/>
         <SupervisorGain Name="Approval" Weight="1"/>
 
-        <CustomCost ResourceName="EmpireMoney" Instant="true">5000 * Property(StockLocation, @../ClassEmpire, TerraformationModifier) * Property(Context,@'../ClassEmpire',DustInflation)</CustomCost>
-        <CustomCost ResourceName="Strategic5" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="Strategic6" Instant="true">10 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
-        <CustomCost ResourceName="SystemTurnBased">2</CustomCost>
+        <CustomCost ResourceName="SystemProduction">1024 * Property(StockLocation, @../ClassEmpire, TerraformationModifier)</CustomCost>
 
         <PathPrerequisite Inverted="false"   Flags="Prerequisite,Discard,CheckOnEmpire">../ClassEmpire,EmpireImprovementQuestUnfallen09</PathPrerequisite>
         <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeDesert,!IsUniquePlanet</PathPrerequisite>
@@ -1827,7 +1549,7 @@
     <PathPrerequisite Flags="CheckOnPlanet" Inverted="true">IsUniquePlanet</PathPrerequisite>
     <PathPrerequisite Flags="CheckOnPlanet" Inverted="true">CannotBeColonized</PathPrerequisite>
     <PathPrerequisite Flags="CheckOnPlanet" Inverted="true">../CannotBeColonized</PathPrerequisite>
-     
+
     <!-- You need to have the second terraformation tech -->
     <MetaPrerequisite Operator="Or">
       <TechnologyPrerequisite UnlockHidden="true" Flags="Technology,Prerequisite,Discard,CheckOnEmpire">TechnologyTerraformation2</TechnologyPrerequisite>
