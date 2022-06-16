@@ -191,7 +191,7 @@
 
   <PlanetGameplayTypeDefinition PlanetType="PlanetTypeGasWarm">
     <GameplayType>PlanetGameplayTier3</GameplayType>
-    <GameplayType>PlanetGameplayTypeTemperate</GameplayType>
+    <GameplayType>PlanetGameplayTypeHot</GameplayType>
     <GameplayType>PlanetGameplayTypeMeager</GameplayType>
     <GameplayType>PlanetGameplayTypeGas</GameplayType>
   </PlanetGameplayTypeDefinition>

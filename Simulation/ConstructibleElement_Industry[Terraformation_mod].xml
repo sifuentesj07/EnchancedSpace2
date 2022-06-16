@@ -657,7 +657,7 @@
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeArctic,!IsUniquePlanet</PathPrerequisite>
 
     <SimulationDescriptorReference Name="PlanetTypeSnow"/>
-    <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+    <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
     <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
     <SimulationDescriptorReference Name="PlanetGameplayTypeStable"/>
 
@@ -1111,7 +1111,7 @@
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeTundra,!IsUniquePlanet</PathPrerequisite>
 
     <SimulationDescriptorReference Name="PlanetTypeSnow"/>
-    <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+    <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
     <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
     <SimulationDescriptorReference Name="PlanetGameplayTypeStable"/>
 
@@ -1145,7 +1145,7 @@
     <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeSwamp,!IsUniquePlanet</PathPrerequisite>
 
     <SimulationDescriptorReference Name="PlanetTypeSnow"/>
-    <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+    <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
     <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
     <SimulationDescriptorReference Name="PlanetGameplayTypeStable"/>
 

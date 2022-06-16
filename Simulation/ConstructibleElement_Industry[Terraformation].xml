@@ -19,7 +19,7 @@
         <PathPrerequisite Flags="Prerequisite,Discard,CheckOnPlanet">PlanetTypeBarren,!IsUniquePlanet,IsUniquePlanet,IsUniquePlanet</PathPrerequisite>
 
         <SimulationDescriptorReference Name="PlanetTypeArctic"/>
-        <SimulationDescriptorReference Name="PlanetGameplayTypeMeager"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
 
         <RemovedType>PlanetType</RemovedType>
@@ -130,6 +130,7 @@
 
         <SimulationDescriptorReference Name="PlanetTypeSteppes"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
 
         <RemovedType>PlanetType</RemovedType>
         <RemovedType>PlanetGameplayType</RemovedType>
@@ -219,6 +220,8 @@
 
         <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeDry"/>
 
         <RemovedType>PlanetType</RemovedType>
         <RemovedType>PlanetGameplayType</RemovedType>
@@ -241,6 +244,8 @@
 
         <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeDry"/>
 
         <RemovedType>PlanetType</RemovedType>
         <RemovedType>PlanetGameplayType</RemovedType>
@@ -856,6 +861,8 @@
 
         <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeDry"/>
 
         <RemovedType>PlanetType</RemovedType>
         <RemovedType>PlanetGameplayType</RemovedType>
@@ -878,6 +885,8 @@
 
         <SimulationDescriptorReference Name="PlanetTypeVeldt"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeTemperate"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeDry"/>
 
         <RemovedType>PlanetType</RemovedType>
         <RemovedType>PlanetGameplayType</RemovedType>
@@ -1013,6 +1022,8 @@
 
         <SimulationDescriptorReference Name="PlanetTypeSnow"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeStable"/>
 
         <RemovedType>PlanetType</RemovedType>
         <RemovedType>PlanetGameplayType</RemovedType>
@@ -1058,6 +1069,8 @@
 
         <SimulationDescriptorReference Name="PlanetTypeSnow"/>
         <SimulationDescriptorReference Name="PlanetGameplayTypeCold"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeMild"/>
+        <SimulationDescriptorReference Name="PlanetGameplayTypeStable"/>
 
         <RemovedType>PlanetType</RemovedType>
         <RemovedType>PlanetGameplayType</RemovedType>
