@@ -8,9 +8,9 @@
   <LocalizationPair Name="%EmpireColorPaletteVanillaDescription">Не модифицировано (по умолчанию)</LocalizationPair>
 
   <LocalizationPair Name="%fakeforguiSystems">Системы</LocalizationPair>
-   
+
   <LocalizationPair Name="%SystemSupervisorBalancedDescription">Сбалансированная политика</LocalizationPair>
-  
+
   <LocalizationPair Name="%PlanetTypeGasFrozenTitle">Ледяная газовая</LocalizationPair>
   <LocalizationPair Name="%PlanetTypeGasFrozenDescription">Совершенно негостеприимные, эти планеты настолько холодны, что замерз даже воздух, лишив их атмосферы, накрывающей поверхность. Просто остаться в живых, не говоря уже о том, чтобы развиваться, - это уже сложная задача, но научный потенциал с лихвой компенсирует трудности.</LocalizationPair>
   <LocalizationPair Name="%PlanetTypeGasColdTitle">Аммиачная газовая</LocalizationPair>
@@ -99,7 +99,7 @@
   <LocalizationPair Name="%LawEffectP06L02RepublicTooltipOverride">+2% к преобразованию Пыли и стратегий снижения затрат за ход, вплоть до 20%</LocalizationPair>
   <LocalizationPair Name="%LawEffectP06L04TooltipOverride">+2% к урону по оружейным модулям и войскам за ход, вплоть до 40%</LocalizationPair>
   <LocalizationPair Name="%LawEffectP06L04RepublicTooltipOverride">+4% к урону по оружейным модулям и войскам за ход, вплоть до 40%</LocalizationPair>
-  
+
   <LocalizationPair Name="%LawP01L01NewShortTitle">Безопасные маршруты</LocalizationPair>
   <LocalizationPair Name="%LawP01L01NewTitle">Законопроект о безопасности маршрутов снабжения</LocalizationPair>
   <LocalizationPair Name="%LawP01L01NewDescription">Организация патрулирования и уничтожение нарушителей на наиболее часто используемых маршрутах снабжения приводит к значительному снижению пиратства и снижает затраты на соддержание всех флотов, отвечающих за безопасность систем.</LocalizationPair>
@@ -112,7 +112,7 @@
   <LocalizationPair Name="%LawP02L04Description">Обеспокоенный возрастающей напряженностью в Галактике, Сенат объединяет ряд профильных стандартов и правил в единый свод. Эта инициатива направлена на увеличение объемов производства щитовых систем. Кто-то называет такое решение параноидальным, но большинство считает, что броня никогда не бывает слишком толстой.</LocalizationPair>
 
   <LocalizationPair Name="%SheredynNoRetreat">Враг не может отступить, столкнувшись с вами в космическом сражении.</LocalizationPair>
-  
+
   <LocalizationPair Name="%Population2modEffect">+1 ячейка населения на планетах земного типа</LocalizationPair>
   <LocalizationPair Name="%OwnsMarketplace">Невозможно получить запрет на рынке</LocalizationPair>
 
@@ -126,12 +126,12 @@
 +2 [FIDS] за [population]
 -10% [upkeepColored] #E6C361#от расходов Пыли на содержание системы
 -10% от [OverPopulation] перенаселенности в системах</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade5EffectOverride">Разблокировать улучшения развития системы уровня 4 
+  <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade5EffectOverride">Разблокировать улучшения развития системы уровня 4
 Разблокировать ячейку Космопорта x1
 +4 [FIDS] за [population]
 -10% [upkeepColored] #E6C361#от расходов Пыли на содержание системы
 -10% от [OverPopulation] перенаселенности в системах</LocalizationPair>
-   
+
   <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade3NoSpacePortEffectOverride">Разблокировать улучшения уровня 2
 +2 [FIDS] за [population]
 -10% [upkeepColored] #E6C361#от расходов Пыли на содержание системы
@@ -144,51 +144,51 @@
 +4 [FIDS] за [population]
 -10% [upkeepColored] #E6C361#от расходов Пыли на содержание системы
 -10% от [OverPopulation] перенаселенности в системах</LocalizationPair>
-  
+
   <LocalizationPair Name="%Politics01AffectingEventsDescription">Строительство [industryColored] генерирующих мощностей
-Вербовка Героев-промышленников 
-Назначение Героев-промышленников на работу в системы и космофлоты 
-Колонизация планет 
+Вербовка Героев-промышленников
+Назначение Героев-промышленников на работу в системы и космофлоты
+Колонизация планет
 Выравнивание показателей развития разных систем
 [industrialistColored] поиски и события</LocalizationPair>
   <LocalizationPair Name="%Politics02AffectingEventsDescription">Строительство [scienceColored] генерирующих мощностей
-Вербовка Героев-ученых 
-Назначение Героев-ученых на работу в системы и космофлоты 
-Поиск феноменов 
-Изучение галактики 
-Подписание научных соглашений 
+Вербовка Героев-ученых
+Назначение Героев-ученых на работу в системы и космофлоты
+Поиск феноменов
+Изучение галактики
+Подписание научных соглашений
 Разблокирование новых технологических стадий
 Активация совместного видения
 [scientistColored] поиски и события</LocalizationPair>
   <LocalizationPair Name="%Politics03AffectingEventsDescription">Строительство [prestigeColored] генерирующих или торговых мощностей
-Вербовка Героев-пацифистов 
-Назначение Героев-пацифистов на работу в системы и космофлоты 
-Торговля 
-Курс на дружественную дипломатию 
-Контакты с иными цивилизациями 
+Вербовка Героев-пацифистов
+Назначение Героев-пацифистов на работу в системы и космофлоты
+Торговля
+Курс на дружественную дипломатию
+Контакты с иными цивилизациями
 Овладение рынками
 [pacifistColored] поиски и события</LocalizationPair>
   <LocalizationPair Name="%Politics04AffectingEventsDescription">Строительство [foodColored] генерирующих мощностей
 Сооружение [FIDS] генерирующих мощностей
 Строительство [population] мощностей
-Вербовка Героев-экологов 
-Назначение Героев-экологов на работу в системы и космофлоты 
-Диверсификация населения 
+Вербовка Героев-экологов
+Назначение Героев-экологов на работу в системы и космофлоты
+Диверсификация населения
 Строительство кораблей гражданского назначения
 [ecologistColored] поиски и события</LocalizationPair>
   <LocalizationPair Name="%Politics05AffectingEventsDescription">Строительство [dustColored] генерирующих мощностей
 Сооружение [happinessColored] генерирующих мощностей
-Вербовка Героев 
-Вербовка религиозных Героев 
-Назначение религиозных Героев на работу в системы и космофлоты 
+Вербовка Героев
+Вербовка религиозных Героев
+Назначение религиозных Героев на работу в системы и космофлоты
 Захват новых систем путем распространения влияния
 [religiousColored] поиски и события</LocalizationPair>
   <LocalizationPair Name="%Politics06AffectingEventsDescription">Строительство военных кораблей
-Сооружение оборонительных систем 
+Сооружение оборонительных систем
 Вербовка Героев-милитаристов
-Назначение Героев-милитаристов на работу в системы и космофлоты 
-Нахождение в ситуации блокады, осады или непосредственной близости врага к родной системе 
-Курс на агрессивную дипломатию 
+Назначение Героев-милитаристов на работу в системы и космофлоты
+Нахождение в ситуации блокады, осады или непосредственной близости врага к родной системе
+Курс на агрессивную дипломатию
 Стойкость к территориальным потерям
 [militaristColored] поиски и события</LocalizationPair>
 
@@ -198,7 +198,7 @@
   <LocalizationPair Name="%Recipe03">-5% [upkeepColored] #E6C361#от расходов Пыли на содержание системы</LocalizationPair>
   <LocalizationPair Name="%Recipe19">-15% [upkeepColored] #E6C361#от расходов Пыли на содержание системы</LocalizationPair>
   <LocalizationPair Name="%Recipe11">-10% [upkeepColored] #E6C361#от расходов Пыли на содержание системы</LocalizationPair>
-   
+
   <LocalizationPair Name="%EmpireImprovementTerraformation1Title">Первичное терраформирование</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementTerraformation1Description">Ограниченное по своим возможностям терраформирование, позволяющее создавать прочные структуры, которые могут адаптироваться к изменяющимся условиям, и преобразовывать планеты в более мягкие версии их основного типа.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementTerraformation2Title">Расширенное терраформирование</LocalizationPair>
@@ -218,9 +218,9 @@
   <LocalizationPair Name="%TemporaryEffectMilitaryShipMovementReductionFromDemand">Отвод войск (Особые </LocalizationPair>
   <LocalizationPair Name="%TemporaryEffectFleetUpkeepIncreaseFromDemand">Военные санкции (Особые </LocalizationPair>
   <LocalizationPair Name="%DynamicEffectHeroLockTitle">Блокировка Героя (Особая санкция за отказ)</LocalizationPair>
-  
+
   <LocalizationPair Name="%FailureNotEnoughSiegePowerDescription">Для использования этой тактики вам нужно не менее 80 единиц осадных войск (значение обновляется только тогда, когда вы начинаете вторжение или в начале хода).</LocalizationPair>
- 
+
   <LocalizationPair Name="%ManpowerStockBoost1">+75 [manPower] вместимости на систему, принадлежащую Империи</LocalizationPair>
   <LocalizationPair Name="%ManpowerStockBoost2">+150 [manPower] вместимости на систему, принадлежащую Империи</LocalizationPair>
   <LocalizationPair Name="%ManpowerStockBoost3">+250 [manPower] вместимости на систему, принадлежащую Империи</LocalizationPair>
@@ -253,28 +253,28 @@
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy3BhagabasDescription">Используя преимущества децентрализации, Бхагаба могут сдаться, чтобы сберечь инфраструктуру и население, при этом увеличивая переходный период.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy4Title">Поддержка огнем с закрытых позиций</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy4Description">Противостоит тактике «Танковый клин», но нейтрализуется ковровой бомбардировкой.</LocalizationPair>
-   
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyLesserEmpireDescription">A standard offensive strategy, the assault is fast and direct.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyLesserEmpireTitle">Flash Strike</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyLesserEmpireDescription">Stay in the shadows until the enemy is spotted, whereupon rush tactics are employed.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyLesserEmpireTitle">Engage On Sight</LocalizationPair>-->
-  
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyMinorFactionDescription">Targeting both infrastructure and population centers, this invasion strategy inflicts massive damage on the system.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyMinorFactionTitle">Full Force Forward</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyMinorFactionDescription">By utilizing this strategy, troops are kept in defensive fortifications, helping to reduce bombardment damage.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyMinorFactionTitle">Bunker Down</LocalizationPair>-->
-  
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyPirateEmpireDescription">Employ classic privateer tactics, striking and feinting at random, keeping the enemy guessing.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyPirateEmpireTitle">Para-Raiders</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyPirateEmpireDescription">Embedded deep into whatever terrain is available, the enemy will find this strategy difficult to overcome.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyPirateEmpireTitle">Dug-In</LocalizationPair>-->
-  
-  
+
+
   <LocalizationPair Name="%GroundBattleAttackerStrategy1TooltipEffect">+40% к здоровью при вторжении войск (+15% при нейтрализации)</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy2TooltipEffect">+15% к урону по защитникам во время наземного сражения (0% при нейтрализации)</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy2BTooltipEffect">+20% к урону по защитникам во время наземного сражения (0% при нейтрализации)</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy4TooltipEffect">+45% к урону по защитникам во время наземного сражения (+15% при нейтрализации)</LocalizationPair>
-  
+
   <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect1">Добавляет до +150 к скорости вербовки (0 при нейтрализации) [manPower] и увеличивает максимальный предел доступных в бою Рекрутов. Увеличение численности Рекрутов также зависит от текущей стоимости владения системой</LocalizationPair>
   <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect2">-1 [population] если не нейтрализовывать</LocalizationPair>
   <LocalizationPair Name="%GroundBattleDefenderStrategy1BTooltipEffect1">Добавляет до +200 к скорости вербовки (0 при нейтрализации) [manPower] и увеличивает максимальный предел доступных в бою Рекрутов. Увеличение численности Рекрутов также зависит от текущей стоимости владения системой</LocalizationPair>
@@ -294,16 +294,16 @@
   <LocalizationPair Name="%EmpireImprovementImprovedHullJuggernautOverride">+$(Input) к множителю модуля на «Бегемотах»</LocalizationPair>
 
   <LocalizationPair Name="%ClassMiningProbeTitle">Добывающие зонды</LocalizationPair>
-   
+
   <LocalizationPair Name="%JuggernautSystemFIDSFlat">[FIDS] на Систему</LocalizationPair>
   <LocalizationPair Name="%JuggernautSystemFIDSPercent">%[FIDS] на Систему</LocalizationPair>
-   
+
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic1FromSpecialNodesTitle">[Strat01titaniumColored] из черных дыр, солнечных туманностей &amp; полей астероидов</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic2FromSpecialNodesTitle">[Strat02hyperiumColored] из коллапсирующих звезд, нейтронных звезд &amp; космических облаков</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic3FromSpecialNodesTitle">[Strat03adamantianColored] из черных дыр, солнечных туманностей &amp; полей астероидов</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic4FromSpecialNodesTitle">[Strat04anti-matterColored] из коллапсирующих звезд, нейтронных звезд &amp; космических облаков</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleSpecialNodeEffectMultiplierTitle">Эффект узла при нахождении на орбите</LocalizationPair>
-   
+
   <LocalizationPair Name="%ShipLevel10Title">Легендарный I</LocalizationPair>
   <LocalizationPair Name="%ShipLevel11Title">Легендарный II</LocalizationPair>
   <LocalizationPair Name="%ShipLevel12Title">Легендарный III</LocalizationPair>
@@ -329,12 +329,12 @@
    <LocalizationPair Name="%ModuleSupportSquadronDefenseEnhancer2Strategic5Title">Прогрессивный Усилитель эскадрилий</LocalizationPair>
    <LocalizationPair Name="%ModuleSupportBoardingDefense2Title">Прогрессивные Противопехотные оборонительные дроны</LocalizationPair>
    <LocalizationPair Name="%ModuleSupportBoardingDefense3Title">Екстремальные Противопехотные оборонительные дроны</LocalizationPair>
-   
+
    <LocalizationPair Name="%ModuleSupportEMPShieldDefense2Strategic5Title">Прогрессивные Генераторы усиленных щитов</LocalizationPair>
    <LocalizationPair Name="%ModuleSupportEMPWeaponDefense2Strategic6Title">Прогрессивные Поля восстановления турелей</LocalizationPair>
    <LocalizationPair Name="%ModuleWeaponMissileEMP2Strategic6Title">Прогрессивная Анти-турельная ракета</LocalizationPair>
    <LocalizationPair Name="%ModuleWeaponBeamEMP2Strategic5Title">Прогрессивный Луч «Анти-щит»</LocalizationPair>
-   
+
    <LocalizationPair Name="%FailureShipHasWeaponModuleExploration">Оружейные модули заняты. Прежде чем добавлять прогрессивный зонд, освободите место.</LocalizationPair>
 
    <LocalizationPair Name="%EmpireImprovementArkShipMovement1Title">Освященные приводы Ковчега</LocalizationPair>
@@ -348,7 +348,7 @@
    <LocalizationPair Name="%LawP02L00Description">Этот закон под грифом «чрезвычайно секретно» предписывает тайной рабочей группе наиболее выдающихся имперских ученых и инженеров разработку передовых научных проектов прикладного характера. Каков результат? Ваша империя может исследовать современные технологии еще быстрее.</LocalizationPair>
 
    <LocalizationPair Name="%PanelFeatureModuleBonusesOnSystemTitle">На орбите Системы</LocalizationPair>
-   
+
    <LocalizationPair Name="%ShieldAbsorptionTitle">Защита от энергии</LocalizationPair>
    <LocalizationPair Name="%HullPlatingAbsorptionTitle">Защита от снарядов</LocalizationPair>
 
@@ -403,7 +403,7 @@
 
    <LocalizationPair Name="%FoodPenaltiesFromOverPopulation">Штрафы за [OverPopulation] перенаселение</LocalizationPair>
    <LocalizationPair Name="%GroundBattlePopulationToManPowerPermanentConversionRateTitle">Скорость вербовки (используется при конвертации [Population] населения в [manpowerColored] Рекрутов)</LocalizationPair>
-   
+
    <LocalizationPair Name="%PlanetImprovementFood1Override1">+2 [foodColored] за [Population]</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementFood1Override2">+1 [foodColored] за [Population] на Пышной Плодородной</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementFood2Override1">+3 [foodColored] за [Population]</LocalizationPair>
@@ -458,15 +458,15 @@
    <LocalizationPair Name="%PlanetImprovementInfluence3Override2">+3 [prestigeColored] за [Population] на Плодородной Водной</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementInfluence3Override3">+2 [prestigeColored] за [Population] на Пышной</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementInfluence3Override4">+2 [prestigeColored] за [Population] на Мягкой Водной</LocalizationPair>
-   
+
    <LocalizationPair Name="%FailureCannotSeeValidPathDescription">Не найдено подходящих путей: исследуйте галактику более тщательно, либо разблокируйте Пространственно-временной двигатель на 3ей ступени дерева технологий.</LocalizationPair>
    <LocalizationPair Name="%FailureNeedFreeMovementDescription">К этому узлу не ведет ни один путь, так что вашим кораблям нужно освоить перемещение в варпе (свободное перемещение). Разблокируйте Пространственно-временной двигатель на 3ей ступени дерева технологий.</LocalizationPair>
-   
+
    <LocalizationPair Name="%EmptyTooltipOverride"></LocalizationPair>  <!-- good old bodge, don't delete-->
 
    <LocalizationPair Name="%ClassModuleSupportAndHeroShipOnlyTitle">Может быть установлен только на корабли: [hero] или [support]</LocalizationPair>
    <LocalizationPair Name="%HeroSkillMultiplierOverride">+1 к множителю модуля на корабле Героя</LocalizationPair>
-   
+
    <LocalizationPair Name="%HeroSkill105_FIDSI_PerHeroLevel_Title_02">Вечный авторитет</LocalizationPair>
    <LocalizationPair Name="%HeroSkill105_FIDSI_PerHeroLevel_Description_02">Как один из немногих живых Вечных, благодаря абсолютной силе личности, построенной на непоколебимой вере, Герой сплачивает всю Империю мощными, проникающими в самое сердце речами.</LocalizationPair>
    <LocalizationPair Name="%HeroSkill01BranchGenericPolitics01_Title">Гражданское строительство</LocalizationPair>
@@ -499,7 +499,7 @@
    <LocalizationPair Name="%HeroSkill09BranchCorporate_Title">Культура взаимоотношений</LocalizationPair>
    <LocalizationPair Name="%HeroSkill09BranchCorporate_Description">Герой-Советник внедряет в поконтрольный флот систему культурного общения, чтобы члены экипажа сообщали о проблемах, как только они возникают, и обеспечивали их эффективное решение. Больше всего от этой меры выигрывают маломерные флотилии.</LocalizationPair>
    <LocalizationPair Name="%HeroSkill11_TroopBonus_Perpop_Description">Для эусоциального вида здоровье всего суперорганизма имеет первостепенное значение. Слабые особи отвергаются. Таким образом, у Героя нет места для членов экипажа, которые не находятся в отличной форме.</LocalizationPair>
-   
+
    <LocalizationPair Name="%PlanetImprovementResource3Title">Компактные АГК на БОО</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementResource3Description">Опираясь на конструкцию предыдущей ракеты, увеличенная дальность полета была достигнута за счет уменьшения габаритов и снижения массы добывающих механизмов Автономных горнорудных комбинатов без потери производительности. Теперь можно осваивать еще больше Ближних Околопланетных Объектов.</LocalizationPair>
 
@@ -522,7 +522,7 @@
    </LocalizationPair>
    <LocalizationPair Name="%EconomyNoBranchesTitle">Эта штаб-квартира не может проложить путь к вашему филиалу.</LocalizationPair>
    <LocalizationPair Name="%UniquePlanetQuest-Chapter1-Choice01ObjectiveTooltip">Другие созвездия можно обнаружить зондами, через ряд заданий и событий, либо открыв червоточины.</LocalizationPair>
-   
+
    <LocalizationPair Name="%StarSystemImprovementFood7Title">Компактный холодильник</LocalizationPair>
    <LocalizationPair Name="%StarSystemImprovementFood7Description">Достижения в области термодинамики позволяют создавать теплообменные системы, достаточно маленькие, чтобы поместиться практически в любой предмет. При использовании таких технологий риск порчи продуктов питания практически сводится к нулю.</LocalizationPair>
    <LocalizationPair Name="%StarSystemImprovementFood8Title">Рог изобилия</LocalizationPair>
@@ -539,7 +539,7 @@
    <LocalizationPair Name="%StarSystemImprovementIndustry10Description">Строительство масс-привода на близлежащих безатмосферных лунах позволяет обеспечить недорогую и эффективную транспортировку сырья в любое место Системы.</LocalizationPair>
    <LocalizationPair Name="%StarSystemImprovementIndustry10HoratioTitle">«Лунар Индастрис» Горацио</LocalizationPair> <!--this is a Moon (2009) reference, hopefully it doesn't get lost in translation-->
    <!-- примечание автора перевода pla6ner -->
-   <!-- В оригинале мода название выглядит так: "Horatic Lunar Industries", что является отсылкой к фильму "Moon" и автор просит сохранить смысл отсылки. Исполняю просьбу автора;) --> 
+   <!-- В оригинале мода название выглядит так: "Horatic Lunar Industries", что является отсылкой к фильму "Moon" и автор просит сохранить смысл отсылки. Исполняю просьбу автора;) -->
    <!-- "Horatic" - в значении "расы Горацио", "Lunar Industries" - это не только название корпорации, добывающей "Гелий-3" в фильме "Луна 2112" (в российском прокате), "Moon" (оригинальное название), а 2009 - год выпуска фильма, но и название киностудии упомянутое в титрах к фильму. Киностудия, скорее всего, несуществующая, так как произвела фильм студия Stage 6 Films (американский лейбл по производству фильмов от Sony Pictures Worldwide Acquisitions) -->
    <LocalizationPair Name="%StarSystemImprovementIndustry10HoratioDescription">Полностью автоматизированные харвестеры в составе добывающего комплекса размещаются на близлежащих лунах. Для обслуживания всего комплекса требуется лишь один клон, имеющий все признаки индивидуума. Вместо того, чтобы ему платить, после истечения трехлетнего контракта, клон признается выработавшим срок годности и анулируется, немедленно заменяясь новым.</LocalizationPair>
    <LocalizationPair Name="%StarSystemImprovementDust8Title">Космический лифт</LocalizationPair>
@@ -552,8 +552,6 @@
    <LocalizationPair Name="%EmpireImprovementFood1Description">На основе формального описания первичной структуры молекулы воды разработан прикладной процесс в аграрной сфере. Способность моментально аккумулировать отдельные молекулы воды в капли лежит в основе этой новаторской механики формирования дождевых облаков. Таким образом, в руках аграриев появляется инструмент глобального управления поливом, который улучшает агрокультуру по всей Империи.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementInfluence1Title">Инопланетная социология</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementInfluence1Description">Изучение того, как устроены инопланетные сообщества, их моральные ценности, дает важную информацию о принятых там правилах и обычаях. Чтобы по незнанию не оскорбить иностранных посланников, следует «быть в курсе» при предъявлении дипломатических требований.</LocalizationPair>
-   <LocalizationPair Name="%EmpireImprovementScience1Title">Планетарный институт</LocalizationPair>
-   <LocalizationPair Name="%EmpireImprovementScience1Description">Используя передовые методы манипулирования субатомными частицами стало возможным в лабораторных условиях воссоздать атмосферу и литосферу любой интересующей планеты. Таким образом проводится детальное моделирование реального мира и выявляются его уникальные свойства.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience2Title">«Аномалии в пробирке»</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience2Description">Наука находится в такой стадии развития, когда аномалии могут быть воссозданы и изучены в лабораторных условиях. В их число входят: черные дыры, энтропия, звезды и темная материя.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience3Title">Небарионная оболочка</LocalizationPair>
@@ -569,7 +567,6 @@
 
    <LocalizationPair Name="%DiplomaticInteractionEscalationPlayerDisregardedTresspassUltimatumUmbralChoir">Существо, похоже, пришло время вернуться к более прохладным отношениям. Ваши постоянные вторжения, игнорирующие наши просьбы, не могут остаться без ответа.</LocalizationPair> <!-- vanilla bugfix for the tooltip name being wrong-->
 
-   <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience1">+35 [FIDS] на Системы</LocalizationPair>
    <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience3">+2.5% [FIDS] за уровень Системы на Системы</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementUniqueStartingImprovement">+3 [FIDSI] за [Population]</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI1">+5 [FIDSI] за [Population]</LocalizationPair>

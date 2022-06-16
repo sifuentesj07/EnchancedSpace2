@@ -29,7 +29,7 @@
         <HelperVariable Name="OwnedPlanetsCount"/>
         <HelperVariable Name="AvailableTeemingPlanets"/>
         <HelperVariable Name="AvailableTemperatePlanets"/>
-        
+
         <HelperFormula>$(AvailableTundraPlanets) * 1 + $(OwnedPlanetsCount) * 1 + $(AvailableTemperatePlanets) * 1 + $(AvailableTeemingPlanets) * 1</HelperFormula>
     </TechnologyDefinition>
 
@@ -92,7 +92,7 @@
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage1Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
         <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard,Faction,AffinityGameplayTechnologyUnfallen" Inverted="false">ClassEmpire,AffinityGameplayUnfallen</PathPrerequisite>
         <SimulationDescriptorReference Name="TechnologyColonization2Unfallen"/>
-        <SimulationDescriptorReference Name="TechnologyModuleSupportAnalyzer1"/>  
+        <SimulationDescriptorReference Name="TechnologyModuleSupportAnalyzer1"/>
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage1"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
@@ -127,7 +127,7 @@
         <SimulationDescriptorReference Name="TechnologyWormhole"/>
         <UnlockCount UnlockCount="1" CountPropertyName="QuadrantScienceAndExplorationStage1UnlockedTechnologyCount"/>
     </TechnologyStageDefinition>
-    
+
     <!-- ???? -->
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration25" TechnologyStage="TechnologyStageDefinitionScienceAndExploration2" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage2Multiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkScienceAndExploration1To25'))) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
@@ -240,7 +240,7 @@
       <HelperVariable Name="TurnVariable"/>
       <HelperFormula>$(AvailableVeldtPlanets) * 1 + $(TurnVariable) * 10 + $(ExplorationRatioVariable) * 5</HelperFormula>
     </TechnologyDefinition>
-  
+
     <!-- Rare Earth Foams -->
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration5" TechnologyStage="TechnologyStageDefinitionScienceAndExploration2" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage2Multiplier)* (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkScienceAndExploration2To5'))) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
@@ -297,7 +297,7 @@
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration5Vampirilis" TechnologyStage="TechnologyStageDefinitionScienceAndExploration2" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage2Multiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkScienceAndExploration2To5'))) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
         <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard,Faction,AffinityGameplayTechnologyVampirilis" Inverted="false">ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
-        <SimulationDescriptorReference Name="TechnologyScience2"/> 
+        <SimulationDescriptorReference Name="TechnologyScience2"/>
         <SimulationDescriptorReference Name="TechnologyColonization7"/>
         <SimulationDescriptorReference Name="TechnologyLinkColonization7Vampirilis"/>
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage2"/>
@@ -348,7 +348,7 @@
         <!--<SimulationDescriptorReference Name="TechnologyGlobalHappinessCommon"/>-->
         <SimulationDescriptorReference Name="TechnologyLinkTo28CommonUnfallen"/>
         <SimulationDescriptorReference Name="TechnologyColonization5Unfallen"/>
-        <SimulationDescriptorReference Name="TechnologyColonization5Common"/>        
+        <SimulationDescriptorReference Name="TechnologyColonization5Common"/>
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage2"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventScientistTechnology"/>
@@ -516,7 +516,7 @@
         <HelperVariable Name="OwnedPlanetsCount"/>
         <HelperFormula>$(AvailableSnowPlanets) * 1  + $(HappinessVariable) * $(OwnedPlanetsCount) + 10 * $(TurnVariable)</HelperFormula>
     </TechnologyDefinition>
-    
+
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration28UnfallenTimeLords" TechnologyStage="TechnologyStageDefinitionScienceAndExploration2" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage2Multiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkScienceAndExploration1To28'))) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
         <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard,Faction,AffinityTimeLords" Inverted="false">ClassEmpire,AffinityMappingTimeLords</PathPrerequisite>
@@ -828,7 +828,7 @@
         <HelperVariable Name="ScienceFlat"/>
         <HelperFormula>$(AvailableArcticPlanets) * 1  + $(ScienceFlat) * 30 </HelperFormula>
     </TechnologyDefinition>
-    
+
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration7TimeLords" TechnologyStage="TechnologyStageDefinitionScienceAndExploration3" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkScienceAndExploration28To7')))  * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage3Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
         <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard" Inverted="true">ClassEmpire,AffinityMappingSophons</PathPrerequisite>
@@ -873,7 +873,7 @@
         <SimulationDescriptorReference Name="TechnologyColonization8"/>
         <SimulationDescriptorReference Name="TechnologyLinkColonization8Common"/>
         <SimulationDescriptorReference Name="TechnologyScience3"/>
-      
+
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage3"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
@@ -924,7 +924,7 @@
         <HelperVariable Name="TurnVariable"/>
         <HelperFormula>25 * $(TurnVariable) + 10 * $(FoodPopulation) + 10 * $(AvailableMixedAnomaly) </HelperFormula>
     </TechnologyDefinition>
-   
+
 
     <!-- ###################################### -->
     <!-- #######          STAGE 4       ####### -->
@@ -936,7 +936,7 @@
         <SimulationDescriptorReference Name="TechnologyOffensiveProgram4"/>
         <SimulationDescriptorReference Name="TechnologyDefensiveProgram3"/>
         <PopulationEvent Name="PopulationPoliticalEventUnlockStage"/>
-      
+
         <UnlockCount UnlockCount="2" CountPropertyName="QuadrantScienceAndExplorationStage3UnlockedTechnologyCount">
         <AdditionalTechnologyUnlockCount Count="1">DLCHisshos</AdditionalTechnologyUnlockCount>
         </UnlockCount>
@@ -1147,7 +1147,7 @@
       <HelperVariable Name="FoodVariable"/>
       <HelperFormula>5 * $(FoodPopulation) +  $(FoodVariable)  * $(PlanetsWithLuxury) *10</HelperFormula>
     </TechnologyDefinition>
-    
+
     <!-- ??? -->
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration11" TechnologyStage="TechnologyStageDefinitionScienceAndExploration4" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkScienceAndExploration6To11'))) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
@@ -1160,7 +1160,7 @@
         <HelperFormula>40 * $(TurnVariable) +  10  * $(ScienceVariable)</HelperFormula>
     </TechnologyDefinition>
 
-  
+
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration16Vampirilis" TechnologyStage="TechnologyStageDefinitionScienceAndExploration4" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage4Multiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkScienceAndExploration9To15'))) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
         <PathPrerequisite Flags="Prerequisite,DiplomaticTradable,Discard,Faction,AffinityGameplayTechnologyVampirilis" Inverted="false">ClassEmpire,AffinityGameplayVampirilis</PathPrerequisite>
@@ -1265,7 +1265,7 @@
     <!-- ###################################### -->
     <!-- #######          STAGE 5       ####### -->
     <!-- ###################################### -->
-   
+
     <TechnologyStageDefinition Name="TechnologyStageDefinitionScienceAndExploration5" TechnologyQuadrant="TechnologyQuadrantScienceAndExploration" StageNumber="5">
         <SimulationDescriptorReference Name="TechnologyStageScienceAndExploration5"/>
         <SimulationDescriptorReference Name="TechnologyCuriosityLevel3"/>
@@ -1275,7 +1275,7 @@
         <PopulationEvent Name="PopulationPoliticalEventUnlockStage"/>
         <UnlockCount UnlockCount="4" CountPropertyName="QuadrantScienceAndExplorationStage4UnlockedTechnologyCount"/>
     </TechnologyStageDefinition>
-   
+
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration30" TechnologyStage="TechnologyStageDefinitionScienceAndExploration5" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage5Multiplier) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
        <SimulationDescriptorReference Name="TechnologyWormhole2"/>
@@ -1453,7 +1453,7 @@
     <HelperVariable Name="TurnVariable"/>
     <HelperFormula>$(TurnVariable) * 10 + $(ExplorationRatioVariable) * 2.5</HelperFormula>
   </TechnologyDefinition>
-  
+
   <!-- BIOFUEL / CHLOROPHYLE CHEM -->
 
   <TechnologyDefinition Name="TechnologyDefinitionEmpireDevelopment16" TechnologyStage="TechnologyStageDefinitionScienceAndExploration5" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
@@ -1538,7 +1538,7 @@
       <HelperVariable Name="AvailablePlanets"/>
       <HelperFormula>20 * $(AvailablePlanets) * $(FoodVariable) + 20 * $(IndustryVariable) * $(PopulationVariable)</HelperFormula>
    </TechnologyDefinition>
-   
+
      <!-- CHAOTIC METEOROLOGY -->
 
     <TechnologyDefinition Name="TechnologyDefinitionEmpireDevelopment15" TechnologyStage="TechnologyStageDefinitionScienceAndExploration5" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
@@ -1616,7 +1616,7 @@
         <SimulationDescriptorReference Name="TechnologyCountScienceAndExplorationIncreaseStage5"/>
         <SimulationDescriptorReference Name="TechnologyCounter"/>
         <PopulationEvent Name="PopulationPoliticalEventEcologistTechnology"/>
-        
+
         <HelperVariable Name="EnemyEmpires"/>
         <HelperVariable Name="ScienceVariable"/>
         <HelperVariable Name="SciencePercent"/>
@@ -1669,7 +1669,7 @@
         <HelperFormula>60 * $(TurnVariable) + 10</HelperFormula>
     </TechnologyDefinition>
 
-    
+
     <!-- DEPRECATED -->
     <TechnologyDefinition Name="TechnologyDefinitionScienceAndExploration22" TechnologyStage="TechnologyStageDefinitionScienceAndExploration5" Category="CategoryTechnologyScienceAndExploration" ScoreProvider="TechnologyUnlocked">
         <CustomCost ResourceName="EmpireResearch">Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCurrentCost) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostStage5Multiplier) * (1 - (Property(StockLocation,@ClassEmpire/ClassResearch , TechnologyLinkReductionValue) * Count(StockLocation, @'ClassEmpire/ClassResearch,TechnologyLinkScienceAndExploration14To22'))) * Property(StockLocation,@'ClassEmpire/ClassResearch', TechnologyCostQuadrantScienceAndExplorationMultiplier)</CustomCost>
@@ -1681,8 +1681,8 @@
         <HelperVariable Name="TurnVariable"/>
         <HelperFormula></HelperFormula>
     </TechnologyDefinition>
-    
-    
 
-    
+
+
+
 </Datatable>

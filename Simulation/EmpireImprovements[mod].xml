@@ -6,11 +6,6 @@
     <SimulationDescriptorReference Name="EmpireImprovementFood1" />
   </EmpireImprovementDefinition>
 
-   <EmpireImprovementDefinition Name="EmpireImprovementScience1" Category="CategoryEmpireImprovement" SubCategory="SubCategoryFIDSI" >
-      <TechnologyPrerequisite>TechnologyStellarDiscovery</TechnologyPrerequisite>
-      <SimulationDescriptorReference Name="EmpireImprovementScience1" />
-   </EmpireImprovementDefinition>
-
    <EmpireImprovementDefinition Name="EmpireImprovementScience2" Category="CategoryEmpireImprovement" SubCategory="SubCategoryScience" >
       <TechnologyPrerequisite>TechnologyScience7</TechnologyPrerequisite>
       <SimulationDescriptorReference Name="EmpireImprovementScience2" />
@@ -52,7 +47,7 @@
       <TechnologyPrerequisite>TechnologyIndToScience2</TechnologyPrerequisite>
       <SimulationDescriptorReference Name="EmpireImprovementDust4" />
    </EmpireImprovementDefinition>
-   
+
    <EmpireImprovementDefinition Name="EmpireImprovementArkShipMovement1" Category="CategoryMovementBonus" SubCategory="SubCategoryEmpire">
       <TechnologyPrerequisite>TechnologyStageEmpireDevelopment3</TechnologyPrerequisite>
       <PathPrerequisite Flags="UnlockAvailability" Inverted="true">!AffinityGameplayVampirilis</PathPrerequisite>

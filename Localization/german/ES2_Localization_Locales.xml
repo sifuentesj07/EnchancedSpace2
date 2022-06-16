@@ -7,9 +7,9 @@
   <LocalizationPair Name="%EmpireColourPaletteVanillaDescription">Die original Farbpalette</LocalizationPair>
 
   <LocalizationPair Name="%fakeforguiSystems">Systeme</LocalizationPair>
-   
+
   <LocalizationPair Name="%SystemSupervisorBalancedDescription">Ausgewogene Politik</LocalizationPair>
-  
+
   <LocalizationPair Name="%PlanetTypeGasFrozenTitle">Eis-Gas</LocalizationPair>
   <LocalizationPair Name="%PlanetTypeGasFrozenDescription">Äußerst unwirtlich, sind diese Planeten so eisig, dass sogar die Atemluft gefroren ist, so dass die Planeten ohne die geringste Atmosphäre auskommen, um ihre raue Schönheit zu schützen. Am Leben zu bleiben, geschweige denn zu leben, ist eine enorm schwierige Aufgabe, aber die wissenschaftlichen Einblicke gleichen die Strapazen mehr als aus.</LocalizationPair>
   <LocalizationPair Name="%PlanetTypeGasColdTitle">Ammoniak-Gas</LocalizationPair>
@@ -99,7 +99,7 @@
   <LocalizationPair Name="%LawEffectP06L02RepublicTooltipOverride">+2% Kostenreduzierung auf Dust und strategische Ressourcen beim Aufwerten auf das neueste Schiffsdesign (maximal 20%) pro Zug.</LocalizationPair>
   <LocalizationPair Name="%LawEffectP06L04TooltipOverride">+2% Schaden auf Waffenmodule und Bodentruppen (maximal 40%) pro Zug.</LocalizationPair>
   <LocalizationPair Name="%LawEffectP06L04RepublicTooltipOverride">+4% Schaden auf Waffenmodule und Bodentruppen (maximal 40%) pro Zug.</LocalizationPair>
-  
+
   <LocalizationPair Name="%LawP01L01NewShortTitle">Sichere Routen</LocalizationPair>
   <LocalizationPair Name="%LawP01L01NewTitle">Sicherheitsgesetz zum Schutz der Transportwege</LocalizationPair>
   <LocalizationPair Name="%LawP01L01NewDescription">Die sorgfältige Organisation und Durchführung neuer Patrouillenfahrten über die am häufigsten genutzten Versorgungswege führt zu einer drastischen Reduzierung der Piraterie und hilft Ihnen, die mit der Wartung aller Flotten verbundenen Kosten zu senken und die Leistungsfähigkeit des Systems zu optimieren.</LocalizationPair>
@@ -112,7 +112,7 @@
   <LocalizationPair Name="%LawP02L04Description">Angesichts der zunehmenden galaktischen Konflikte bündelt der Senat eine Reihe von Normen und Vorschriften, um die Leistung von Sicherheitsschilden zu erhöhen. Während einige von ihnen als paranoid bezeichnet werden, haben die meisten das Gefühl, dass der eigene Schutzschild nie groß genug sein kann.</LocalizationPair>
 
   <LocalizationPair Name="%SheredynNoRetreat">Feinde können sich nicht zurückziehen, wenn sie in einer Raumschlacht gegen dich kämpfen.</LocalizationPair>
-  
+
   <LocalizationPair Name="%Population2modEffect">+1 Bevölkerungsplatz auf terranischen Planeten.</LocalizationPair>
   <LocalizationPair Name="%OwnsMarketplace">Kann nicht vom Marktplatz verbannt werden.</LocalizationPair>
 
@@ -133,7 +133,7 @@ Schaltet Raumhafen Platz x1 frei
 +4 [FIDS] pro [population]
 -10% System-Unterhalt [upkeepColored]
 -10% Überbevölkerungs-Mali [OverPopulation]</LocalizationPair>
-   
+
    <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade3NoSpacePortEffectOverride">Schaltet System-Aufwertung Stufe 2 frei
 +2 [FIDS] pro [population]
 -10% System-Unterhalt [upkeepColored]
@@ -146,7 +146,7 @@ Schaltet Raumhafen Platz x1 frei
 +4 [FIDS] pro [population]
 -10% System-Unterhalt [upkeepColored]
 -10% Überbevölkerungs-Mali [OverPopulation]</LocalizationPair>
-  
+
   <LocalizationPair Name="%Politics01AffectingEventsDescription">Bau von [industryColored] -erzeugenden Konstruktionen
 Rekrutierung von Industriellen Helden
 Zuweisung von Industriellen Helden zu Systemen oder Flotten
@@ -221,9 +221,9 @@ Anhaltende Territoriumsverluste
   <LocalizationPair Name="%TemporaryEffectMilitaryShipMovementReductionFromDemand">Militärischer Rückzug (Special </LocalizationPair>
   <LocalizationPair Name="%TemporaryEffectFleetUpkeepIncreaseFromDemand">Militärische Sanktionen (Special </LocalizationPair>
   <LocalizationPair Name="%DynamicEffectHeroLockTitle">Helden Bann (besondere Verweigerungsstrafe)</LocalizationPair>
-  
+
   <LocalizationPair Name="%FailureNotEnoughSiegePowerDescription">Du benötigst mindestens 80 Belagerungsschaden, um diese Taktik anzuwenden (der Wert wird immer dann aktualisiert, wenn du die Invasion beginnst oder zu Beginn der folgenden Züge).</LocalizationPair>
- 
+
   <LocalizationPair Name="%ManpowerStockBoost1">+75 [manpower] -Kapazität pro System auf: Imperium</LocalizationPair>
   <LocalizationPair Name="%ManpowerStockBoost2">+150 [manpower] -Kapazität pro System auf: Imperium</LocalizationPair>
   <LocalizationPair Name="%ManpowerStockBoost3">+250 [manpower] -Kapazität pro System auf: Imperium</LocalizationPair>
@@ -256,28 +256,28 @@ Anhaltende Territoriumsverluste
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy3BhagabasDescription">Durch die Verwendung ihres dezentralen Wesens können Bhagaba massenhaft kapitulieren, um sowohl die Infrastruktur als auch die Bevölkerung zu schützen und gleichzeitig die Übergangsphase bis zur vollständigen feindlichen Übernahme zu verlängern.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy4Title">Indirekte Feuerunterstützung</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy4Description">Die erste Wahl gegen die Taktik "Gepanzerte Speerspitze", wird jedoch durch die Taktik "Bombenteppich" gekontert.</LocalizationPair>
-   
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyLesserEmpireDescription">Als Standard-Offensivstrategie ist der Angriff schnell und direkt.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyLesserEmpireTitle">Blitzkrieg</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyLesserEmpireDescription">Bleiben Sie in den Schatten, bis der Feind gesichtet wird, woraufhin Blitz-Taktiken zum Einsatz kommen.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyLesserEmpireTitle">Bei Sichtkontakt angreifen</LocalizationPair>-->
-  
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyMinorFactionDescription">Diese Invasionsstrategie, die sowohl auf die Infrastruktur als auch auf die Ballungszentren abzielt, verursacht massive Schäden am System.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyMinorFactionTitle">Volle Kraft voraus</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyMinorFactionDescription">Durch die Verwendung dieser Strategie werden die Truppen in Festungsanlagen zusammengezogen, was dazu dient, die Verluste durch Bombardements zu reduzieren.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyMinorFactionTitle">Bunker unter Beschuss</LocalizationPair>-->
-  
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyPirateEmpireDescription">Verwende klassische Freibeutertaktiken, wie Antäuschen und woanders Zuschlagen, um den Gegner dauerhaft zu verunsichern.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyPirateEmpireTitle">Fallschirmjäger</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyPirateEmpireDescription">Tief eingebettet in jedes x-beliebige Terrain das zur Verfügung steht, wird der Feind diese Strategie nur schwer überwinden können.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyPirateEmpireTitle">Tunnel-Taktik</LocalizationPair>-->
-  
-  
+
+
   <LocalizationPair Name="%GroundBattleAttackerStrategy1TooltipEffect">+40% (+15% falls gekontert) Gesundheit auf Invasionstruppen</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy2TooltipEffect">+15% (0% falls gekontert) erlittener Schaden für Verteidiger während einer Bodenschlacht</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy2BTooltipEffect">+20% (0% falls gekontert) erlittener Schaden für Verteidiger während einer Bodenschlacht</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy4TooltipEffect">+45% (15% falls gekontert) erlittener Schaden für Verteidiger während einer Bodenschlacht</LocalizationPair>
-  
+
   <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect1">Fügt bis zu +150 (0 falls gekontert) Personalrekrutierungsrate [Manpower] hinzu und erhöht die maximale Personaleinsatzgrenze, die Erhöhung der Personalstärke hängt auch vom aktuellen Wert des Systembesitzstatus ab.</LocalizationPair>
   <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect2">-1 [population] solange nicht gekontert</LocalizationPair>
   <LocalizationPair Name="%GroundBattleDefenderStrategy1BTooltipEffect1">Fügt bis zu +200 (0 falls gekontert) Personalrekrutierungsrate [Manpower] hinzu und erhöht die maximale Personaleinsatzgrenze, die Erhöhung der Personalstärke hängt auch vom aktuellen Wert des Systembesitzstatus ab.</LocalizationPair>
@@ -297,16 +297,16 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%EmpireImprovementImprovedHullJuggernautOverride">+$(Input) auf Modul-Multiplikator der Leviathane</LocalizationPair>
 
   <LocalizationPair Name="%ClassMiningProbeTitle">Fördersonden</LocalizationPair>
-   
+
   <LocalizationPair Name="%JuggernautSystemFIDSFlat">[FIDS] auf das System</LocalizationPair>
   <LocalizationPair Name="%JuggernautSystemFIDSPercent">%[FIDS] auf das System</LocalizationPair>
-   
+
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic1FromSpecialNodesTitle">[Strat01titaniumColored] aus Schwarzen Löchern, Sonnennebeln &amp; Asteroiden Feldern(Freischaltung des Ressourcenabbaus erforderlich)</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic2FromSpecialNodesTitle">[Strat02hyperiumColored] aus zusammenbrechenden Sternen, Neutronensternen &amp; Nebelwolken(Freischaltung des Ressourcenabbaus erforderlich)</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic3FromSpecialNodesTitle">[Strat03adamantianColored] aus Schwarzen Löchern, Sonnennebeln &amp; Asteroiden Feldern(Freischaltung des Ressourcenabbaus erforderlich)</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic4FromSpecialNodesTitle">[Strat04anti-matterColored] aus zusammenbrechenden Sternen, Neutronensternen &amp; Nebelwolken(Freischaltung des Ressourcenabbaus erforderlich)</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleSpecialNodeEffectMultiplierTitle">Orbitaler Knoten-Effekt</LocalizationPair>
-   
+
   <LocalizationPair Name="%ShipLevel10Title">Legendär I</LocalizationPair>
   <LocalizationPair Name="%ShipLevel11Title">Legendär II</LocalizationPair>
   <LocalizationPair Name="%ShipLevel12Title">Legendär III</LocalizationPair>
@@ -332,12 +332,12 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%ModuleSupportSquadronDefenseEnhancer2Strategic5Title">Fortgeschrittene Geschwader-Steuerung</LocalizationPair>
   <LocalizationPair Name="%ModuleSupportBoardingDefense2Title">Fortgeschrittene AP Verteidigungsdrohnen</LocalizationPair>
   <LocalizationPair Name="%ModuleSupportBoardingDefense3Title">Ultra-AP Verteidigungsdrohnen</LocalizationPair>
-  
+
   <LocalizationPair Name="%ModuleSupportEMPShieldDefense2Strategic5Title">Fortgeschrittene Gehärtete Schilde Generatoren</LocalizationPair>
   <LocalizationPair Name="%ModuleSupportEMPWeaponDefense2Strategic6Title">Fortgeschrittene Geschützturm-Wiederherstellungsfelder</LocalizationPair>
   <LocalizationPair Name="%ModuleWeaponMissileEMP2Strategic6Title">Fortgeschrittene Geschützturm Störrakete</LocalizationPair>
   <LocalizationPair Name="%ModuleWeaponBeamEMP2Strategic5Title">Fortgeschrittener Schutzschild Störstrahler</LocalizationPair>
-  
+
   <LocalizationPair Name="%FailureShipHasWeaponModuleExploration">Es sind bereits Waffenmodule ausgerüstet. Entfernen Sie sie zuerst, bevor Sie ein weiterentwickeltes Sondenmodul hinzufügen.</LocalizationPair>
 
   <LocalizationPair Name="%EmpireImprovementArkShipMovement1Title">Geweihte Archenantriebe</LocalizationPair>
@@ -346,12 +346,12 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%EmpireImprovementArkShipMovement2Description"></LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementArkShipMovement3Title">Heilige Archenantriebe</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementArkShipMovement3Description"></LocalizationPair>
-  <LocalizationPair Name="%OverrideCCPerLevel5System">+2 #FFFFFF#[commandPoint]#REVERT# pro Stufe 4 System mit Autonomer Verwaltung auf: Imperium</LocalizationPair>  
+  <LocalizationPair Name="%OverrideCCPerLevel5System">+2 #FFFFFF#[commandPoint]#REVERT# pro Stufe 4 System mit Autonomer Verwaltung auf: Imperium</LocalizationPair>
 
   <LocalizationPair Name="%LawP02L00Description">Dieses streng geheime Gesetz verpflichtet die Elite der bedeutendsten Wissenschaftler und Ingenieure des Imperiums, eine Arbeitsgruppe zu bilden, die mit der Erfindung von Spitzentechnologien und deren praktischen Einsatzmöglichkeiten beauftragt ist. Das Ergebnis? Dein Imperium kann noch schneller modernste Technologien erforschen.</LocalizationPair>
 
   <LocalizationPair Name="%PanelFeatureModuleBonusesOnSystemTitle">Auf dem umkreisten System</LocalizationPair>
-  
+
   <LocalizationPair Name="%ShieldAbsorptionTitle">Energie-Verteidigung</LocalizationPair>
   <LocalizationPair Name="%HullPlatingAbsorptionTitle">Projektil-Verteidigung</LocalizationPair>
 
@@ -406,7 +406,7 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
 
   <LocalizationPair Name="%FoodPenaltiesFromOverPopulation">Mali auf Überbevölkerung [OverPopulation]</LocalizationPair>
   <LocalizationPair Name="%GroundBattlePopulationToManPowerPermanentConversionRateTitle">Umwandlungsrate (kommt zum Einsatz bei der Konvertierung von Bevölkerung [Population] in Personal [manpowerColored])</LocalizationPair>
-   
+
   <LocalizationPair Name="%PlanetImprovementFood1Override1">+1 [foodColored] pro [Population] auf fruchtbare, üppige Planeten</LocalizationPair>
   <LocalizationPair Name="%PlanetImprovementFood1Override2">+1 [foodColored] pro [Population]</LocalizationPair>
   <LocalizationPair Name="%PlanetImprovementFood2Override1">+2 [foodColored] pro [Population] auf fruchtbare, üppige Planeten</LocalizationPair>
@@ -461,15 +461,15 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%PlanetImprovementInfluence3Override2">+3 [prestigeColored] pro [Population]</LocalizationPair>
   <LocalizationPair Name="%PlanetImprovementInfluence3Override3">+2 [prestigeColored] pro [Population] auf üppige Planeten</LocalizationPair>
   <LocalizationPair Name="%PlanetImprovementInfluence3Override4">+2 [prestigeColored] pro [Population] auf milde Wasserplaneten</LocalizationPair>
-   
+
   <LocalizationPair Name="%FailureCannotSeeValidPathDescription">Kein gültiger sichtbarer Pfad: Erkunden Sie die Galaxie eingehender, oder schalten Sie die dritte Stufe von Wissenschaft und Erforschung für Warpantriebe frei.</LocalizationPair>
   <LocalizationPair Name="%FailureNeedFreeMovementDescription">Es gibt keinen Weg, der zu diesem Knoten führt. Deine Schiffe brauchen freie Bewegung. Schalten Sie die dritte Stufe von Wissenschaft und Erforschung für Warpantriebe frei.</LocalizationPair>
-  
+
   <LocalizationPair Name="%EmptyTooltipOverride"></LocalizationPair>  <!-- good old bodge, don't delete-->
 
   <LocalizationPair Name="%ClassModuleSupportAndHeroShipOnlyTitle">Kann nur auf [hero]- oder [support]- Schiffen installiert werden</LocalizationPair>
   <LocalizationPair Name="%HeroSkillMultiplierOverride">+1 auf Moduleffekt-Multiplikator auf [hero]- Schiff</LocalizationPair>
-   
+
   <LocalizationPair Name="%HeroSkill105_FIDSI_PerHeroLevel_Title_02">Autorität der Endless</LocalizationPair>
   <LocalizationPair Name="%HeroSkill105_FIDSI_PerHeroLevel_Description_02">Durch die reine Energie der charismatischen Ausstrahlung und Persönlichkeit, die auf seinem unerschütterlichen Glauben ruht, schart der Held - als einer der wenigen Überlebenden Endless - das gesamte Reich mit beeindruckenden, Gänsehaut hervorrufenden Ansprachen, um sich.</LocalizationPair>
   <LocalizationPair Name="%HeroSkill01BranchGenericPolitics01_Title">Ziviles Ingenieurwesen</LocalizationPair>
@@ -502,20 +502,20 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%HeroSkill09BranchCorporate_Title">Gerechtigkeitskultur</LocalizationPair>
   <LocalizationPair Name="%HeroSkill09BranchCorporate_Description">Der Berater Held führt in seiner Flotte ein System der Gerechtigkeitskultur ein, um sicherzustellen, dass die Besatzungsmitglieder Probleme melden, sobald sie auftreten, und um sicherzustellen, dass sie wirksam eingedämmt werden. Kleine Schiffe profitieren am meisten von dieser Maßnahme.</LocalizationPair>
   <LocalizationPair Name="%HeroSkill11_TroopBonus_Perpop_Description">Für die eusozialen Arten ist die Gesundheit des gesamten Superorganismus von höchster Bedeutung. Schwache Individuen werden abgelehnt. Als solcher hat der Held keinen Platz für Besatzungsmitglieder, die nicht in Topform sind.</LocalizationPair>
-	   
+
   <LocalizationPair Name="%PlanetImprovementResource3Title">Kompakte selbstabbauende PNO</LocalizationPair>
   <LocalizationPair Name="%PlanetImprovementResource3Description">Auf der Grundlage der früheren Raketenkonstruktion wurde durch die Reduzierung der Größe und Masse der Bergbaukomponenten eine größere Reichweite realisiert. Es ist nun möglich, noch mehr Himmelskörper auszubeuten.</LocalizationPair>
-	
+
   <LocalizationPair Name="%StarSystemImprovementCuriosity3">+15 [happinessColored] wenn Vorkommen von Luxusressourcen im System</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementCuriosity3Hissho">+7 [prestigeColored] wenn Vorkommen von Luxusressourcen im System</LocalizationPair>
-	
+
   <LocalizationPair Name="%StarSystemImprovementApproval6Title">Freiheit des Körpers</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementApproval6Description">Tradition, Religion und soziale Sitten neigen dazu, die Evolution des Körpers und die physische Veränderung des Organismus eines Individuums streng zu kontrollieren. Aus einer enormen Anzahl von Gründen (politischer, wirtschaftlicher und praktischer Art) neigen Regierungen jedoch immer mehr dazu, Individuen ihre physische Struktur durch Augmentationen, Transplantationen, Klone, Implantationen, Tätowierungen, elektronische Ätzungen und andere Veränderungen frei verändern zu lassen.</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementApproval7Title">Unbefristeter Urlaub</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementApproval7Description">Was passiert, wenn die Gesellschaft so weit fortgeschritten ist, dass alle Grundbedürfnisse durch automatisierte und unverwüstliche Systeme befriedigt werden? Arbeit wird zu einer Option, und die größte Herausforderung ist die effektive Nutzung der Freizeit.</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementApproval8Title">Unbegrenzte Informationswege</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementApproval8Description">Kriege zwischen Inhaltsschöpfern, Infrastruktureigentümern, Endnutzern, Regierungen und Unternehmen haben der Fähigkeit, eine Gesellschaft zu vernetzen, viel von ihrem Wert genommen. Durch den Aufbau eines offenen Zugangs zu Quellen für Forschung, Unterhaltung und Nachrichten aus dem ganzen Universum geht ein Boom in der Nutzung von Informationen mit einem Boom in der öffentlichen Meinungsbildung einher.</LocalizationPair>
-	
+
   <LocalizationPair Name="%fakeforguiEmpire">Imperium</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementHappinessOnHotDescription">Die Allzeit-Klimatisierung nutzt fortschrittliche Thermodynamik und effiziente Energiequellen, um das tägliche Leben der Bewohner von brennenden Planeten angenehmer zu gestalten. Sie behalten die Vorteile von klarem Wetter, großartigen Stränden und dem Leben im Freien, während sie trotzdem in der Lage sind, sich zu erfrischen, wann immer sie wollen.</LocalizationPair>
   <LocalizationPair Name="%SophonsQuest-Chapter1Alt-C2ObjectiveTooltip">Möglicherweise müssen Sie mehr Wissenschafts- und Erkundungstechnologien erforschen, um Warpantriebe freizuschalten, die Reisen außerhalb der Sternenbahnen ermöglichen.</LocalizationPair>
@@ -523,7 +523,7 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
 
   <LocalizationPair Name="%EconomyNoBranchesTitle">Dieses Hauptquartier ist nicht in der Lage, eine Route zu Ihrer Niederlassung zu berechnen.</LocalizationPair>
   <LocalizationPair Name="%UniquePlanetQuest-Chapter1-Choice01ObjectiveTooltip">Andere Konstellationen können mit Sonden und einigen Quests oder Ereignissen oder durch das Erschließen von Wurmlöchern gefunden werden.</LocalizationPair>
-	   
+
   <LocalizationPair Name="%StarSystemImprovementFood7Title">Kompakte Kühlsysteme</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementFood7Description">Die Beherrschung der zunehmend miniaturisierten Thermodynamik erlaubt die Schaffung von Wärmeaustauschsystemen, die klein genug sind, um in fast jeden Gegenstand zu passen. Mit diesen Technologien wird das Risiko des Verderbens von Lebensmitteln im Wesentlichen auf Null reduziert.</LocalizationPair>
   <LocalizationPair Name="%StarSystemImprovementFood8Title">Dauerhafte Pflanzenkulturen</LocalizationPair>
@@ -550,8 +550,6 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%EmpireImprovementFood1Description">Die Fähigkeit, einzelne Wassermoleküle durch den Wasserkreislauf zu verfolgen, liefert ein detailliertes Gesamtbild von Absorption, Verdunstung und Niederschlag auf jedem Planeten. Eine Goldmine von Daten wird produziert, die die Landwirtschaft im ganzen Reich revolutioniert.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementInfluence1Title">Alien Soziologie</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementInfluence1Description">Die Analyse der Organisation fremder Gesellschaften und ihrer Werte liefert wichtige Einblicke in ihre Regeln und Bräuche, um fremde Botschafter nicht zu beleidigen, was bei diplomatischen Anliegen ungemein hilfreich ist.</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementScience1Title">Planetarisches Institut</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementScience1Description">Durch fortschrittliche Manipulation von Partikeln, die eine Nachbildung der Atmosphärenforschung im Labor ermöglichen, ist es einfach, eine detaillierte Studie der Atmosphäre und Geologie durchzuführen, um die einzigartigen Eigenschaften eines Planeten zu nutzen.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementScience2Title">"In-vitro" Anomalien</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementScience2Description">Die Wissenschaft ist an einem Punkt angelangt, an dem Anomalien unter Laborbedingungen nachgebildet und untersucht werden können. Zu den untersuchten Anomalien gehören Schwarze Löcher, Entropie, Sterne und Dunkle Materie.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementScience3Title">Nicht-Baryonische Schale</LocalizationPair>
@@ -566,9 +564,7 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%EmpireImprovementDust4Description">Das wertvollste Gut in der fortgeschrittenen Gesellschaft ist die Information. Letztendlich überwiegt der Wert des Wissens, wann, wo und für wie viel man eine Ware oder Dienstleistung verkauft, den Wert der Sache selbst. Mit der Entwicklung von Börsen, die Informationen mit quantenmechanischer Geschwindigkeit weitergeben, ist der Mythos des "perfekten Wissens" in der Wirtschaft nun Wirklichkeit geworden.</LocalizationPair>
 
   <LocalizationPair Name="%DiplomaticInteractionEscalationPlayerDisregardedTresspassUltimatumUmbralChoir">Kreatur, es scheint, wir müssen unsere Beziehungen wieder deutlich abkühlen lassen. Ihre anhaltenden Einmischungen und das Ignorieren unserer Appelle, können nicht unbeantwortet bleiben.</LocalizationPair> <!-- vanilla bugfix for the tooltip name being wrong-->
-	
-	
-  <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience1">+35 [FIDS] auf: Systeme</LocalizationPair>
+
   <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience3">+2.5% [FIDS] pro Systemstufe auf: Systeme</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideStarSystemImprovementUniqueStartingImprovement">+3 [FIDSI] pro [Population]</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI1">+5 [FIDSI] pro [Population]</LocalizationPair>
@@ -579,11 +575,11 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%TooltipOverrideStarSystemImprovementLevel2">+2 [FIDSI] pro [Population]</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideStarSystemImprovementLevel3">+2 [FIDSI] pro [Population]</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideStarSystemImprovementLevel4">+4 [FIDSI] pro [Population]</LocalizationPair>
-	
+
   <LocalizationPair Name="%TooltipOverrideEmpireImprovementDust1_1">+40% [dustColored] auf: Stufe 4 Systeme</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideEmpireImprovementDust1_2">+20% [dustColored] auf: Stufe 3 Systeme</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideEmpireImprovementDust1_3">+10% [dustColored] auf: Stufe 2 Systeme</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideEmpireImprovementDust1_4">+5% [dustColored] auf: Stufe 1 Systeme</LocalizationPair>
-	
+
   <LocalizationPair Name="%TooltipOverrideEmpireImprovementInfluence1">+20% Diplomatischer Druck</LocalizationPair>
 </Datatable>

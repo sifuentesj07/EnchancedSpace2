@@ -42,7 +42,6 @@
        <Property Name="GroundBattleDefenderStrategy2NotCountered"	     BaseValue="1" MinValue="0" MaxValue="1"/>
        <Property Name="GroundBattleDefenderStrategy4NotCountered"	     BaseValue="1" MinValue="0" MaxValue="1"/>
 
-       <Property Name="SystemFIDSIFromEmpireImprovementScience1"	     BaseValue="0" MinValue="0"/>
        <Property Name="SystemFIDSIFromEmpireImprovementScience3"	     BaseValue="0" MinValue="0"/>
        <Property Name="SystemFIDSIFromStarSystemImprovementFIDSI2"	  BaseValue="0" MinValue="0"/>
 
@@ -186,10 +185,10 @@
 
         <!-- Happiness -->
         <Property Name="Happiness"                          		BaseValue="0" MinValue="0" MaxValue="100" Composition="Sum"/>
-        <Property Name="HappinessSum"             					BaseValue="0" MinValue="Negative"    />
+        <Property Name="HappinessSum"             					   BaseValue="0" MinValue="Negative"    />
         <Property Name="HappinessPerPeace"             				BaseValue="0" MinValue="Negative"    />
         <Property Name="HappinessPerAlliance"             			BaseValue="0" MinValue="Negative"    />
-        <Property Name="HappinessPerWar"             				BaseValue="0" MinValue="Negative"    />
+        <Property Name="HappinessPerWar"             				   BaseValue="0" MinValue="Negative"    />
         <Property Name="HappinessPerMinorWar"             			BaseValue="0" MinValue="Negative"    />
         <Property Name="HappinessPerHomeSystem"             		BaseValue="0" MinValue="Negative"    />
 
@@ -1153,12 +1152,6 @@
 
 
         <!-- MODDED system FIDSI effects for beeter feedback-->
-
-
-        <Modifier TargetProperty="SystemGrowth"     Operation="Addition" Value="$(SystemFIDSIFromEmpireImprovementScience1)"  Path="ClassColonizedStarSystem" />
-        <Modifier TargetProperty="SystemProduction" Operation="Addition" Value="$(SystemFIDSIFromEmpireImprovementScience1)"  Path="ClassColonizedStarSystem" />
-        <Modifier TargetProperty="SystemMoney"      Operation="Addition" Value="$(SystemFIDSIFromEmpireImprovementScience1)"  Path="ClassColonizedStarSystem" />
-        <Modifier TargetProperty="SystemResearch"   Operation="Addition" Value="$(SystemFIDSIFromEmpireImprovementScience1)"  Path="ClassColonizedStarSystem" />
 
         <Modifier TargetProperty="SystemGrowth"     Operation="Percent"  Value="$(SystemFIDSIFromEmpireImprovementScience3)"  Path="ClassColonizedStarSystem" />
         <Modifier TargetProperty="SystemProduction" Operation="Percent"  Value="$(SystemFIDSIFromEmpireImprovementScience3)"  Path="ClassColonizedStarSystem" />

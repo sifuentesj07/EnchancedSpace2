@@ -8,7 +8,7 @@
     <GuiElement Name="OwnedMeagerPlanets">
         <Title>%PlanetGameplayTypeMeagerTitle</Title>
     </GuiElement>
-  
+
     <GuiElement Name="OwnedMildPlanets">
         <Title>%PlanetGameplayTypeMildTitle</Title>
     </GuiElement>
@@ -20,7 +20,7 @@
     <GuiElement Name="OwnedHotPlanets">
         <Title>%PlanetGameplayTypeHotTitle</Title>
     </GuiElement>
-  
+
     <GuiElement Name="OwnedTemperatePlanets">
         <Title>%PlanetGameplayTypeTemperateTitle</Title>
     </GuiElement>
@@ -28,7 +28,7 @@
     <GuiElement Name="OwnedColdPlanets">
         <Title>%PlanetGameplayTypeColdTitle</Title>
     </GuiElement>
-  
+
    <GuiElement Name="OwnedLushPlanets">
         <Title>%PlanetGameplayTypeLushTitle</Title>
     </GuiElement>
@@ -44,11 +44,11 @@
   <GuiElement Name="OwnedDryPlanets">
         <Title>%PlanetGameplayTypeDryTitle</Title>
     </GuiElement>
-  
+
   <GuiElement Name="OwnedStablePlanets">
         <Title>%PlanetGameplayTypeStableTitle</Title>
     </GuiElement>
-  
+
   <GuiElement Name="OwnedTreePlanets">
         <Title>%PlanetGameplayTypeTreeTitle</Title>
     </GuiElement>
@@ -60,11 +60,11 @@
    <GuiElement Name="FAKEFORGUIEmpire">
       <Title>%fakeforguiEmpire</Title>
    </GuiElement>
-        
+
     <GuiElement Name="ClassMiningProbe">
         <Title>%ClassMiningProbeTitle</Title>
     </GuiElement>
-   
+
     <ExtendedGuiElement Name="SystemEnrollmentRate">
         <Title>%GroundBattlePopulationToManPowerPermanentConversionRateTitle</Title>
     </ExtendedGuiElement>
@@ -73,10 +73,6 @@
     	<Title>%FoodPenaltiesFromOverPopulation</Title>
     	<SymbolString>[OverPopulation]</SymbolString>
     </ExtendedGuiElement>
-
-    <GuiElement Name="SystemFIDSIFromEmpireImprovementScience1">
-       <Title>%EmpireImprovementScience1Title</Title>
-    </GuiElement>
 
    <GuiElement Name="SystemFIDSIFromEmpireImprovementScience3">
       <Title>%EmpireImprovementScience3Title</Title>
@@ -117,7 +113,7 @@
    <GuiElement Name="PlanetFIDSFromSystemLevel4">
       <Title>%ColonyLevel4Title</Title>
    </GuiElement>
-   
+
    <GuiElement Name="PlanetRawFoodFromLuxury1">
       <Title>%RecipeImprovementBuiltTitle</Title>
    </GuiElement>

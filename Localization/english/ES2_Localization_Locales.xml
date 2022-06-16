@@ -7,9 +7,9 @@
   <LocalizationPair Name="%EmpireColorPaletteVanillaDescription">The default unmoded one</LocalizationPair>
 
   <LocalizationPair Name="%fakeforguiSystems">Systems</LocalizationPair>
-   
+
   <LocalizationPair Name="%SystemSupervisorBalancedDescription">Balanced Policy</LocalizationPair>
-  
+
   <LocalizationPair Name="%PlanetTypeGasFrozenTitle">Ice Gas</LocalizationPair>
   <LocalizationPair Name="%PlanetTypeGasFrozenDescription">Utterly inhospitable, these planets are so cold that even the air has frozen, rendering them without even the most scant of atmospheres to cover their nakedness. Staying alive, never mind, living, is a huge challenge, but the scientific insights more than make up for the hardship.</LocalizationPair>
   <LocalizationPair Name="%PlanetTypeGasColdTitle">Ammonia Gas</LocalizationPair>
@@ -101,7 +101,7 @@
   <LocalizationPair Name="%LawEffectP06L02RepublicTooltipOverride">+2% Retrofit Dust and strategics cost reduction per turn up to 20%</LocalizationPair>
   <LocalizationPair Name="%LawEffectP06L04TooltipOverride">+2% Damage on weapons modules and Troop Damage per turn up to 40%</LocalizationPair>
   <LocalizationPair Name="%LawEffectP06L04RepublicTooltipOverride">+4% Damage on weapons modules and Troop Damage per turn up to 40%</LocalizationPair>
-  
+
   <LocalizationPair Name="%LawP01L01NewShortTitle">Safer Routes</LocalizationPair>
   <LocalizationPair Name="%LawP01L01NewTitle">Security Bill to Ensure Supply Routes Clearance</LocalizationPair>
   <LocalizationPair Name="%LawP01L01NewDescription">Careful organization of new patrol sweeps around the most frequently used supply routes results in a huge decrease in piracy and helps you reduce the cost associated with maintaining all fleets and system improvements in working condition.</LocalizationPair>
@@ -114,7 +114,7 @@
   <LocalizationPair Name="%LawP02L04Description">Concerned by an increasing level of galactic conflict, the Senate pulls together a series of standards and regulations to increase the output of shield systems. While decried by some as paranoid, many feel that one's shield can never be too big.</LocalizationPair>
 
   <LocalizationPair Name="%SheredynNoRetreat">Enemies cannot retreat when faced against you in a space battle.</LocalizationPair>
-  
+
   <LocalizationPair Name="%Population2modEffect">+1 Population slot on Telluric Planets</LocalizationPair>
   <LocalizationPair Name="%OwnsMarketplace">Cannot get banned from the Marketplace</LocalizationPair>
 
@@ -135,7 +135,7 @@ Unlock Spaceport Slot x 1
 +4 [FIDS] per [population]
 -10% System upkeep [upkeepColored]
 -10% Overpopulation [OverPopulation] penalties</LocalizationPair>
-   
+
    <LocalizationPair Name="%EmpireImprovementStageEconomyAndTrade3NoSpacePortEffectOverride">Unlock Level 2 Upgrade
 +2 [FIDS] per [population]
 -10% System upkeep [upkeepColored]
@@ -148,7 +148,7 @@ Unlock Spaceport Slot x 1
 +4 [FIDS] per [population]
 -10% System upkeep [upkeepColored]
 -10% Overpopulation [OverPopulation] penalties</LocalizationPair>
-  
+
   <LocalizationPair Name="%Politics01AffectingEventsDescription">Building [industryColored] generating constructions
 Recruiting Industrialist Heroes
 Assigning Industrialist Heroes to Systems or Fleets
@@ -202,7 +202,7 @@ Enduring Territorial Loss
   <LocalizationPair Name="%Recipe03">-5% System upkeep [upkeepColored]</LocalizationPair>
   <LocalizationPair Name="%Recipe19">-15% System upkeep [upkeepColored]</LocalizationPair>
   <LocalizationPair Name="%Recipe11">-10% System upkeep [upkeepColored]</LocalizationPair>
-   
+
   <LocalizationPair Name="%EmpireImprovementTerraformation1Title">Primary Terraforming</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementTerraformation1Description">While not enabling carte-blanche terraforming, the ability to construct robust structures that can adapt to changing conditions, allows planets to be altered into more benign versions of their essential type.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementTerraformation2Title">Advanced Terraforming</LocalizationPair>
@@ -222,9 +222,9 @@ Enduring Territorial Loss
   <LocalizationPair Name="%TemporaryEffectMilitaryShipMovementReductionFromDemand">Military stand down (Special </LocalizationPair>
   <LocalizationPair Name="%TemporaryEffectFleetUpkeepIncreaseFromDemand">Military sanctions (Special </LocalizationPair>
   <LocalizationPair Name="%DynamicEffectHeroLockTitle">Hero Ban (Special Refusal Penalty)</LocalizationPair>
-  
+
   <LocalizationPair Name="%FailureNotEnoughSiegePowerDescription">You need at least 80 siege power to use this tactic (the value only gets updated when you start the invasion or at the start of the turn).</LocalizationPair>
- 
+
   <LocalizationPair Name="%ManpowerStockBoost1">+75 [manpower] capacity per System owned on Empire</LocalizationPair>
   <LocalizationPair Name="%ManpowerStockBoost2">+150 [manpower] capacity per System owned on Empire</LocalizationPair>
   <LocalizationPair Name="%ManpowerStockBoost3">+250 [manpower] capacity per System owned on Empire</LocalizationPair>
@@ -257,28 +257,28 @@ Enduring Territorial Loss
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy3BhagabasDescription">Utilizing their decentralized nature, Bhagaba can surrender en-masse, helping to protect both infrastructure and population, while lengthening the transitionary period.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy4Title">Indirect Fire Support</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategy4Description">Counters Armoured Spearhead and is countered by Carpet Bombing.</LocalizationPair>
-   
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyLesserEmpireDescription">A standard offensive strategy, the assault is fast and direct.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyLesserEmpireTitle">Flash Strike</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyLesserEmpireDescription">Stay in the shadows until the enemy is spotted, whereupon rush tactics are employed.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyLesserEmpireTitle">Engage On Sight</LocalizationPair>-->
-  
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyMinorFactionDescription">Targeting both infrastructure and population centers, this invasion strategy inflicts massive damage on the system.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyMinorFactionTitle">Full Force Forward</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyMinorFactionDescription">By utilizing this strategy, troops are kept in defensive fortifications, helping to reduce bombardment damage.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyMinorFactionTitle">Bunker Down</LocalizationPair>-->
-  
+
   <!--<LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyPirateEmpireDescription">Employ classic privateer tactics, striking and feinting at random, keeping the enemy guessing.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupAttackerStrategyPirateEmpireTitle">Para-Raiders</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyPirateEmpireDescription">Embedded deep into whatever terrain is available, the enemy will find this strategy difficult to overcome.</LocalizationPair>
   <LocalizationPair Name="%NotificationGroundBattleSetupDefenderStrategyPirateEmpireTitle">Dug-In</LocalizationPair>-->
-  
-  
+
+
   <LocalizationPair Name="%GroundBattleAttackerStrategy1TooltipEffect">+40% Health on invading troops (15% if countered)</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy2TooltipEffect">+15% Damage done to defender during ground battle (0% if countered)</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy2BTooltipEffect">+20% Damage done to defender during ground battle (0% if countered)</LocalizationPair>
   <LocalizationPair Name="%GroundBattleAttackerStrategy4TooltipEffect">+45% Damage done to defender during ground battle (15% if countered)</LocalizationPair>
-  
+
   <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect1">Adds up to 150 + Enrollment Rate (0 if countered) [Manpower] and increases Manpower max deployment limit, manpower increase also depends on current System Ownership value</LocalizationPair>
   <LocalizationPair Name="%GroundBattleDefenderStrategy1TooltipEffect2">-1 [population] unless countered</LocalizationPair>
   <LocalizationPair Name="%GroundBattleDefenderStrategy1BTooltipEffect1">Adds up to 200 + Enrollment Rate (0 if countered) [Manpower] and increases Manpower max deployment limit, manpower increase also depends on current System Ownership value</LocalizationPair>
@@ -298,16 +298,16 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementImprovedHullJuggernautOverride">+$(Input) on Module multiplier on Behemoths</LocalizationPair>
 
   <LocalizationPair Name="%ClassMiningProbeTitle">Mining Probes</LocalizationPair>
-   
+
   <LocalizationPair Name="%JuggernautSystemFIDSFlat">[FIDS] on System</LocalizationPair>
   <LocalizationPair Name="%JuggernautSystemFIDSPercent">%[FIDS] on System</LocalizationPair>
-   
+
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic1FromSpecialNodesTitle">[Strat01titaniumColored] from Black Holes, Solar Nebulas &amp; Asteroid Fields</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic2FromSpecialNodesTitle">[Strat02hyperiumColored] from Collapsing Stars, Neutron Stars &amp; Nebular Clouds</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic3FromSpecialNodesTitle">[Strat03adamantianColored] from Black Holes, Solar Nebulas &amp; Asteroid Fields</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleNetStrategic4FromSpecialNodesTitle">[Strat04anti-matterColored] from Collapsing Stars, Neutron Stars &amp; Nebular Clouds</LocalizationPair>
   <LocalizationPair Name="%PanelFeatureModuleSpecialNodeEffectMultiplierTitle">Node effect when orbiting</LocalizationPair>
-   
+
   <LocalizationPair Name="%ShipLevel10Title">Legendary I</LocalizationPair>
   <LocalizationPair Name="%ShipLevel11Title">Legendary II</LocalizationPair>
   <LocalizationPair Name="%ShipLevel12Title">Legendary III</LocalizationPair>
@@ -333,12 +333,12 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
    <LocalizationPair Name="%ModuleSupportSquadronDefenseEnhancer2Strategic5Title">Advanced Squadron Shifter</LocalizationPair>
    <LocalizationPair Name="%ModuleSupportBoardingDefense2Title">Advanced AP Defense Drones</LocalizationPair>
    <LocalizationPair Name="%ModuleSupportBoardingDefense3Title">Extreme AP Defense Drones</LocalizationPair>
-   
+
    <LocalizationPair Name="%ModuleSupportEMPShieldDefense2Strategic5Title">Advanced Hardened Shield Generators</LocalizationPair>
    <LocalizationPair Name="%ModuleSupportEMPWeaponDefense2Strategic6Title">Advanced Turret Recovery Fields</LocalizationPair>
    <LocalizationPair Name="%ModuleWeaponMissileEMP2Strategic6Title">Advanced Turret Interference Missile</LocalizationPair>
    <LocalizationPair Name="%ModuleWeaponBeamEMP2Strategic5Title">Advanced Shield Interference Beam</LocalizationPair>
-   
+
    <LocalizationPair Name="%FailureShipHasWeaponModuleExploration">There are weapon modules equipped already. Remove them first before adding an advanced probe module.</LocalizationPair>
 
    <LocalizationPair Name="%EmpireImprovementArkShipMovement1Title">Sanctified Ark Drives</LocalizationPair>
@@ -352,7 +352,7 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
    <LocalizationPair Name="%LawP02L00Description">This top-secret law orders a cabal of the empire's most eminent scientists and engineers to form up a working group charged with inventing cutting-edge science with practical applications. The result? Your empire can research state-of-the-art technologies even faster.</LocalizationPair>
 
    <LocalizationPair Name="%PanelFeatureModuleBonusesOnSystemTitle">On orbited System</LocalizationPair>
-   
+
    <LocalizationPair Name="%ShieldAbsorptionTitle">Energy defense</LocalizationPair>
    <LocalizationPair Name="%HullPlatingAbsorptionTitle">Projectile defense</LocalizationPair>
 
@@ -407,7 +407,7 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
 
    <LocalizationPair Name="%FoodPenaltiesFromOverPopulation">Overpopulation [OverPopulation] penalties</LocalizationPair>
    <LocalizationPair Name="%GroundBattlePopulationToManPowerPermanentConversionRateTitle">Enrollment rate (used when converting Population [Population] into Manpower [manpowerColored])</LocalizationPair>
-   
+
    <LocalizationPair Name="%PlanetImprovementFood1Override1">+2 [foodColored] per [Population]</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementFood1Override2">+1 [foodColored] per [Population] on Fertile Lush</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementFood2Override1">+3 [foodColored] per [Population]</LocalizationPair>
@@ -462,15 +462,15 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementInfluence3Override2">+3 [prestigeColored] per [Population] on Fertile Water</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementInfluence3Override3">+2 [prestigeColored] per [Population] on Lush</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementInfluence3Override4">+2 [prestigeColored] per [Population] on Mild Water</LocalizationPair>
-   
+
    <LocalizationPair Name="%FailureCannotSeeValidPathDescription">No valid visible path: Explore the galaxy more, or unlock the Science and Exploration 3rd stage for warp drives.</LocalizationPair>
    <LocalizationPair Name="%FailureNeedFreeMovementDescription">There is no path leading to this node, your ships need warp (free) movement. Unlock the Science and Exploration 3rd stage for warp drives.</LocalizationPair>
-   
+
    <LocalizationPair Name="%EmptyTooltipOverride"></LocalizationPair>  <!-- good old bodge, don't delete-->
 
    <LocalizationPair Name="%ClassModuleSupportAndHeroShipOnlyTitle">Can only be installed on [hero] or [support] Ships</LocalizationPair>
    <LocalizationPair Name="%HeroSkillMultiplierOverride">+1 on Module effect multiplier on Hero ship</LocalizationPair>
-   
+
    <LocalizationPair Name="%HeroSkill105_FIDSI_PerHeroLevel_Title_02">Endless Authority</LocalizationPair>
    <LocalizationPair Name="%HeroSkill105_FIDSI_PerHeroLevel_Description_02">As one of the living few Endless, through sheer force of personality built on an unshakeable faith, the Hero rallies the entire empire with powerful, spine-tingling orations.</LocalizationPair>
    <LocalizationPair Name="%HeroSkill01BranchGenericPolitics01_Title">Civil Engineering</LocalizationPair>
@@ -503,7 +503,7 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
    <LocalizationPair Name="%HeroSkill09BranchCorporate_Title">Just Culture.</LocalizationPair>
    <LocalizationPair Name="%HeroSkill09BranchCorporate_Description">The Counselor Hero introduces a just culture system to his fleet to ensure crewmembers report problems as soon as they arise and ensure they are contained effectively. Small crafts benefit the most from this measure.</LocalizationPair>
    <LocalizationPair Name="%HeroSkill11_TroopBonus_Perpop_Description">For the eusocial species, the health of the entire superorganism is paramount. Weak individuals are rejected. As such, the Hero has no place for crewmembers who aren't in tip-top shape.</LocalizationPair>
-   
+
    <LocalizationPair Name="%PlanetImprovementResource3Title">Compact Self-Mining NPO</LocalizationPair>
    <LocalizationPair Name="%PlanetImprovementResource3Description">Based on the previous rocket design, greater range has been attained by reducing the size and mass of the mining components. It is now possible to mine even more celestial objects.</LocalizationPair>
 
@@ -526,7 +526,7 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
    </LocalizationPair>
    <LocalizationPair Name="%EconomyNoBranchesTitle">This HQ is not able to trace a route to your Subsidiary.</LocalizationPair>
    <LocalizationPair Name="%UniquePlanetQuest-Chapter1-Choice01ObjectiveTooltip">Other Constellations can be found with Probes and some Quests or Events, or by unlocking wormholes.</LocalizationPair>
-   
+
    <LocalizationPair Name="%StarSystemImprovementFood7Title">Compact Refrigerator</LocalizationPair>
    <LocalizationPair Name="%StarSystemImprovementFood7Description">Mastery of increasingly miniaturized thermodynamics permits the creation of heat exchange systems small enough to fit into almost any item. Using these technologies, the risk of food spoiling is essentially reduced to zero.</LocalizationPair>
    <LocalizationPair Name="%StarSystemImprovementFood8Title">Permanent Perennials</LocalizationPair>
@@ -553,8 +553,6 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementFood1Description">The ability to track individual water molecules through the water cycle provides an instantaneous picture of absorption, evaporation, and precipitation across every planet. A gold mine of data is produced that improves agriculture across the Empire.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementInfluence1Title">Alien Sociology</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementInfluence1Description">The study of how alien societies are organized and their values provides important insights into their rules and customs as to not offend foreign envoys, which helps immensely when making diplomatic demands.</LocalizationPair>
-   <LocalizationPair Name="%EmpireImprovementScience1Title">Planetary Institute</LocalizationPair>
-   <LocalizationPair Name="%EmpireImprovementScience1Description">By using advanced manipulation of particles that allow for the laboratory recreation of atmospheric science, it is easy to do a detailed study of atmosphere and geology in order to take advantage of a planet's unique properties.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience2Title">In vitro Anomalies</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience2Description">Science has come to the point where anomalies can be recreated and studied under laboratory conditions. The anomalies unders study include black holes, entropy, stars, and dark matter.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience3Title">Non-Baryonic Shell</LocalizationPair>
@@ -570,8 +568,6 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
 
    <LocalizationPair Name="%DiplomaticInteractionEscalationPlayerDisregardedTresspassUltimatumUmbralChoir">Creature, it appears we need to return to colder relations. Your continued intrusions, ignoring our pleas, cannot go unchallenged.</LocalizationPair> <!-- vanilla bugfix for the tooltip name being wrong-->
 
-
-   <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience1">+35 [FIDS] on Systems</LocalizationPair>
    <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience3">+2.5% [FIDS] per System Level on Systems</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementUniqueStartingImprovement">+3 [FIDSI] per [Population]</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI1">+5 [FIDSI] per [Population]</LocalizationPair>
@@ -590,9 +586,9 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
 
    <LocalizationPair Name="%TooltipOverrideEmpireImprovementInfluence1">+20% Diplomatic Pressure</LocalizationPair>
 
-   
 
-   
+
+
 
 
 
