@@ -1,56 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 
-	<!-- Conversion = add new files, not compatible with other mods. Standalone = replace all files, not compatible with other mods. Extension = add new files, compatible with other mods. // Example : <RuntimeModule Name="ExampleTechnology" Type="Extension" Version="1.1">-->
-  <RuntimeModule Name="EnhancedSpace2" Type="Extension" Version="0.10.4">
+  <!-- Conversion = add new files, not compatible with other mods. Standalone = replace all files, not compatible with other mods. Extension = add new files, compatible with other mods. // Example : <RuntimeModule Name="ExampleTechnology" Type="Extension" Version="1.1">-->
+  <RuntimeModule Name="EnhancedSpace2" Type="Extension" Version="0.1.0">
 
     <!-- Title as it appears in the workshop // Example : <Title>Example technology</Title>-->
-        <Title>Enhanced Space 2 - Sero</Title>
+    <Title>Enhanced Space 2 - Sero</Title>
     <!-- Description as it appears in the workshop // Example : <Description>Adds:- Technology - Exclusion technology link - Cost reduction technology link</Description>-->
-        <Description>This mod's goal is to rework most aspects of the game to bring a lot more polish and a more even playing field for newer and advanced players alike. It also attempts to make the game more flavourful.
-
-[h1][url=https://www.patreon.com/enhancedspace2] Support the mod on Patreon.[/url][/h1] (To make a one time donation, pledge once and then immediately unsubscribe, you'll keep your perks until the end of the month.)
-
-Features implemented:
--A lot of new content (System improvements, hero skills, ship modules, etc).
--Space and Ground Battle system rework and rebalance.
--FIDSI, resource generation and economy rebalance.
--Faction rebalance.
--Redone Tech Tree.
--Behemoths rework.
--Terraformation and Planet tree reworked.
--Politics and Governments reworked.
--Hero system reworked and expanded skill trees.
-
-[h1][url=https://docs.google.com/document/d/1slExyyPVWjWMQQtYdtQYBxBkaJ_Ak2zWrYbJXxNGRdc/edit?usp=sharing]Full List of all the mod changes [google drive link].[/url] [/h1]
-
-[h1][url=https://steamcommunity.com/workshop/filedetails/discussion/1467372500/1743391452217181922/] FAQ thread link [steam workshop].[/url][/h1]
-
-[h1][url=https://www.patreon.com/posts/46302678] How to enable achievements with mods.[/url][/h1]
-
-[h1][url=https://discord.gg/z7gs8929fb] Discord Server, come hang out with me and other mod users.[/url][/h1]
-
-
-
-
-[b]Special thanks to Groo for the german translation and play6ner for the russian translation and Cyrob.[/b]</Description>
+    <Description></Description>
     <!-- Name of the author // Example : <Author>I_AM_ENFER</Author>-->
-        <Author>gravequote</Author>
+    <Author>gravequote (Edited by Sero)</Author>
     <!-- Link to your other work // Example : <Homepage>https://www.games2gether.com/</Homepage>-->
-        <Homepage>https://www.games2gether.com/profile/Kuma/infos</Homepage>
+    <Homepage></Homepage>
     <!-- Image as it appears in the workshop. Size should be 430x430 pixels // Example : <PreviewImageFile>ModIcon.png</PreviewImageFile>-->
-        <PreviewImageFile>EnhancedSpace2.png</PreviewImageFile>
+    <PreviewImageFile></PreviewImageFile>
     <!-- Add more content to this each time you update the mod // Example : <ReleaseNotes>Added XSD validation for easier use.</ReleaseNotes>-->
-        <ReleaseNotes>https://www.patreon.com/posts/49230411</ReleaseNotes>
+    <ReleaseNotes></ReleaseNotes>
     <!-- Available tags: AI, Art, Buildings, Gameplay, Improvements, MajorFactions, Maps, MinorFactions, Multiplayer, Other, Resources, Technologies, Units // Example : <Tags>Gameplay</Tags>-->
-        <Tags>Balance, Gameplay, Buildings, Art, AI, Technologies</Tags>
+    <Tags>Balance, Gameplay, Buildings, Art, AI, Technologies</Tags>
 
-		<!-- XML files to load -->
-		<Plugins>
-
-
+    <!-- XML files to load -->
+    <Plugins>
       <!-- COST REDUCTIONS & CONVERTERS -->
-
       <DatabasePlugin DataType="ResourceConverterDefinition, Assembly-CSharp">
         <FilePath>Simulation/ResourceConverterDefinitions.xml</FilePath>
       </DatabasePlugin>
@@ -59,15 +31,15 @@ Features implemented:
       <!-- MAPPING -->
 
       <DatabasePlugin DataType="Amplitude.Unity.View.Mapping.Xml.XmlMapping, Assembly-CSharp-firstpass">
-          <FilePath>Mapping/Mapping.xml</FilePath>
+        <FilePath>Mapping/Mapping.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Palette, Assembly-CSharp">
-          <FilePath>Mapping/Palettes.xml</FilePath>
+        <FilePath>Mapping/Palettes.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="PaletteChroma, Assembly-CSharp">
-          <FilePath>Mapping/PalettesChroma.xml</FilePath>
+        <FilePath>Mapping/PalettesChroma.xml</FilePath>
       </DatabasePlugin>
 
       <!-- SPECIAL NODES -->
@@ -75,7 +47,7 @@ Features implemented:
       <DatabasePlugin DataType="SpecialNodeDefinition, Assembly-CSharp">
         <FilePath>Simulation/SpecialNodeDefinitions.xml</FilePath>
       </DatabasePlugin>
-      
+
       <!-- POPULATIONS -->
 
       <DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
@@ -112,24 +84,24 @@ Features implemented:
         </ExtraTypes>
         <FilePath>Simulation/PopulationStateDefinitions.xml</FilePath>
       </DatabasePlugin>
-      
-      
+
+
       <!-- GALAXY GENERATOR -->
       <DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
-          <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
-          <FilePath>GalaxyGenerator/WeightTableDefinitions[*].xml</FilePath>
+        <FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+        <FilePath>GalaxyGenerator/WeightTableDefinitions[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Generator.Definitions.PlanetaryResourceDefinition, Assembly-CSharp-firstpass">
-          <FilePath>GalaxyGenerator/PlanetaryResourceDefinitions.xml</FilePath>
+        <FilePath>GalaxyGenerator/PlanetaryResourceDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Generator.Definitions.PlanetGameplayTypeDefinition, Assembly-CSharp-firstpass">
-          <FilePath>GalaxyGenerator/PlanetGameplayTypeDefinitions.xml</FilePath>
+        <FilePath>GalaxyGenerator/PlanetGameplayTypeDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Generator.Definitions.PlanetTemperatureDefinition, Assembly-CSharp-firstpass">
-          <FilePath>GalaxyGenerator/PlanetTemperatureDefinitions.xml</FilePath>
+        <FilePath>GalaxyGenerator/PlanetTemperatureDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Generator.Definitions.PlanetaryAnomalyDefinition, Assembly-CSharp-firstpass">
@@ -183,34 +155,34 @@ Features implemented:
       </DatabasePlugin>
 
       <DatabasePlugin DataType="ResourceDefinition, Assembly-CSharp">
-          <ExtraTypes>
-              <ExtraType DataType="LuxuryResourceDefinition, Assembly-CSharp" />
-          </ExtraTypes>
-          <FilePath>Simulation/ResourceDefinitions.xml</FilePath>
+        <ExtraTypes>
+          <ExtraType DataType="LuxuryResourceDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/ResourceDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <!-- SHIP DESIGNS -->
       <DatabasePlugin DataType="ShipDesignDefinition, Assembly-CSharp">
-          <FilePath>Simulation/Battles/ShipDesignDefinitions.xml</FilePath>
-          <FilePath>Simulation/Battles/ShipDesignDefinitions[*].xml</FilePath>
+        <FilePath>Simulation/Battles/ShipDesignDefinitions.xml</FilePath>
+        <FilePath>Simulation/Battles/ShipDesignDefinitions[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="ShipRoleDefinition, Assembly-CSharp">
-         <FilePath>Simulation/Battles/ShipRoleDefinitions.xml</FilePath>
-         <FilePath>Simulation/Battles/ShipRoleDefinitions[*].xml</FilePath>
+        <FilePath>Simulation/Battles/ShipRoleDefinitions.xml</FilePath>
+        <FilePath>Simulation/Battles/ShipRoleDefinitions[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="ModuleDefinition, Assembly-CSharp" Priority="10">
         <ExtraTypes>
-           <ExtraType DataType="WeaponModuleDefinition, Assembly-CSharp" />
-           <ExtraType DataType="DefenseModuleDefinition, Assembly-CSharp" />
-           <ExtraType DataType="SupportModuleDefinition, Assembly-CSharp" />
-           <ExtraType DataType="LogisticsModuleDefinition, Assembly-CSharp" />
-           <ExtraType DataType="BridgeModuleDefinition, Assembly-CSharp" />
-           <ExtraType DataType="MothershipModuleDefinition, Assembly-CSharp" />
-           <ExtraType DataType="DestructionModuleDefinition, Assembly-CSharp" />
-           <ExtraType DataType="SquadronModuleDefinition, Assembly-CSharp" />
-           <ExtraType DataType="SystemSupportModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="WeaponModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DefenseModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="SupportModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="LogisticsModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="BridgeModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="MothershipModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DestructionModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="SquadronModuleDefinition, Assembly-CSharp" />
+          <ExtraType DataType="SystemSupportModuleDefinition, Assembly-CSharp" />
         </ExtraTypes>
 
         <FilePath>Simulation/Battles/ModuleDefinitions.xml</FilePath>
@@ -221,21 +193,21 @@ Features implemented:
         <FilePath>Simulation/Battles/HullDefinitions.xml</FilePath>
         <FilePath>Simulation/Battles/HullDefinitions[*].xml</FilePath>
       </DatabasePlugin>
-         
+
       <DatabasePlugin DataType="RankDefinition, Assembly-CSharp">
-         <FilePath>Simulation/Battles/RankDefinitions.xml</FilePath>
+        <FilePath>Simulation/Battles/RankDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="RankPatternDefinition, Assembly-CSharp">
-         <FilePath>Simulation/Battles/RankPatternDefinitions.xml</FilePath>
+        <FilePath>Simulation/Battles/RankPatternDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="LevelUpRuleDefinition, Assembly-CSharp">
-         <FilePath>Simulation/Battles/LevelUpRuleDefinitions.xml</FilePath>
+        <FilePath>Simulation/Battles/LevelUpRuleDefinitions.xml</FilePath>
       </DatabasePlugin>
 
 
-         <!-- TRADING -->
+      <!-- TRADING -->
 
       <DatabasePlugin DataType="TradableCategoryDefinition, Assembly-CSharp">
         <FilePath>Simulation/TradableCategoryDefinitions.xml</FilePath>
@@ -255,7 +227,7 @@ Features implemented:
       </DatabasePlugin>
 
       <DatabasePlugin DataType="MarketplaceEventDefinition, Assembly-CSharp">
-         <FilePath>Simulation/MarketplaceEventDefinitions.xml</FilePath>
+        <FilePath>Simulation/MarketplaceEventDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <!-- SENATE -->
@@ -279,10 +251,10 @@ Features implemented:
       </DatabasePlugin>
 
       <DatabasePlugin DataType="TechnologyLinkDefinition, Assembly-CSharp">
-          <ExtraTypes>
-              <ExtraType DataType="InteractiveTechnologyLinkDefinition, Assembly-CSharp" />
-          </ExtraTypes>
-          <FilePath>Simulation/TechnologyLinkDefinitions[*].xml</FilePath>
+        <ExtraTypes>
+          <ExtraType DataType="InteractiveTechnologyLinkDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/TechnologyLinkDefinitions[*].xml</FilePath>
       </DatabasePlugin>
 
       <!-- ELEMENTS THAT CAN BE UNLOCKED VIA TECHNOLOGIES -->
@@ -304,59 +276,59 @@ Features implemented:
       <!-- FACTIONS -->
 
       <DatabasePlugin DataType="Faction, Assembly-CSharp">
-         <ExtraTypes>
-            <ExtraType DataType="MajorFaction, Assembly-CSharp" />
-            <ExtraType DataType="MinorFaction, Assembly-CSharp" />
-            <ExtraType DataType="LesserFaction, Assembly-CSharp" />
-            <ExtraType DataType="PirateFaction, Assembly-CSharp" />
-         </ExtraTypes>
-         <FilePath>Simulation/Factions[*].xml</FilePath>
+        <ExtraTypes>
+          <ExtraType DataType="MajorFaction, Assembly-CSharp" />
+          <ExtraType DataType="MinorFaction, Assembly-CSharp" />
+          <ExtraType DataType="LesserFaction, Assembly-CSharp" />
+          <ExtraType DataType="PirateFaction, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/Factions[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="MajorFaction, Assembly-CSharp">
-         <FilePath>Simulation/Factions[*].xml</FilePath>
+        <FilePath>Simulation/Factions[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="MinorFaction, Assembly-CSharp">
-         <FilePath>Simulation/Factions[*].xml</FilePath>
+        <FilePath>Simulation/Factions[*].xml</FilePath>
       </DatabasePlugin>
-         
+
       <!-- FACTION TRAITS -->
 
       <DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20">
-          <ExtraTypes>
-              <ExtraType DataType="FactionAffinity, Assembly-CSharp" />
-              <ExtraType DataType="FactionAffinityMapping, Assembly-CSharp" />
-              <ExtraType DataType="FactionPopulationTrait, Assembly-CSharp" />
-          </ExtraTypes>
-          <FilePath>Simulation/FactionTraits.xml</FilePath>
-          <FilePath>Simulation/FactionTraits[*].xml</FilePath>
+        <ExtraTypes>
+          <ExtraType DataType="FactionAffinity, Assembly-CSharp" />
+          <ExtraType DataType="FactionAffinityMapping, Assembly-CSharp" />
+          <ExtraType DataType="FactionPopulationTrait, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Simulation/FactionTraits.xml</FilePath>
+        <FilePath>Simulation/FactionTraits[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="FactionAffinity, Assembly-CSharp">
-          <FilePath>Simulation/FactionTraits[*].xml</FilePath>
+        <FilePath>Simulation/FactionTraits[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="FactionAffinityMapping, Assembly-CSharp">
-          <FilePath>Simulation/FactionTraits[*].xml</FilePath>
+        <FilePath>Simulation/FactionTraits[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="HackingProgramDefinition, Assembly-CSharp">
-         <ExtraTypes>
-             <ExtraType DataType="OffenseHackingProgramDefinition, Assembly-CSharp" />
-             <ExtraType DataType="DefenseHackingProgramDefinition, Assembly-CSharp" />
-             <ExtraType DataType="RerouteOffenseHackingProgramDefinition, Assembly-CSharp" />
-             <ExtraType DataType="PlaceViewerDefenseHackingProgramDefinition, Assembly-CSharp" />
-             <ExtraType DataType="TraceDefenseHackingProgramDefinition, Assembly-CSharp" />
-             <ExtraType DataType="BackdoorProtectionDefenseHackingProgramDefinition, Assembly-CSharp" />
-             <ExtraType DataType="TimedHackingProgramDefinition, Assembly-CSharp" />
-         </ExtraTypes>
-         
-         <FilePath>Simulation/HackingProgramDefinitions.xml</FilePath>
-         <FilePath>Simulation/HackingProgramDefinitions[*].xml</FilePath>
+        <ExtraTypes>
+          <ExtraType DataType="OffenseHackingProgramDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DefenseHackingProgramDefinition, Assembly-CSharp" />
+          <ExtraType DataType="RerouteOffenseHackingProgramDefinition, Assembly-CSharp" />
+          <ExtraType DataType="PlaceViewerDefenseHackingProgramDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TraceDefenseHackingProgramDefinition, Assembly-CSharp" />
+          <ExtraType DataType="BackdoorProtectionDefenseHackingProgramDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TimedHackingProgramDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+
+        <FilePath>Simulation/HackingProgramDefinitions.xml</FilePath>
+        <FilePath>Simulation/HackingProgramDefinitions[*].xml</FilePath>
       </DatabasePlugin>
 
-   
+
       <!-- DIPLOMACY -->
 
       <!--<DatabasePlugin DataType="DiplomaticRelationState, Assembly-CSharp">
@@ -436,147 +408,147 @@ Features implemented:
       <!-- QUESTS -->
 
       <DatabasePlugin DataType="QuestDefinition, Assembly-CSharp">
-          <ExtraTypes>
-              <ExtraType DataType="TutorialDefinition, Assembly-CSharp" />
-          </ExtraTypes>
-          <FilePath>Quests/QuestDefinitions[*].xml</FilePath>
-          <Overrides>
-              <Override Name="Prerequisites" DataType="Amplitude.Query.Xml.XmlQueryPrerequisites, Assembly-CSharp-firstpass">
-                  <ExtraType Name="FilterConstellationByDistance" DataType="QuestFilterConstellationByDistance, Assembly-CSharp" />
-                  <ExtraType Name="FilterSystemByStatus" DataType="QuestFilterSystemByStatus, Assembly-CSharp" />
-                  <ExtraType Name="FilterSystemByDistance" DataType="QuestFilterSystemByDistance, Assembly-CSharp" />
-                  <ExtraType Name="FilterSystemByCuriosity" DataType="QuestFilterSystemByCuriosity, Assembly-CSharp" />
-                  <ExtraType Name="FilterPlanetByCuriosity" DataType="QuestFilterPlanetByCuriosity, Assembly-CSharp" />
-                  <ExtraType Name="FilterShipDesignByModule" DataType="QuestFilterShipDesignByModule, Assembly-CSharp" />
-                  <ExtraType Name="FilterByStringValue" DataType="QuestFilterByStringValue, Assembly-CSharp" />
-                  <ExtraType Name="IsNot" DataType="QuestFilterDifferentEntity, Assembly-CSharp" />
-              </Override>
-              <Override Name="Sorter" DataType="Amplitude.Query.Xml.XmlQuerySorter, Assembly-CSharp-firstpass">
-                  <ExtraType Name="SortSystemByDistance" DataType="QuestSorterSystemByDistance, Assembly-CSharp" />
-                  <ExtraType Name="SortSystemByQuestNodeRank" DataType="QuestSorterSystemByQuestNodeRank, Assembly-CSharp" />
-                  <ExtraType Name="SortConstellationByDistance" DataType="QuestSorterConstellationByDistance, Assembly-CSharp" />
-                  <ExtraType Name="SortRemovePlanetsOfSameSystem" DataType="QuestSorterRemovePlanetsOfSameSystem, Assembly-CSharp" />
-              </Override>
-          </Overrides>
+        <ExtraTypes>
+          <ExtraType DataType="TutorialDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Quests/QuestDefinitions[*].xml</FilePath>
+        <Overrides>
+          <Override Name="Prerequisites" DataType="Amplitude.Query.Xml.XmlQueryPrerequisites, Assembly-CSharp-firstpass">
+            <ExtraType Name="FilterConstellationByDistance" DataType="QuestFilterConstellationByDistance, Assembly-CSharp" />
+            <ExtraType Name="FilterSystemByStatus" DataType="QuestFilterSystemByStatus, Assembly-CSharp" />
+            <ExtraType Name="FilterSystemByDistance" DataType="QuestFilterSystemByDistance, Assembly-CSharp" />
+            <ExtraType Name="FilterSystemByCuriosity" DataType="QuestFilterSystemByCuriosity, Assembly-CSharp" />
+            <ExtraType Name="FilterPlanetByCuriosity" DataType="QuestFilterPlanetByCuriosity, Assembly-CSharp" />
+            <ExtraType Name="FilterShipDesignByModule" DataType="QuestFilterShipDesignByModule, Assembly-CSharp" />
+            <ExtraType Name="FilterByStringValue" DataType="QuestFilterByStringValue, Assembly-CSharp" />
+            <ExtraType Name="IsNot" DataType="QuestFilterDifferentEntity, Assembly-CSharp" />
+          </Override>
+          <Override Name="Sorter" DataType="Amplitude.Query.Xml.XmlQuerySorter, Assembly-CSharp-firstpass">
+            <ExtraType Name="SortSystemByDistance" DataType="QuestSorterSystemByDistance, Assembly-CSharp" />
+            <ExtraType Name="SortSystemByQuestNodeRank" DataType="QuestSorterSystemByQuestNodeRank, Assembly-CSharp" />
+            <ExtraType Name="SortConstellationByDistance" DataType="QuestSorterConstellationByDistance, Assembly-CSharp" />
+            <ExtraType Name="SortRemovePlanetsOfSameSystem" DataType="QuestSorterRemovePlanetsOfSameSystem, Assembly-CSharp" />
+          </Override>
+        </Overrides>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="QuestEffectDefinition, Assembly-CSharp">
-          <ExtraTypes>
-              <ExtraType DataType="QuestEffectAddDescriptorsDefinition, Assembly-CSharp" />
-          </ExtraTypes>
-          <FilePath>Quests/Effects/QuestEffectDefinitions[*].xml</FilePath>
+        <ExtraTypes>
+          <ExtraType DataType="QuestEffectAddDescriptorsDefinition, Assembly-CSharp" />
+        </ExtraTypes>
+        <FilePath>Quests/Effects/QuestEffectDefinitions[*].xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="QuestTriggeringProbabilityDefinition, Assembly-CSharp">
-          <FilePath>Quests/QuestTriggeringProbabilityDefinitions.xml</FilePath>
+        <FilePath>Quests/QuestTriggeringProbabilityDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="QuestTriggeringMutualExclusionDefinition, Assembly-CSharp">
-          <FilePath>Quests/QuestTriggeringMutualExclusionDefinitions.xml</FilePath>
+        <FilePath>Quests/QuestTriggeringMutualExclusionDefinitions.xml</FilePath>
       </DatabasePlugin>
 
       <DatabasePlugin DataType="Droplist, Assembly-CSharp">
-          <FilePath>Quests/Droplists/Droplists[*].xml</FilePath>
+        <FilePath>Quests/Droplists/Droplists[*].xml</FilePath>
       </DatabasePlugin>
 
 
       <!-- ENTITY ACTIONS -->
 
       <DatabasePlugin DataType="EntityActionDefinition, Assembly-CSharp">
-          <ExtraTypes>
-             <!-- Fleet -->
-             <ExtraType DataType="ColonizeFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="SuperColonizeFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="RootNodeFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="AttachMothershipFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="CreatePortalFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="ExpeditionFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="ReclaimMothershipFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="LaunchProbeFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="LaunchMiningProbeFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="FireObliteratorFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="FireIonWaveFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="GoToFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="MoveToFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="UsePortalFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="TeleportToPreviousNodeFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="AutoExploreFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="AutomatedDeliveryFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="AttackFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="SleepFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="SleepForThisTurnFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="PrivateerFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="TransferResourcesFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="InitiateEmpireActionFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="InitiateTerraformationEmpireActionFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="InitiateRestorationEmpireActionFleetActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="InitiateAnomalyReductionEmpireActionFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="HonorFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="DestroyPlanetFleetActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="InvisibilityFleetActionDefinition, Assembly-CSharp" />
-         
-             <!-- Empire -->
-             <ExtraType DataType="GuardEmpireLocalActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="TerraformPlanetEmpireLocalActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="ReduceAnomalyEmpireLocalActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="HonorActionDefinition, Assembly-CSharp" />
-         
-             <!-- Minor -->
-             <ExtraType DataType="EmpireDiplomaticActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="EmpireDiplomaticActionDynamicCostDefinition, Assembly-CSharp" />
-             <ExtraType DataType="AssimilateEmpireActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="CreateAllianceEmpireActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="AskForMinorQuestEmpireActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="EmpireDiplomaticMigrationActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="EmpireDiplomaticAbilityActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="EmpireDiplomaticGivePopulationAsShipActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="EmpireDiplomacyGiveResourcesActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="GhostifyEmpireActionDefinition, Assembly-CSharp" />
-         
-             <!-- Pirate -->
-             <ExtraType DataType="PirateDiplomaticActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="ChangeRelationPirateDiplomaticActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="TransferResourcesPirateDiplomaticActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="AttackSystemPirateDiplomaticActionDefinition, Assembly-CSharp" />
-         
-             <!-- System -->
-             <ExtraType DataType="DecolonizeStarSystemActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="PauseOutpostStarSystemActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="OutpostActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="OutpostActionBoostGrowthWithTradeRoutesDefinition, Assembly-CSharp" />
-             <ExtraType DataType="OutpostActionWithTargetsDefinition, Assembly-CSharp" />
-             <ExtraType DataType="OutpostActionFinishDefinition, Assembly-CSharp" />
-             <ExtraType DataType="GroundBattleStarSystemActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="SiegeStarSystemActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="PropagandaSystemActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="DestroyTraitorPopulationsSystemActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="ClearPopulationTraitorStatusSystemActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="TimedSystemTraitorsActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="DisplacementSystemActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="DecolonizeGhostActionDefinition, Assembly-CSharp" />
-         
-             <!-- Probe -->
-             <ExtraType DataType="MoveToProbeActionDefinition, Assembly-CSharp" />
-         
-             <!-- Obliterator projectile -->
-             <ExtraType DataType="MoveToObliteratorProjectileActionDefinition, Assembly-CSharp" />
-         
-             <!-- Ship -->
-             <ExtraType DataType="LockInGarrisonShipActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="SpecializeJuggernautRetrofitShipActionDefinition, Assembly-CSharp" />
-             <ExtraType DataType="SpecializeJuggernautCitadelShipActionDefinition, Assembly-CSharp" />
-         
-             <ExtraType DataType="LaunchDetectionProbeFleetActionDefinition, Assembly-CSharp" />
-          </ExtraTypes>
+        <ExtraTypes>
+          <!-- Fleet -->
+          <ExtraType DataType="ColonizeFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="SuperColonizeFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="RootNodeFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="AttachMothershipFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="CreatePortalFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="ExpeditionFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="ReclaimMothershipFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="LaunchProbeFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="LaunchMiningProbeFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="FireObliteratorFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="FireIonWaveFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="GoToFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="MoveToFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="UsePortalFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TeleportToPreviousNodeFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="AutoExploreFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="AutomatedDeliveryFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="AttackFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="SleepFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="SleepForThisTurnFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="PrivateerFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="TransferResourcesFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="InitiateEmpireActionFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="InitiateTerraformationEmpireActionFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="InitiateRestorationEmpireActionFleetActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="InitiateAnomalyReductionEmpireActionFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="HonorFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="DestroyPlanetFleetActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="InvisibilityFleetActionDefinition, Assembly-CSharp" />
+
+          <!-- Empire -->
+          <ExtraType DataType="GuardEmpireLocalActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TerraformPlanetEmpireLocalActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="ReduceAnomalyEmpireLocalActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="HonorActionDefinition, Assembly-CSharp" />
+
+          <!-- Minor -->
+          <ExtraType DataType="EmpireDiplomaticActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="EmpireDiplomaticActionDynamicCostDefinition, Assembly-CSharp" />
+          <ExtraType DataType="AssimilateEmpireActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="CreateAllianceEmpireActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="AskForMinorQuestEmpireActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="EmpireDiplomaticMigrationActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="EmpireDiplomaticAbilityActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="EmpireDiplomaticGivePopulationAsShipActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="EmpireDiplomacyGiveResourcesActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="GhostifyEmpireActionDefinition, Assembly-CSharp" />
+
+          <!-- Pirate -->
+          <ExtraType DataType="PirateDiplomaticActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="ChangeRelationPirateDiplomaticActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TransferResourcesPirateDiplomaticActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="AttackSystemPirateDiplomaticActionDefinition, Assembly-CSharp" />
+
+          <!-- System -->
+          <ExtraType DataType="DecolonizeStarSystemActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="PauseOutpostStarSystemActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="OutpostActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="OutpostActionBoostGrowthWithTradeRoutesDefinition, Assembly-CSharp" />
+          <ExtraType DataType="OutpostActionWithTargetsDefinition, Assembly-CSharp" />
+          <ExtraType DataType="OutpostActionFinishDefinition, Assembly-CSharp" />
+          <ExtraType DataType="GroundBattleStarSystemActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="SiegeStarSystemActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="PropagandaSystemActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DestroyTraitorPopulationsSystemActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="ClearPopulationTraitorStatusSystemActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="TimedSystemTraitorsActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DisplacementSystemActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="DecolonizeGhostActionDefinition, Assembly-CSharp" />
+
+          <!-- Probe -->
+          <ExtraType DataType="MoveToProbeActionDefinition, Assembly-CSharp" />
+
+          <!-- Obliterator projectile -->
+          <ExtraType DataType="MoveToObliteratorProjectileActionDefinition, Assembly-CSharp" />
+
+          <!-- Ship -->
+          <ExtraType DataType="LockInGarrisonShipActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="SpecializeJuggernautRetrofitShipActionDefinition, Assembly-CSharp" />
+          <ExtraType DataType="SpecializeJuggernautCitadelShipActionDefinition, Assembly-CSharp" />
+
+          <ExtraType DataType="LaunchDetectionProbeFleetActionDefinition, Assembly-CSharp" />
+        </ExtraTypes>
         <FilePath>Simulation/EntityActions[*].xml</FilePath>
       </DatabasePlugin>
 
@@ -621,7 +593,7 @@ Features implemented:
       <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiTooltipDescription, Assembly-CSharp-firstpass">
         <FilePath>Gui/GuiTooltipDescriptions*.xml</FilePath>
       </DatabasePlugin>
-      
+
       <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
         <ExtraTypes>
           <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass" />
@@ -674,10 +646,10 @@ Features implemented:
         <FilePath>Gui/GuiElements[*].xml</FilePath>
         <FilePath>Gui/Screens/GuiElements[*].xml</FilePath>
       </DatabasePlugin>
-         
+
       <!-- MISCELLANEOUS -->
       <DatabasePlugin DataType="PanelFeatureModuleEffectsDefinition, Assembly-CSharp">
-            <FilePath>Gui/Miscellaneous/PanelFeatureModuleEffectsDefinition.xml</FilePath>
+        <FilePath>Gui/Miscellaneous/PanelFeatureModuleEffectsDefinition.xml</FilePath>
       </DatabasePlugin>
 
       <!-- GROUND BATTLE -->
@@ -712,7 +684,7 @@ Features implemented:
       </DatabasePlugin>
 
       <!-- MINOR STATES -->
-      
+
       <DatabasePlugin DataType="ImprovementListDefinition, Assembly-CSharp">
         <FilePath>MinorFactions/ImprovementListDefinitions.xml</FilePath>
       </DatabasePlugin>
@@ -731,15 +703,15 @@ Features implemented:
       </RegistryPlugin>
 
       <!-- ACADEMY STATES -->
-      
+
       <DatabasePlugin DataType="AcademyStateDefinition, Assembly-CSharp">
-         <FilePath>AcademyFactions/AcademyStateDefinitions.xml</FilePath>
-         <FilePath>AcademyFactions/AcademyStateDefinitions[*].xml</FilePath>
+        <FilePath>AcademyFactions/AcademyStateDefinitions.xml</FilePath>
+        <FilePath>AcademyFactions/AcademyStateDefinitions[*].xml</FilePath>
       </DatabasePlugin>
-      
-	</Plugins>
+
+    </Plugins>
 
 
 
-	</RuntimeModule>
+  </RuntimeModule>
 </Datatable>
