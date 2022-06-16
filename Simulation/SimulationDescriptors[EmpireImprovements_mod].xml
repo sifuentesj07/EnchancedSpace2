@@ -9,10 +9,6 @@
       <Modifier TargetProperty="SystemResearch"   Operation="Percent"  Value="0.20" Path="ClassEmpire/ClassColonizedStarSystem" />
    </SimulationDescriptor>
 
-   <SimulationDescriptor Name="EmpireImprovementScience3"      Type="EmpireImprovement">
-      <BinaryModifier TargetProperty="SystemFIDSIFromEmpireImprovementScience3"     Operation="Addition" Left="0.025" BinaryOperation="Multiplication" Right="$(SystemLevel)" SearchValueFromPath="true" Path="ClassEmpire/ClassColonizedStarSystem" TooltipOverride="%SystemFIDSIFromEmpireImprovementScience3" />
-   </SimulationDescriptor>
-
    <SimulationDescriptor Name="EmpireImprovementDust1"      Type="EmpireImprovement">
       <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.05"  Path="ClassEmpire/ClassColonizedStarSystem,StarSystemImprovementLevel1" TooltipOverride="%TooltipOverrideEmpireImprovementDust1_1" />
       <Modifier TargetProperty="SystemMoney" Operation="Percent" Value="0.10"  Path="ClassEmpire/ClassColonizedStarSystem,StarSystemImprovementLevel2" TooltipOverride="%TooltipOverrideEmpireImprovementDust1_2" />

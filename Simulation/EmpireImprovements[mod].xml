@@ -11,11 +11,6 @@
       <SimulationDescriptorReference Name="EmpireImprovementScience2" />
    </EmpireImprovementDefinition>
 
-   <EmpireImprovementDefinition Name="EmpireImprovementScience3" Category="CategoryEmpireImprovement" SubCategory="SubCategoryFIDSI" >
-      <TechnologyPrerequisite>TechnologyScience5</TechnologyPrerequisite>
-      <SimulationDescriptorReference Name="EmpireImprovementScience3" />
-   </EmpireImprovementDefinition>
-
    <EmpireImprovementDefinition Name="EmpireImprovementInfluence1" Category="CategoryEmpireImprovement" SubCategory="SubCategoryDiplomacy" >
       <TechnologyPrerequisite>TechnologyUniqueInfluence1</TechnologyPrerequisite>
       <PathPrerequisite Flags="UnlockAvailability" Inverted="true">AffinityGameplayVaulters</PathPrerequisite>

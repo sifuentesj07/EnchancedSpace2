@@ -74,10 +74,6 @@
     	<SymbolString>[OverPopulation]</SymbolString>
     </ExtendedGuiElement>
 
-   <GuiElement Name="SystemFIDSIFromEmpireImprovementScience3">
-      <Title>%EmpireImprovementScience3Title</Title>
-   </GuiElement>
-
    <GuiElement Name="SystemFIDSIFromStarSystemImprovementFIDSI2">
       <Title>%StarSystemImprovementFIDSI2Title</Title>
    </GuiElement>

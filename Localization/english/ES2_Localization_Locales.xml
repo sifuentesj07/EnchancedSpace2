@@ -555,8 +555,6 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementInfluence1Description">The study of how alien societies are organized and their values provides important insights into their rules and customs as to not offend foreign envoys, which helps immensely when making diplomatic demands.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience2Title">In vitro Anomalies</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience2Description">Science has come to the point where anomalies can be recreated and studied under laboratory conditions. The anomalies unders study include black holes, entropy, stars, and dark matter.</LocalizationPair>
-   <LocalizationPair Name="%EmpireImprovementScience3Title">Non-Baryonic Shell</LocalizationPair>
-   <LocalizationPair Name="%EmpireImprovementScience3Description">Increased understanding of unusual particles and gravitational interactions allows system-wide installation of protective fields that stabilize planetary infrastructures. By avoiding unwanted interference from non-baryonic radiation and particle surges, elements of risk and chance are removed from industrial processes. As a result, they become more reliable, predictable, and fruitful.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementDust1Title">Extreme Option Exchange</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementDust1Description">Previously, option trading was a straightforward if technical calculation based on Black-Scholes and similar pricing models. However, with the inclusion of relativistic and non-relativistic frames these calculations become terrifically complex; any star system that can build the sophisticated computing and trading systems needed to deal in these options gains substantial benefits.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementDust2Title">Revenue Zen</LocalizationPair>
@@ -568,7 +566,6 @@ Hull Weakness: #E3BDAC#500#REVERT# (see defense absorption)</LocalizationPair>
 
    <LocalizationPair Name="%DiplomaticInteractionEscalationPlayerDisregardedTresspassUltimatumUmbralChoir">Creature, it appears we need to return to colder relations. Your continued intrusions, ignoring our pleas, cannot go unchallenged.</LocalizationPair> <!-- vanilla bugfix for the tooltip name being wrong-->
 
-   <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience3">+2.5% [FIDS] per System Level on Systems</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementUniqueStartingImprovement">+3 [FIDSI] per [Population]</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI1">+5 [FIDSI] per [Population]</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI2">+20% [FIDSI]</LocalizationPair>

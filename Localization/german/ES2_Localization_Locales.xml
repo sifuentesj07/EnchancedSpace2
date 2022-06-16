@@ -552,8 +552,6 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
   <LocalizationPair Name="%EmpireImprovementInfluence1Description">Die Analyse der Organisation fremder Gesellschaften und ihrer Werte liefert wichtige Einblicke in ihre Regeln und Bräuche, um fremde Botschafter nicht zu beleidigen, was bei diplomatischen Anliegen ungemein hilfreich ist.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementScience2Title">"In-vitro" Anomalien</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementScience2Description">Die Wissenschaft ist an einem Punkt angelangt, an dem Anomalien unter Laborbedingungen nachgebildet und untersucht werden können. Zu den untersuchten Anomalien gehören Schwarze Löcher, Entropie, Sterne und Dunkle Materie.</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementScience3Title">Nicht-Baryonische Schale</LocalizationPair>
-  <LocalizationPair Name="%EmpireImprovementScience3Description">Ein verbessertes Verständnis von ungewöhnlichen Partikeln und Gravitationswechselwirkungen ermöglicht die systemweite Errichtung von Schutzfeldern, die planetarische Infrastrukturen stabilisieren. Durch die Vermeidung unerwünschter Interferenzen durch nicht-baryonische Strahlung und Partikelstösse werden Risiko- und Zufallselemente aus industriellen Prozessen entfernt. Infolgedessen werden sie zuverlässiger, vorhersehbarer und ertragreicher.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementDust1Title">Totale Optionsbörse</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementDust1Description">Früher war der Optionshandel eine einfache, wenn auch technische Berechnung auf der Grundlage von Black-Scholes und ähnlichen Preismodellen. Mit der Einbeziehung relativistischer und nicht-relativistischer Rahmenbedingungen werden diese Berechnungen jedoch ungeheuer komplex; jedes Sternensystem, das in der Lage ist, die hochentwickelten Rechen- und Handelssysteme aufzubauen, die für den Handel mit diesen Optionen erforderlich sind, gewinnt erhebliche Vorteile.</LocalizationPair>
   <LocalizationPair Name="%EmpireImprovementDust2Title">Revenue Zen</LocalizationPair>
@@ -565,7 +563,6 @@ Rumpfschwäche: #E3BDAC#500#REVERT# (siehe Verteidigungsabsorption)</Localizatio
 
   <LocalizationPair Name="%DiplomaticInteractionEscalationPlayerDisregardedTresspassUltimatumUmbralChoir">Kreatur, es scheint, wir müssen unsere Beziehungen wieder deutlich abkühlen lassen. Ihre anhaltenden Einmischungen und das Ignorieren unserer Appelle, können nicht unbeantwortet bleiben.</LocalizationPair> <!-- vanilla bugfix for the tooltip name being wrong-->
 
-  <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience3">+2.5% [FIDS] pro Systemstufe auf: Systeme</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideStarSystemImprovementUniqueStartingImprovement">+3 [FIDSI] pro [Population]</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI1">+5 [FIDSI] pro [Population]</LocalizationPair>
   <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI2">+20% [FIDSI]</LocalizationPair>

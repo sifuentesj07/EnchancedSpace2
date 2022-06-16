@@ -554,8 +554,6 @@
    <LocalizationPair Name="%EmpireImprovementInfluence1Description">Изучение того, как устроены инопланетные сообщества, их моральные ценности, дает важную информацию о принятых там правилах и обычаях. Чтобы по незнанию не оскорбить иностранных посланников, следует «быть в курсе» при предъявлении дипломатических требований.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience2Title">«Аномалии в пробирке»</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementScience2Description">Наука находится в такой стадии развития, когда аномалии могут быть воссозданы и изучены в лабораторных условиях. В их число входят: черные дыры, энтропия, звезды и темная материя.</LocalizationPair>
-   <LocalizationPair Name="%EmpireImprovementScience3Title">Небарионная оболочка</LocalizationPair>
-   <LocalizationPair Name="%EmpireImprovementScience3Description">Более глубокое понимание фундаментальных частиц и гравитационных взаимодействий позволяет в масштабах всей Системы устанавливать защитные поля, стабилизирующие планетарные инфраструктуры. Это избавляет от нежелательных помех, пораждаемых небарионным излучением и всплесками реликтового узлучения. Применительно к практике это ведет к удалению данного возмущающего фактора из тонких промышленных техпроцессов, делая производство более продуктивным.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementDust1Title">Экстремальный обмен опционами</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementDust1Description">Раньше торговля опционами была простым «делом техники», основанным на модели ценообразования Блэка-Шоулза и аналогичных ей. Однако в реалиях существующей ныне торговой активности в Галактике, такие вычисления становятся чрезвычайно сложными. Любая звездная система, которая может создать сложную торгово-вычислительную сеть, получает существенные преимущества.</LocalizationPair>
    <LocalizationPair Name="%EmpireImprovementDust2Title">«Доход Дзен»</LocalizationPair>
@@ -567,7 +565,6 @@
 
    <LocalizationPair Name="%DiplomaticInteractionEscalationPlayerDisregardedTresspassUltimatumUmbralChoir">Существо, похоже, пришло время вернуться к более прохладным отношениям. Ваши постоянные вторжения, игнорирующие наши просьбы, не могут остаться без ответа.</LocalizationPair> <!-- vanilla bugfix for the tooltip name being wrong-->
 
-   <LocalizationPair Name="%SystemFIDSIFromEmpireImprovementScience3">+2.5% [FIDS] за уровень Системы на Системы</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementUniqueStartingImprovement">+3 [FIDSI] за [Population]</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI1">+5 [FIDSI] за [Population]</LocalizationPair>
    <LocalizationPair Name="%TooltipOverrideStarSystemImprovementFIDSI2">+20% [FIDSI]</LocalizationPair>

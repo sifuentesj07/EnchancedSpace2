@@ -20,15 +20,6 @@
       </Icons>
    </ExtendedGuiElement>
 
-   <ExtendedGuiElement Name="EmpireImprovementScience3">
-      <Title>%EmpireImprovementScience3Title</Title>
-      <Description>%EmpireImprovementScience3Description</Description>
-      <Icons>
-         <Icon Size="Small" Path="Improvements/EmpireImprovementFIDSI" />
-         <Icon Size="Large" Path="Improvements/EmpireImprovementFIDSI" />
-      </Icons>
-   </ExtendedGuiElement>
-
    <ExtendedGuiElement Name="EmpireImprovementDust1">
       <Title>%EmpireImprovementDust1Title</Title>
       <Description>%EmpireImprovementDust1Description</Description>
